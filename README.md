@@ -2,6 +2,10 @@
 
 :christmas_tree::santa::gift:
 
+### Spoiler Alert
+
+This contains not only the code, but also the answer values. Proceed with caution if you don't want the answers.
+
 ### Past years
 
 - [2017](https://adventofcode.com/2017)
