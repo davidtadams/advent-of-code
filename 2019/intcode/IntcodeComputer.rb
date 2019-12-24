@@ -13,7 +13,7 @@ class IntcodeComputer
     @terminated
   end
 
-  def run(input)
+  def run(input = 0)
     loop do
       opcode, modes = get_instruction
 
