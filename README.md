@@ -8,6 +8,7 @@ This contains not only the code, but also the answer values. Proceed with cautio
 
 ### Past years
 
+- [2020](https://adventofcode.com/2020)
 - [2019](https://adventofcode.com/2019)
 - [2018](https://adventofcode.com/2018)
 - [2017](https://adventofcode.com/2017)
