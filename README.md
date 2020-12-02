@@ -4,7 +4,7 @@
 
 ### Spoiler Alert
 
-This contains not only the code, but also the answer values. Proceed with caution if you don't want the answers.
+This contains the answers, proceed with caution if that's not what you are looking for.
 
 ### Past years
 
