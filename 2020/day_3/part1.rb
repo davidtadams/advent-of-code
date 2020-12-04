@@ -1,5 +1,3 @@
-require 'pry'
-
 tree_rows = File.read('./input.txt').split("\n").map do |input_line|
   input_line.split('')
 end
