@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 input = File.read('input.txt').split("\n").map(&:to_i)
 
 selected_trio = input.combination(3).select { |pair| pair.sum == 2020 }.first

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 tree_rows = File.read('./input.txt').split("\n").map do |input_line|
   input_line.split('')
 end
@@ -22,8 +24,8 @@ SLOPES = [
   {
     run: 1,
     rise: 2,
-  },
-]
+  }
+].freeze
 DEPTH_SIZE = tree_rows.size
 ROW_SIZE = tree_rows[0].size
 
@@ -41,9 +43,7 @@ answer = SLOPES.map do |slope|
       current_x += run
     end
 
-    if tree_rows[current_y][current_x] == '#'
-      tree_count += 1
-    end
+    tree_count += 1 if tree_rows[current_y][current_x] == '#'
 
     current_y += rise
   end

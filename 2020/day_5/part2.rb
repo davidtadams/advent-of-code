@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'ostruct'
 
 input = File.read('./input.txt').split("\n").map { |line| [line[0..6].split(''), line[7..].split('')] }
@@ -18,9 +20,10 @@ def get_row(row_input)
   range = [0.to_f, 127.to_f]
 
   row_input.each do |row_direction|
-    if row_direction == 'F'
+    case row_direction
+    when 'F'
       range = get_lower_range(range)
-    elsif row_direction == 'B'
+    when 'B'
       range = get_upper_range(range)
     end
   end
@@ -32,9 +35,10 @@ def get_column(column_input)
   range = [0.to_f, 7.0.to_f]
 
   column_input.each do |row_direction|
-    if row_direction == 'L'
+    case row_direction
+    when 'L'
       range = get_lower_range(range)
-    elsif row_direction == 'R'
+    when 'R'
       range = get_upper_range(range)
     end
   end
@@ -48,9 +52,9 @@ boarding_passes = input.map do |(row_input, column_input)|
   seat_id = row * 8 + column
 
   OpenStruct.new({
-    "row" => row,
-    "column" => column,
-    "seat_id" => seat_id,
+    'row' => row,
+    'column' => column,
+    'seat_id' => seat_id,
   })
 end
 
@@ -58,14 +62,14 @@ answer = nil
 
 sorted_boarding_passes = boarding_passes.sort { |a, b| a.seat_id <=> b.seat_id }
 sorted_boarding_passes.each_with_index do |boarding_pass, index|
-  if index != 0 && index != sorted_boarding_passes.size - 1
-    previous_seat_id = sorted_boarding_passes[index - 1].seat_id
-    current_seat_id = boarding_pass.seat_id
+  next unless index != 0 && index != sorted_boarding_passes.size - 1
 
-    if previous_seat_id != current_seat_id - 1
-      answer = current_seat_id - 1
-      break
-    end
+  previous_seat_id = sorted_boarding_passes[index - 1].seat_id
+  current_seat_id = boarding_pass.seat_id
+
+  if previous_seat_id != current_seat_id - 1
+    answer = current_seat_id - 1
+    break
   end
 end
 

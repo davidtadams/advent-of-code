@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'ostruct'
 
 input = File.read('./input.txt').split("\n").map { |line| [line[0..6].split(''), line[7..].split('')] }
@@ -18,9 +20,10 @@ def get_row(row_input)
   range = [0.to_f, 127.to_f]
 
   row_input.each do |row_direction|
-    if row_direction == 'F'
+    case row_direction
+    when 'F'
       range = get_lower_range(range)
-    elsif row_direction == 'B'
+    when 'B'
       range = get_upper_range(range)
     end
   end
@@ -32,9 +35,10 @@ def get_column(column_input)
   range = [0.to_f, 7.0.to_f]
 
   column_input.each do |row_direction|
-    if row_direction == 'L'
+    case row_direction
+    when 'L'
       range = get_lower_range(range)
-    elsif row_direction == 'R'
+    when 'R'
       range = get_upper_range(range)
     end
   end
@@ -48,9 +52,9 @@ boarding_passes = input.map do |(row_input, column_input)|
   seat_id = row * 8 + column
 
   OpenStruct.new({
-    "row" => row,
-    "column" => column,
-    "seat_id" => seat_id,
+    'row' => row,
+    'column' => column,
+    'seat_id' => seat_id,
   })
 end
 

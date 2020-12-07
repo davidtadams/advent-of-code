@@ -1,7 +1,9 @@
-answer = File.read('./input.txt').split("\n\n").map do |input_line|
+# frozen_string_literal: true
+
+final_answer = File.read('./input.txt').split("\n\n").map do |input_line|
   answers = input_line.split("\n")
   number_of_people = answers.size
-  answer_counts = Hash.new
+  answer_counts = {}
   answers.join.split('').reduce(0) do |acc, answer|
     if answer_counts[answer]
       answer_counts[answer] += 1
@@ -9,12 +11,10 @@ answer = File.read('./input.txt').split("\n\n").map do |input_line|
       answer_counts[answer] = 1
     end
 
-    if answer_counts[answer] == number_of_people
-      acc += 1
-    end
+    acc += 1 if answer_counts[answer] == number_of_people
 
     acc
   end
 end.sum
 
-puts answer
+puts final_answer

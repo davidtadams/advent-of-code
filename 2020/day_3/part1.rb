@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 tree_rows = File.read('./input.txt').split("\n").map do |input_line|
   input_line.split('')
 end
@@ -13,9 +15,7 @@ answer = tree_rows.reduce(0) do |tree_count, tree_row|
     current_x += RUN
   end
 
-  if tree_row[current_x] == '#'
-    tree_count += 1
-  end
+  tree_count += 1 if tree_row[current_x] == '#'
 
   tree_count
 end
