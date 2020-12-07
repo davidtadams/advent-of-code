@@ -1,20 +1,20 @@
-require_relative '../intcode/IntcodeComputer'
+# frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+require_relative '../intcode/intcode_computer'
 
-intcodeComputer = IntcodeComputer.new intcodes
+intcodes = File.read('input.txt').split(',').map(&:to_i)
+
+intcode_computer = IntcodeComputer.new intcodes
 block_tiles = 0
 
 loop do
-  x_pos = intcodeComputer.run
-  y_pos = intcodeComputer.run
-  tile_id = intcodeComputer.run
+  _x_pos = intcode_computer.run
+  _y_pos = intcode_computer.run
+  tile_id = intcode_computer.run
 
-  if tile_id == 2
-    block_tiles += 1
-  end
+  block_tiles += 1 if tile_id == 2
 
-  break if intcodeComputer.terminated?
+  break if intcode_computer.terminated?
 end
 
 puts "ANSWER: #{block_tiles}"

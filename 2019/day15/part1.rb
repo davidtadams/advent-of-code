@@ -1,12 +1,12 @@
+# frozen_string_literal: true
+
 require 'set'
 
-require_relative '../intcode/IntcodeComputer'
+require_relative '../intcode/intcode_computer'
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+intcodes = File.read('input.txt').split(',').map(&:to_i) # rubocop:todo Lint/UselessAssignment
 
-intcodeComputer = IntcodeComputer.new intcodes
-
-NORTH = 1
+intcode_computer = IntcodeComputer.new intcodes NORTH = 1
 SOUTH = 2
 WEST = 3
 EAST = 4
@@ -15,26 +15,19 @@ WALL = 0
 MOVED = 1
 OXYGEN = 2
 
-start = [0,0]
-locations = {}
+start = [0, 0]
+_locations = {}
 
-visited = Set[start]
-
-
-
-
-
+_visited = Set[start]
 
 loop do
-  x_pos = intcodeComputer.run
-  y_pos = intcodeComputer.run
-  tile_id = intcodeComputer.run
+  _x_pos = intcode_computer.run
+  _y_pos = intcode_computer.run
+  _tile_id = intcode_computer.run
 
-  if tile_id == 2
-    block_tiles += 1
-  end
+  # block_tiles += 1 if tile_id == 2
 
-  break if intcodeComputer.terminated?
+  break if intcode_computer.terminated?
 end
 
-puts "ANSWER: #{block_tiles}"
+# puts "ANSWER: #{block_tiles}"

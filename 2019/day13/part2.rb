@@ -1,8 +1,10 @@
-require_relative '../intcode/IntcodeComputer'
+# frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+require_relative '../intcode/intcode_computer'
 
-intcodeComputer = IntcodeComputer.new intcodes
+intcodes = File.read('input.txt').split(',').map(&:to_i)
+
+intcode_computer = IntcodeComputer.new intcodes
 intcodes[0] = 2
 ball = [0, 0]
 paddle = [0, 0]
@@ -10,11 +12,11 @@ score = 0
 joystick = 0
 
 loop do
-  x_pos = intcodeComputer.run joystick
-  y_pos = intcodeComputer.run joystick
-  output = intcodeComputer.run joystick
+  x_pos = intcode_computer.run joystick
+  y_pos = intcode_computer.run joystick
+  output = intcode_computer.run joystick
 
-  if x_pos == -1 && y_pos == 0
+  if x_pos == -1 && y_pos.zero?
     score = output
   elsif output == 3
     paddle = [x_pos, y_pos]
@@ -22,15 +24,15 @@ loop do
     ball = [x_pos, y_pos]
   end
 
-  if ball[0] > paddle[0]
-    joystick = 1
-  elsif ball[0] < paddle[0]
-    joystick = -1
-  else
-    joystick = 0
-  end
+  joystick = if ball[0] > paddle[0]
+               1
+             elsif ball[0] < paddle[0]
+               -1
+             else
+               0
+             end
 
-  break if intcodeComputer.terminated?
+  break if intcode_computer.terminated?
 end
 
 puts "ANSWER: #{score}"

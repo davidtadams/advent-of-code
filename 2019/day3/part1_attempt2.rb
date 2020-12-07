@@ -1,12 +1,13 @@
+# frozen_string_literal: true
+
 require 'set'
 
-# input_data = File.read("simple_input.txt").split.map { |s| s.split(',') }
-input_data = File.read("input.txt").split.map { |s| s.split(',') }
+input_data = File.read('input.txt').split.map { |s| s.split(',') }
 
 class Grid
-  def initialize(line_1, line_2)
-    @line_1 = draw_line(line_1)
-    @line_2 = draw_line(line_2)
+  def initialize(line1, line2)
+    @line1 = draw_line(line1)
+    @line2 = draw_line(line2)
   end
 
   def calc_shortest_distance
@@ -15,28 +16,31 @@ class Grid
 
   private
 
-  def draw_line(line)
+  # rubocop:todo Metrics/AbcSize
+  def draw_line(line) # rubocop:todo Metrics/CyclomaticComplexity
     line_points = Set.new
     x = 0
     y = 0
 
-    for instruction in line
+    line.each do |instruction|
       direction = instruction[0]
       length = instruction[1..].to_i
 
-      if direction == 'U'
+      case direction
+      when 'U'
         (1..length).each { line_points.add([x, y -= 1]) }
-      elsif direction == 'D'
+      when 'D'
         (1..length).each { line_points.add([x, y += 1]) }
-      elsif direction == 'L'
+      when 'L'
         (1..length).each { line_points.add([x -= 1, y]) }
-      elsif direction == 'R'
+      when 'R'
         (1..length).each { line_points.add([x += 1, y]) }
       end
     end
 
     line_points
   end
+  # rubocop:enable Metrics/AbcSize
 end
 
 grid = Grid.new(input_data[0], input_data[1])

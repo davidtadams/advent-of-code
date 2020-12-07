@@ -1,5 +1,6 @@
-input_data = File.read("input.txt").split().map { |item| item.split(')') }
-# input_data = File.read("simple_input.txt").split().map { |item| item.split(')') }
+# frozen_string_literal: true
+
+input_data = File.read('input.txt').split.map { |item| item.split(')') }
 
 class Node
   attr_accessor :value, :children
@@ -11,38 +12,36 @@ class Node
 end
 
 def build_orbit_map(input)
-  orbit_map = Hash.new
+  orbit_map = {}
 
   input.each do |(parent, child)|
-    if orbit_map.has_key?(parent)
+    if orbit_map.key?(parent)
       orbit_map[parent].push(child)
     else
       orbit_map[parent] = [child]
     end
   end
 
-  return orbit_map
+  orbit_map
 end
 
-def build_orbit_tree(node, orbit_map, orbit_counts = [], path = [], pathLength = 0)
+def build_orbit_tree(node, orbit_map, orbit_counts = [], path = [], path_length = 0)
   tree_node = Node.new(node, [])
 
-  path[pathLength] = node
-  pathLength += 1;
-  path_to_node = path[0..pathLength - 1]
+  path[path_length] = node
+  path_length += 1
+  path_to_node = path[0..path_length - 1]
   orbit_counts.push(path_to_node.length - 1)
 
-  if !orbit_map.has_key?(node)
-    return tree_node
-  end
+  return tree_node unless orbit_map.key?(node)
 
   orbit_map[node].each do |child|
-    tree_node.children.push(build_orbit_tree(child, orbit_map, orbit_counts, path, pathLength))
+    tree_node.children.push(build_orbit_tree(child, orbit_map, orbit_counts, path, path_length))
   end
 
-  return tree_node, orbit_counts.sum
+  [tree_node, orbit_counts.sum]
 end
 
 orbit_map = build_orbit_map(input_data)
-orbit_tree, orbit_counts = build_orbit_tree("COM", orbit_map)
+_orbit_tree, orbit_counts = build_orbit_tree('COM', orbit_map)
 puts "Answer: #{orbit_counts}"

@@ -1,44 +1,43 @@
-input_data = File.read("input.txt").split().map { |item| item.split(')') }
-# input_data = File.read("simple_input_2.txt").split().map { |item| item.split(')') }
+# frozen_string_literal: true
+
+input_data = File.read('input.txt').split.map { |item| item.split(')') }
 
 def build_orbit_map(input)
-  orbit_map = Hash.new
+  orbit_map = {}
 
   input.each do |(parent, child)|
-    if orbit_map.has_key?(parent)
+    if orbit_map.key?(parent)
       orbit_map[parent].push(child)
     else
       orbit_map[parent] = [child]
     end
 
-    if orbit_map.has_key?(child)
+    if orbit_map.key?(child)
       orbit_map[child].push(parent)
     else
       orbit_map[child] = [parent]
     end
   end
 
-  return orbit_map
+  orbit_map
 end
 
-def find_path_to_node(node, finish, orbit_map, previous = nil, path = [], pathLength = 0, found_path = [])
-  path[pathLength] = node
-  pathLength += 1;
-  path_to_node = path[0..pathLength - 1]
+# rubocop:todo Metrics/ParameterLists
+def find_path_to_node(node, finish, orbit_map, previous = nil, path = [], path_length = 0, found_path = [])
+  path[path_length] = node
+  path_length += 1
+  path_to_node = path[0..path_length - 1]
 
-  if node == finish
-    return found_path.concat(path_to_node)
-  end
+  return found_path.concat(path_to_node) if node == finish
 
   orbit_map[node].each do |option|
-    if option != previous
-      find_path_to_node(option, finish, orbit_map, node, path, pathLength, found_path)
-    end
+    find_path_to_node(option, finish, orbit_map, node, path, path_length, found_path) if option != previous
   end
 
-  return found_path
+  found_path
 end
+# rubocop:enable Metrics/ParameterLists
 
 orbit_map = build_orbit_map(input_data)
-path = find_path_to_node("SAN", "YOU", orbit_map)
+path = find_path_to_node('SAN', 'YOU', orbit_map)
 puts "ANSWER: #{path.length - 3}"

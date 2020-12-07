@@ -1,4 +1,6 @@
-starting_positions = File.read("input.txt").split("\n").map do |row|
+# frozen_string_literal: true
+
+starting_positions = File.read('input.txt').split("\n").map do |row|
   row_sections = row.split(', ')
   x = row_sections[0][3..].to_i
   y = row_sections[1][2..].to_i
@@ -28,22 +30,21 @@ end
 
 def compare_positions(original, current, axis)
   starting_values = original.map { |moon| moon[axis] }
-  current_values = current.reduce([]) { |acc, (moon_index, moon)| acc.push(moon[:position][axis]) }
+  current_values = current.reduce([]) { |acc, (_moon_index, moon)| acc.push(moon[:position][axis]) }
   starting_values == current_values
 end
 
-MOONS = [0, 1, 2, 3]
-moon_data = moon_positions.each_with_index.reduce(Hash.new) do |acc, (start_position, index)|
-  acc[index] = Hash.new
+MOONS = [0, 1, 2, 3].freeze
+moon_data = moon_positions.each_with_index.each_with_object({}) do |(start_position, index), acc|
+  acc[index] = {}
   acc[index][:position] = start_position
-  acc[index][:velocity] = [0,0,0]
-  acc
+  acc[index][:velocity] = [0, 0, 0]
 end
 
 steps = 1
 periods = []
 
-[0,1,2].each do |axis|
+[0, 1, 2].each do |axis|
   loop do
     MOONS.combination(2).to_a.each do |(moon1, moon2)|
       calculate_velocity(moon_data[moon1], moon_data[moon2], axis)

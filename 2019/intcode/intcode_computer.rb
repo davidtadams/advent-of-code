@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class IntcodeComputer
   attr_reader :output
 
@@ -13,9 +15,11 @@ class IntcodeComputer
     @terminated
   end
 
-  def run(input = 0)
-    loop do
-      opcode, modes = get_instruction
+  # rubocop:todo Metrics/MethodLength
+  # rubocop:todo Metrics/AbcSize
+  def run(input = 0) # rubocop:todo Metrics/CyclomaticComplexity
+    loop do # rubocop:todo Metrics/BlockLength
+      opcode, modes = instruction
 
       value1 = get_value(modes, 1)
       value2 = get_value(modes, 2)
@@ -35,9 +39,9 @@ class IntcodeComputer
         @pointer += 2
         break
       when 5
-        @pointer = value1 != 0 ? value2 : @pointer + 3
+        @pointer = value1.zero? ? @pointer + 3 : value2
       when 6
-        @pointer = value1 == 0 ? value2 : @pointer + 3
+        @pointer = value1.zero? ? value2 : @pointer + 3
       when 7
         set_value(modes, 3, value1 < value2 ? 1 : 0)
         @pointer += 4
@@ -57,10 +61,12 @@ class IntcodeComputer
 
     @output
   end
+  # rubocop:enable Metrics/AbcSize
+  # rubocop:enable Metrics/MethodLength
 
   private
 
-  def get_instruction
+  def instruction
     instruction = @intcodes[@pointer]
     opcode = instruction % 100
     modes = (instruction / 100).digits
@@ -83,7 +89,7 @@ class IntcodeComputer
       puts "WRONG MODE GETTING A VALUE! MODE: #{mode}"
     end
 
-    value == nil ? 0 : value
+    value.nil? ? 0 : value
   end
 
   def set_value(modes, param_number, value)

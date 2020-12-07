@@ -1,27 +1,33 @@
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+# frozen_string_literal: true
 
-def run_program(phase_setting, input_signal, pointer, intcodes)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
+
+# rubocop:todo Metrics/PerceivedComplexity
+# rubocop:todo Metrics/MethodLength
+# rubocop:todo Metrics/AbcSize
+def run_program(phase_setting, input_signal, pointer, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
   input_count = 0
   instruction = intcodes[pointer]
   opcode = instruction % 100
   modes = (instruction / 100).digits
 
-  while opcode != 99 do
-    mode_1 = modes[0] || 0
-    mode_2 = modes[1] || 0
-    param_1 = mode_1 == 0 ? intcodes[intcodes[pointer + 1]] : intcodes[pointer + 1]
-    param_2 = mode_2 == 0 ? intcodes[intcodes[pointer + 2]] : intcodes[pointer + 2]
-    param_3 = intcodes[pointer + 3]
+  while opcode != 99
+    mode1 = modes[0] || 0
+    mode2 = modes[1] || 0
+
+    param1 = mode1.zero? ? intcodes[intcodes[pointer + 1]] : intcodes[pointer + 1]
+    param2 = mode2.zero? ? intcodes[intcodes[pointer + 2]] : intcodes[pointer + 2]
+    param3 = intcodes[pointer + 3]
 
     case opcode
     when 1
-      intcodes[param_3] = param_1 + param_2
+      intcodes[param3] = param1 + param2
       pointer += 4
     when 2
-      intcodes[param_3] = param_1 * param_2
+      intcodes[param3] = param1 * param2
       pointer += 4
     when 3
-      if input_count == 0 && phase_setting != nil
+      if input_count.zero? && !phase_setting.nil?
         intcodes[intcodes[pointer + 1]] = phase_setting
         input_count += 1
       else
@@ -35,31 +41,31 @@ def run_program(phase_setting, input_signal, pointer, intcodes)
 
       return output, pointer, intcodes
     when 5
-      if param_1 != 0
-        pointer = param_2
-      else
+      if param1.zero?
         pointer += 3
+      else
+        pointer = param2
       end
     when 6
-      if param_1 == 0
-        pointer = param_2
+      if param1.zero?
+        pointer = param2
       else
         pointer += 3
       end
     when 7
-      if param_1 < param_2
-        intcodes[param_3] = 1
-      else
-        intcodes[param_3] = 0
-      end
+      intcodes[param3] = if param1 < param2
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     when 8
-      if param_1 == param_2
-        intcodes[param_3] = 1
-      else
-        intcodes[param_3] = 0
-      end
+      intcodes[param3] = if param1 == param2
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     else
@@ -71,24 +77,33 @@ def run_program(phase_setting, input_signal, pointer, intcodes)
     modes = (instruction / 100).digits
   end
 
-  return false, false, false
+  [false, false, false]
 end
+# rubocop:enable Metrics/AbcSize
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/PerceivedComplexity
 
-def get_max_signal(intcodes)
+# rubocop:todo Metrics/MethodLength
+def get_max_signal(intcodes) # rubocop:todo Metrics/AbcSize
   max_signal = 0
-  [5, 6, 7, 8, 9].permutation.to_a.each do |permutation|
+  [5, 6, 7, 8, 9].permutation.to_a.each do |permutation| # rubocop:todo Metrics/BlockLength
     program_output = 0
 
     (phase_a, phase_b, phase_c, phase_d, phase_e) = permutation
-    output_a, pointer_a = 0, 0
+    output_a = 0
+    pointer_a = 0
     intcodes_a = intcodes.clone
-    output_b, pointer_b = 0, 0
+    output_b = 0
+    pointer_b = 0
     intcodes_b = intcodes.clone
-    output_c, pointer_c = 0, 0
+    output_c = 0
+    pointer_c = 0
     intcodes_c = intcodes.clone
-    output_d, pointer_d = 0, 0
+    output_d = 0
+    pointer_d = 0
     intcodes_d = intcodes.clone
-    output_e, pointer_e = 0, 0
+    output_e = 0
+    pointer_e = 0
     intcodes_e = intcodes.clone
 
     output_a, pointer_a, intcodes_a = run_program(phase_a, 0, pointer_a, intcodes_a)
@@ -111,13 +126,12 @@ def get_max_signal(intcodes)
       output_e, pointer_e, intcodes_e = run_program(nil, output_d, pointer_e, intcodes_e)
     end
 
-    if program_output > max_signal
-      max_signal = program_output
-    end
+    max_signal = program_output if program_output > max_signal
   end
 
-  return max_signal
+  max_signal
 end
+# rubocop:enable Metrics/MethodLength
 
 answer = get_max_signal(intcodes)
 puts "ANSWER: #{answer}"

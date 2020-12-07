@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 reactions_input = File.read('input.txt').split("\n")
 
 class Chemical
@@ -21,10 +23,10 @@ end
 
 def parse_reaction(reaction)
   (inputs, output) = reaction.split(' => ')
-  (output_result, output_name) = output.split(' ')
+  (output_result, output_name) = output.split
 
   input_nodes = inputs.split(', ').map do |input|
-    (input_cost, input_name) = input.split(' ')
+    (input_cost, input_name) = input.split
     Reaction.new(input_name, input_cost.to_i)
   end
 
@@ -32,7 +34,7 @@ def parse_reaction(reaction)
 end
 
 def build_nodes(reactions_input)
-  reactions = Hash.new
+  reactions = {}
 
   reactions_input.each do |reaction|
     parent_node = parse_reaction(reaction)
@@ -42,6 +44,7 @@ def build_nodes(reactions_input)
   reactions
 end
 
+# rubocop:todo Metrics/AbcSize
 def calculate_costs(reaction_name, reaction_amount, reactions, total_costs = {}, wasted_costs = {})
   reaction = reactions[reaction_name]
   wasted_costs[reaction_name] ||= 0
@@ -61,18 +64,17 @@ def calculate_costs(reaction_name, reaction_amount, reactions, total_costs = {},
       quantity_needed = input.cost * multiplier
       total_costs[input.name] += quantity_needed
 
-      if input.name != 'ORE'
-        calculate_costs(input.name, quantity_needed, reactions, total_costs, wasted_costs)
-      end
+      calculate_costs(input.name, quantity_needed, reactions, total_costs, wasted_costs) if input.name != 'ORE'
     end
   end
 
-  return total_costs["ORE"]
+  total_costs['ORE']
 end
+# rubocop:enable Metrics/AbcSize
 
 reactions = build_nodes(reactions_input)
-total_ore_cost = calculate_costs("FUEL", 1, reactions)
-answer = (1..1000000000000).bsearch { |n| calculate_costs("FUEL", n, reactions) > 1000000000000 } - 1
+total_ore_cost = calculate_costs('FUEL', 1, reactions)
+answer = (1..1_000_000_000_000).bsearch { |n| calculate_costs('FUEL', n, reactions) > 1_000_000_000_000 } - 1
 
 puts "ANSWER #1: #{total_ore_cost}"
 puts "ANSWER #2: #{answer}"

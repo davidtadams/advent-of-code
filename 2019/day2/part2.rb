@@ -1,21 +1,24 @@
-input_data = File.read("input.txt").split(",").map(&:to_i)
+# frozen_string_literal: true
 
-def run_opcodes(opcodes)
+input_data = File.read('input.txt').split(',').map(&:to_i)
+
+def run_opcodes(opcodes) # rubocop:todo Metrics/AbcSize
   current_position = 0
   current_instruction = opcodes[current_position]
 
-  while (current_instruction != 99) do
+  while current_instruction != 99
     value1 = opcodes[opcodes[current_position + 1]]
     value2 = opcodes[opcodes[current_position + 2]]
     set_position = opcodes[current_position + 3]
 
-    if current_instruction == 1
+    case current_instruction
+    when 1
       opcodes[set_position] = value1 + value2
-    elsif current_instruction == 2
+    when 2
       opcodes[set_position] = value1 * value2
     end
 
-    current_position = current_position + 4
+    current_position += 4
     current_instruction = opcodes[current_position]
   end
 
@@ -23,18 +26,16 @@ def run_opcodes(opcodes)
 end
 
 def find_inputs(opcodes)
-  desired_output = 19690720
+  desired_output = 19_690_720
 
-  for noun in 0..99
-    for verb in 0..99
+  (0..99).each do |noun|
+    (0..99).each do |verb|
       opcodes_copy = opcodes.clone
       opcodes_copy[1] = noun
       opcodes_copy[2] = verb
       ouput = run_opcodes(opcodes_copy)
 
-      if ouput[0] == desired_output
-        return noun, verb
-      end
+      return noun, verb if ouput[0] == desired_output
     end
   end
 end

@@ -1,14 +1,19 @@
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+# frozen_string_literal: true
+
+intcodes = File.read('input.txt').split(',').map(&:to_i)
 
 # TODO: at this point, this could use some refactoring :/
-def run_program(input, intcodes)
+# rubocop:todo Metrics/PerceivedComplexity
+# rubocop:todo Metrics/MethodLength
+# rubocop:todo Metrics/AbcSize
+def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
   relative_base = 0
   pointer = 0
   instruction = intcodes[pointer]
   opcode = instruction % 100
   modes = (instruction / 100).digits
 
-  while opcode != 99 do
+  while opcode != 99
     mode1 = modes[0] || 0
     mode2 = modes[1] || 0
     mode3 = modes[2] || 0
@@ -41,25 +46,17 @@ def run_program(input, intcodes)
     end
 
     case mode3
-    when 0
-      param3 = input_param3
-    when 1
+    when 0, 1
       param3 = input_param3
     when 2
       param3 = input_param3 + relative_base
     end
 
-    if param1 == nil
-      param1 = 0
-    end
+    param1 = 0 if param1.nil?
 
-    if param2 == nil
-      param2 = 0
-    end
+    param2 = 0 if param2.nil?
 
-    if param3 == nil
-      param3 = 0
-    end
+    param3 = 0 if param3.nil?
 
     case opcode
     when 1
@@ -81,31 +78,31 @@ def run_program(input, intcodes)
 
       pointer += 2
     when 5
-      if param1 != 0
-        pointer = param2
-      else
+      if param1.zero?
         pointer += 3
+      else
+        pointer = param2
       end
     when 6
-      if param1 == 0
+      if param1.zero?
         pointer = param2
       else
         pointer += 3
       end
     when 7
-      if param1 < param2
-        intcodes[param3] = 1
-      else
-        intcodes[param3] = 0
-      end
+      intcodes[param3] = if param1 < param2
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     when 8
-      if param1 == param2
-        intcodes[param3] = 1
-      else
-        intcodes[param3] = 0
-      end
+      intcodes[param3] = if param1 == param2
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     when 9
@@ -122,6 +119,9 @@ def run_program(input, intcodes)
     modes = (instruction / 100).digits
   end
 end
+# rubocop:enable Metrics/AbcSize
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/PerceivedComplexity
 
 run_program(1, intcodes)
 run_program(2, intcodes)

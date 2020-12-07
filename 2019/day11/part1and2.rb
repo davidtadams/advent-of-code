@@ -1,37 +1,43 @@
-require_relative '../intcode/IntcodeComputer'
+# frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+require_relative '../intcode/intcode_computer'
 
-def get_new_location(current_direction, direction_to_go, current_x, current_y)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
+
+# rubocop:todo Metrics/PerceivedComplexity
+# rubocop:todo Metrics/CyclomaticComplexity
+# rubocop:todo Metrics/MethodLength
+def get_new_location(current_direction, direction_to_go, current_x, current_y) # rubocop:todo Metrics/AbcSize
   new_direction = nil
   new_location = nil
 
-  if current_direction == 'up'
-    if direction_to_go == 0
+  case current_direction
+  when 'up'
+    if direction_to_go.zero?
       new_location = [current_x - 1, current_y]
       new_direction = 'left'
     else
       new_location = [current_x + 1, current_y]
       new_direction = 'right'
     end
-  elsif current_direction == 'left'
-    if direction_to_go == 0
+  when 'left'
+    if direction_to_go.zero?
       new_location = [current_x, current_y + 1]
       new_direction = 'down'
     else
       new_location = [current_x, current_y - 1]
       new_direction = 'up'
     end
-  elsif current_direction == 'right'
-    if direction_to_go == 0
+  when 'right'
+    if direction_to_go.zero?
       new_location = [current_x, current_y - 1]
       new_direction = 'up'
     else
       new_location = [current_x, current_y + 1]
       new_direction = 'down'
     end
-  elsif current_direction == 'down'
-    if direction_to_go == 0
+  when 'down'
+    if direction_to_go.zero?
       new_location = [current_x + 1, current_y]
       new_direction = 'right'
     else
@@ -40,26 +46,31 @@ def get_new_location(current_direction, direction_to_go, current_x, current_y)
     end
   end
 
-  return new_direction, new_location
+  [new_direction, new_location]
 end
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/CyclomaticComplexity
+# rubocop:enable Metrics/PerceivedComplexity
 
 def deploy_robot(input, intcodes)
-  intcodeComputer = IntcodeComputer.new intcodes
-  panels = Hash.new
-  current_location = [0,0]
+  intcode_computer = IntcodeComputer.new intcodes
+  panels = {}
+  current_location = [0, 0]
   current_direction = 'up'
 
-  while !intcodeComputer.terminated?
-    color_to_paint = intcodeComputer.run input
-    direction_to_go = intcodeComputer.run input
+  until intcode_computer.terminated?
+    color_to_paint = intcode_computer.run input
+    direction_to_go = intcode_computer.run input
 
-    break if intcodeComputer.terminated?
+    break if intcode_computer.terminated?
 
     panels[current_location] = color_to_paint
 
-    current_direction, current_location = get_new_location(current_direction, direction_to_go, current_location[0], current_location[1])
+    current_direction, current_location = get_new_location(
+      current_direction, direction_to_go, current_location[0], current_location[1]
+    )
 
-    input = panels.has_key?(current_location) ? panels[current_location] : 0
+    input = panels.key?(current_location) ? panels[current_location] : 0
   end
 
   panels
@@ -76,7 +87,7 @@ puts
 6.times do |row_index|
   print 'X '
   50.times do |column_index|
-    print painted_panels[[column_index, row_index]] == 0 ? 'X ' : '- '
+    print(painted_panels[[column_index, row_index]]).zero? ? 'X ' : '- '
   end
   puts
 end

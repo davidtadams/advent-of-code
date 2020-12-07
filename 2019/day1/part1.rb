@@ -1,4 +1,6 @@
-input_data = File.read("input.txt").split
+# frozen_string_literal: true
+
+input_data = File.read('input.txt').split
 
 def find_fuel(modules)
   modules.reduce(0) { |sum, mass| sum + mass.to_i / 3 - 2 }
