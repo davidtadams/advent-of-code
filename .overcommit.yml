@@ -1,0 +1,11 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+
+CommitMsg:
+  ALL:
+    quiet: true
+  CapitalizedSubject:
+    enabled: false
+  SingleLineSubject:
+    enabled: false
