@@ -17,3 +17,9 @@ Style/TrailingCommaInHashLiteral:
 
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+
+Style/ConditionalAssignment:
+  EnforcedStyle: assign_inside_condition
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented

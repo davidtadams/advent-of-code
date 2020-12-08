@@ -1,0 +1,98 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "light red" [
+        fontsize = 8,
+        label = "light red"
+    ]
+
+    "bright white" [
+        fontsize = 8,
+        label = "bright white"
+    ]
+
+    "muted yellow" [
+        fontsize = 8,
+        label = "muted yellow"
+    ]
+
+    "dark orange" [
+        fontsize = 8,
+        label = "dark orange"
+    ]
+
+    "shiny gold" [
+        fontsize = 8,
+        label = "shiny gold"
+    ]
+
+    "faded blue" [
+        fontsize = 8,
+        label = "faded blue"
+    ]
+
+    "dark olive" [
+        fontsize = 8,
+        label = "dark olive"
+    ]
+
+    "vibrant plum" [
+        fontsize = 8,
+        label = "vibrant plum"
+    ]
+
+    "dotted black" [
+        fontsize = 8,
+        label = "dotted black"
+    ]
+
+    "light red" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "light red" -> "muted yellow" [
+        fontsize = 8
+    ]
+
+    "bright white" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "muted yellow" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "muted yellow" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "dark orange" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "dark orange" -> "muted yellow" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "dark olive" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "vibrant plum" [
+        fontsize = 8
+    ]
+
+    "dark olive" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "dark olive" -> "dotted black" [
+        fontsize = 8
+    ]
+
+    "vibrant plum" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "vibrant plum" -> "dotted black" [
+        fontsize = 8
+    ]
+}

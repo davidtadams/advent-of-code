@@ -1,0 +1,8771 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "dull silver" [
+        fontsize = 8,
+        label = "dull silver"
+    ]
+
+    "striped magenta" [
+        fontsize = 8,
+        label = "striped magenta"
+    ]
+
+    "dark coral" [
+        fontsize = 8,
+        label = "dark coral"
+    ]
+
+    "bright orange" [
+        fontsize = 8,
+        label = "bright orange"
+    ]
+
+    "plaid blue" [
+        fontsize = 8,
+        label = "plaid blue"
+    ]
+
+    "dark plum" [
+        fontsize = 8,
+        label = "dark plum"
+    ]
+
+    "wavy teal" [
+        fontsize = 8,
+        label = "wavy teal"
+    ]
+
+    "wavy turquoise" [
+        fontsize = 8,
+        label = "wavy turquoise"
+    ]
+
+    "bright salmon" [
+        fontsize = 8,
+        label = "bright salmon"
+    ]
+
+    "mirrored gold" [
+        fontsize = 8,
+        label = "mirrored gold"
+    ]
+
+    "wavy brown" [
+        fontsize = 8,
+        label = "wavy brown"
+    ]
+
+    "posh beige" [
+        fontsize = 8,
+        label = "posh beige"
+    ]
+
+    "light crimson" [
+        fontsize = 8,
+        label = "light crimson"
+    ]
+
+    "vibrant salmon" [
+        fontsize = 8,
+        label = "vibrant salmon"
+    ]
+
+    "drab green" [
+        fontsize = 8,
+        label = "drab green"
+    ]
+
+    "dull white" [
+        fontsize = 8,
+        label = "dull white"
+    ]
+
+    "posh indigo" [
+        fontsize = 8,
+        label = "posh indigo"
+    ]
+
+    "faded lime" [
+        fontsize = 8,
+        label = "faded lime"
+    ]
+
+    "dim magenta" [
+        fontsize = 8,
+        label = "dim magenta"
+    ]
+
+    "wavy salmon" [
+        fontsize = 8,
+        label = "wavy salmon"
+    ]
+
+    "dull purple" [
+        fontsize = 8,
+        label = "dull purple"
+    ]
+
+    "mirrored blue" [
+        fontsize = 8,
+        label = "mirrored blue"
+    ]
+
+    "muted black" [
+        fontsize = 8,
+        label = "muted black"
+    ]
+
+    "muted brown" [
+        fontsize = 8,
+        label = "muted brown"
+    ]
+
+    "vibrant gold" [
+        fontsize = 8,
+        label = "vibrant gold"
+    ]
+
+    "faded crimson" [
+        fontsize = 8,
+        label = "faded crimson"
+    ]
+
+    "mirrored fuchsia" [
+        fontsize = 8,
+        label = "mirrored fuchsia"
+    ]
+
+    "plaid white" [
+        fontsize = 8,
+        label = "plaid white"
+    ]
+
+    "faded magenta" [
+        fontsize = 8,
+        label = "faded magenta"
+    ]
+
+    "clear orange" [
+        fontsize = 8,
+        label = "clear orange"
+    ]
+
+    "dull green" [
+        fontsize = 8,
+        label = "dull green"
+    ]
+
+    "pale white" [
+        fontsize = 8,
+        label = "pale white"
+    ]
+
+    "pale red" [
+        fontsize = 8,
+        label = "pale red"
+    ]
+
+    "shiny gold" [
+        fontsize = 8,
+        label = "shiny gold"
+    ]
+
+    "dull gold" [
+        fontsize = 8,
+        label = "dull gold"
+    ]
+
+    "drab black" [
+        fontsize = 8,
+        label = "drab black"
+    ]
+
+    "light turquoise" [
+        fontsize = 8,
+        label = "light turquoise"
+    ]
+
+    "faded chartreuse" [
+        fontsize = 8,
+        label = "faded chartreuse"
+    ]
+
+    "shiny brown" [
+        fontsize = 8,
+        label = "shiny brown"
+    ]
+
+    "mirrored beige" [
+        fontsize = 8,
+        label = "mirrored beige"
+    ]
+
+    "clear purple" [
+        fontsize = 8,
+        label = "clear purple"
+    ]
+
+    "muted coral" [
+        fontsize = 8,
+        label = "muted coral"
+    ]
+
+    "pale coral" [
+        fontsize = 8,
+        label = "pale coral"
+    ]
+
+    "plaid brown" [
+        fontsize = 8,
+        label = "plaid brown"
+    ]
+
+    "bright teal" [
+        fontsize = 8,
+        label = "bright teal"
+    ]
+
+    "striped blue" [
+        fontsize = 8,
+        label = "striped blue"
+    ]
+
+    "faded orange" [
+        fontsize = 8,
+        label = "faded orange"
+    ]
+
+    "wavy green" [
+        fontsize = 8,
+        label = "wavy green"
+    ]
+
+    "dim chartreuse" [
+        fontsize = 8,
+        label = "dim chartreuse"
+    ]
+
+    "clear white" [
+        fontsize = 8,
+        label = "clear white"
+    ]
+
+    "clear aqua" [
+        fontsize = 8,
+        label = "clear aqua"
+    ]
+
+    "faded beige" [
+        fontsize = 8,
+        label = "faded beige"
+    ]
+
+    "vibrant yellow" [
+        fontsize = 8,
+        label = "vibrant yellow"
+    ]
+
+    "posh brown" [
+        fontsize = 8,
+        label = "posh brown"
+    ]
+
+    "pale lavender" [
+        fontsize = 8,
+        label = "pale lavender"
+    ]
+
+    "striped beige" [
+        fontsize = 8,
+        label = "striped beige"
+    ]
+
+    "striped cyan" [
+        fontsize = 8,
+        label = "striped cyan"
+    ]
+
+    "mirrored lime" [
+        fontsize = 8,
+        label = "mirrored lime"
+    ]
+
+    "faded tan" [
+        fontsize = 8,
+        label = "faded tan"
+    ]
+
+    "drab beige" [
+        fontsize = 8,
+        label = "drab beige"
+    ]
+
+    "dark indigo" [
+        fontsize = 8,
+        label = "dark indigo"
+    ]
+
+    "dark brown" [
+        fontsize = 8,
+        label = "dark brown"
+    ]
+
+    "shiny beige" [
+        fontsize = 8,
+        label = "shiny beige"
+    ]
+
+    "vibrant indigo" [
+        fontsize = 8,
+        label = "vibrant indigo"
+    ]
+
+    "drab teal" [
+        fontsize = 8,
+        label = "drab teal"
+    ]
+
+    "vibrant fuchsia" [
+        fontsize = 8,
+        label = "vibrant fuchsia"
+    ]
+
+    "muted green" [
+        fontsize = 8,
+        label = "muted green"
+    ]
+
+    "dotted magenta" [
+        fontsize = 8,
+        label = "dotted magenta"
+    ]
+
+    "shiny lavender" [
+        fontsize = 8,
+        label = "shiny lavender"
+    ]
+
+    "shiny aqua" [
+        fontsize = 8,
+        label = "shiny aqua"
+    ]
+
+    "faded gold" [
+        fontsize = 8,
+        label = "faded gold"
+    ]
+
+    "dull bronze" [
+        fontsize = 8,
+        label = "dull bronze"
+    ]
+
+    "vibrant teal" [
+        fontsize = 8,
+        label = "vibrant teal"
+    ]
+
+    "vibrant violet" [
+        fontsize = 8,
+        label = "vibrant violet"
+    ]
+
+    "dark aqua" [
+        fontsize = 8,
+        label = "dark aqua"
+    ]
+
+    "posh white" [
+        fontsize = 8,
+        label = "posh white"
+    ]
+
+    "dim coral" [
+        fontsize = 8,
+        label = "dim coral"
+    ]
+
+    "light yellow" [
+        fontsize = 8,
+        label = "light yellow"
+    ]
+
+    "faded salmon" [
+        fontsize = 8,
+        label = "faded salmon"
+    ]
+
+    "dotted red" [
+        fontsize = 8,
+        label = "dotted red"
+    ]
+
+    "drab yellow" [
+        fontsize = 8,
+        label = "drab yellow"
+    ]
+
+    "dark red" [
+        fontsize = 8,
+        label = "dark red"
+    ]
+
+    "bright lavender" [
+        fontsize = 8,
+        label = "bright lavender"
+    ]
+
+    "wavy maroon" [
+        fontsize = 8,
+        label = "wavy maroon"
+    ]
+
+    "light brown" [
+        fontsize = 8,
+        label = "light brown"
+    ]
+
+    "bright silver" [
+        fontsize = 8,
+        label = "bright silver"
+    ]
+
+    "dark gray" [
+        fontsize = 8,
+        label = "dark gray"
+    ]
+
+    "mirrored cyan" [
+        fontsize = 8,
+        label = "mirrored cyan"
+    ]
+
+    "dotted cyan" [
+        fontsize = 8,
+        label = "dotted cyan"
+    ]
+
+    "striped orange" [
+        fontsize = 8,
+        label = "striped orange"
+    ]
+
+    "drab aqua" [
+        fontsize = 8,
+        label = "drab aqua"
+    ]
+
+    "striped black" [
+        fontsize = 8,
+        label = "striped black"
+    ]
+
+    "dark salmon" [
+        fontsize = 8,
+        label = "dark salmon"
+    ]
+
+    "drab white" [
+        fontsize = 8,
+        label = "drab white"
+    ]
+
+    "striped purple" [
+        fontsize = 8,
+        label = "striped purple"
+    ]
+
+    "faded yellow" [
+        fontsize = 8,
+        label = "faded yellow"
+    ]
+
+    "faded brown" [
+        fontsize = 8,
+        label = "faded brown"
+    ]
+
+    "drab fuchsia" [
+        fontsize = 8,
+        label = "drab fuchsia"
+    ]
+
+    "mirrored yellow" [
+        fontsize = 8,
+        label = "mirrored yellow"
+    ]
+
+    "shiny red" [
+        fontsize = 8,
+        label = "shiny red"
+    ]
+
+    "faded cyan" [
+        fontsize = 8,
+        label = "faded cyan"
+    ]
+
+    "dull beige" [
+        fontsize = 8,
+        label = "dull beige"
+    ]
+
+    "shiny blue" [
+        fontsize = 8,
+        label = "shiny blue"
+    ]
+
+    "dull cyan" [
+        fontsize = 8,
+        label = "dull cyan"
+    ]
+
+    "mirrored teal" [
+        fontsize = 8,
+        label = "mirrored teal"
+    ]
+
+    "clear brown" [
+        fontsize = 8,
+        label = "clear brown"
+    ]
+
+    "light bronze" [
+        fontsize = 8,
+        label = "light bronze"
+    ]
+
+    "light teal" [
+        fontsize = 8,
+        label = "light teal"
+    ]
+
+    "pale tomato" [
+        fontsize = 8,
+        label = "pale tomato"
+    ]
+
+    "dotted orange" [
+        fontsize = 8,
+        label = "dotted orange"
+    ]
+
+    "wavy blue" [
+        fontsize = 8,
+        label = "wavy blue"
+    ]
+
+    "dotted lavender" [
+        fontsize = 8,
+        label = "dotted lavender"
+    ]
+
+    "vibrant aqua" [
+        fontsize = 8,
+        label = "vibrant aqua"
+    ]
+
+    "shiny magenta" [
+        fontsize = 8,
+        label = "shiny magenta"
+    ]
+
+    "dull plum" [
+        fontsize = 8,
+        label = "dull plum"
+    ]
+
+    "pale crimson" [
+        fontsize = 8,
+        label = "pale crimson"
+    ]
+
+    "muted cyan" [
+        fontsize = 8,
+        label = "muted cyan"
+    ]
+
+    "light magenta" [
+        fontsize = 8,
+        label = "light magenta"
+    ]
+
+    "shiny black" [
+        fontsize = 8,
+        label = "shiny black"
+    ]
+
+    "vibrant chartreuse" [
+        fontsize = 8,
+        label = "vibrant chartreuse"
+    ]
+
+    "clear bronze" [
+        fontsize = 8,
+        label = "clear bronze"
+    ]
+
+    "dull violet" [
+        fontsize = 8,
+        label = "dull violet"
+    ]
+
+    "pale plum" [
+        fontsize = 8,
+        label = "pale plum"
+    ]
+
+    "striped lavender" [
+        fontsize = 8,
+        label = "striped lavender"
+    ]
+
+    "striped yellow" [
+        fontsize = 8,
+        label = "striped yellow"
+    ]
+
+    "plaid indigo" [
+        fontsize = 8,
+        label = "plaid indigo"
+    ]
+
+    "plaid chartreuse" [
+        fontsize = 8,
+        label = "plaid chartreuse"
+    ]
+
+    "shiny teal" [
+        fontsize = 8,
+        label = "shiny teal"
+    ]
+
+    "wavy gray" [
+        fontsize = 8,
+        label = "wavy gray"
+    ]
+
+    "dark silver" [
+        fontsize = 8,
+        label = "dark silver"
+    ]
+
+    "dull turquoise" [
+        fontsize = 8,
+        label = "dull turquoise"
+    ]
+
+    "striped brown" [
+        fontsize = 8,
+        label = "striped brown"
+    ]
+
+    "striped olive" [
+        fontsize = 8,
+        label = "striped olive"
+    ]
+
+    "wavy olive" [
+        fontsize = 8,
+        label = "wavy olive"
+    ]
+
+    "drab silver" [
+        fontsize = 8,
+        label = "drab silver"
+    ]
+
+    "light olive" [
+        fontsize = 8,
+        label = "light olive"
+    ]
+
+    "bright tan" [
+        fontsize = 8,
+        label = "bright tan"
+    ]
+
+    "plaid yellow" [
+        fontsize = 8,
+        label = "plaid yellow"
+    ]
+
+    "wavy lavender" [
+        fontsize = 8,
+        label = "wavy lavender"
+    ]
+
+    "muted blue" [
+        fontsize = 8,
+        label = "muted blue"
+    ]
+
+    "posh aqua" [
+        fontsize = 8,
+        label = "posh aqua"
+    ]
+
+    "shiny olive" [
+        fontsize = 8,
+        label = "shiny olive"
+    ]
+
+    "drab chartreuse" [
+        fontsize = 8,
+        label = "drab chartreuse"
+    ]
+
+    "dotted yellow" [
+        fontsize = 8,
+        label = "dotted yellow"
+    ]
+
+    "vibrant lime" [
+        fontsize = 8,
+        label = "vibrant lime"
+    ]
+
+    "bright maroon" [
+        fontsize = 8,
+        label = "bright maroon"
+    ]
+
+    "dim crimson" [
+        fontsize = 8,
+        label = "dim crimson"
+    ]
+
+    "vibrant gray" [
+        fontsize = 8,
+        label = "vibrant gray"
+    ]
+
+    "mirrored coral" [
+        fontsize = 8,
+        label = "mirrored coral"
+    ]
+
+    "wavy beige" [
+        fontsize = 8,
+        label = "wavy beige"
+    ]
+
+    "drab turquoise" [
+        fontsize = 8,
+        label = "drab turquoise"
+    ]
+
+    "posh chartreuse" [
+        fontsize = 8,
+        label = "posh chartreuse"
+    ]
+
+    "light plum" [
+        fontsize = 8,
+        label = "light plum"
+    ]
+
+    "pale green" [
+        fontsize = 8,
+        label = "pale green"
+    ]
+
+    "dull red" [
+        fontsize = 8,
+        label = "dull red"
+    ]
+
+    "drab salmon" [
+        fontsize = 8,
+        label = "drab salmon"
+    ]
+
+    "dotted tan" [
+        fontsize = 8,
+        label = "dotted tan"
+    ]
+
+    "wavy crimson" [
+        fontsize = 8,
+        label = "wavy crimson"
+    ]
+
+    "shiny orange" [
+        fontsize = 8,
+        label = "shiny orange"
+    ]
+
+    "light violet" [
+        fontsize = 8,
+        label = "light violet"
+    ]
+
+    "dim yellow" [
+        fontsize = 8,
+        label = "dim yellow"
+    ]
+
+    "faded turquoise" [
+        fontsize = 8,
+        label = "faded turquoise"
+    ]
+
+    "mirrored purple" [
+        fontsize = 8,
+        label = "mirrored purple"
+    ]
+
+    "pale orange" [
+        fontsize = 8,
+        label = "pale orange"
+    ]
+
+    "dim white" [
+        fontsize = 8,
+        label = "dim white"
+    ]
+
+    "bright purple" [
+        fontsize = 8,
+        label = "bright purple"
+    ]
+
+    "muted chartreuse" [
+        fontsize = 8,
+        label = "muted chartreuse"
+    ]
+
+    "drab red" [
+        fontsize = 8,
+        label = "drab red"
+    ]
+
+    "mirrored magenta" [
+        fontsize = 8,
+        label = "mirrored magenta"
+    ]
+
+    "clear coral" [
+        fontsize = 8,
+        label = "clear coral"
+    ]
+
+    "dark black" [
+        fontsize = 8,
+        label = "dark black"
+    ]
+
+    "mirrored orange" [
+        fontsize = 8,
+        label = "mirrored orange"
+    ]
+
+    "wavy cyan" [
+        fontsize = 8,
+        label = "wavy cyan"
+    ]
+
+    "posh lime" [
+        fontsize = 8,
+        label = "posh lime"
+    ]
+
+    "dark magenta" [
+        fontsize = 8,
+        label = "dark magenta"
+    ]
+
+    "vibrant turquoise" [
+        fontsize = 8,
+        label = "vibrant turquoise"
+    ]
+
+    "pale magenta" [
+        fontsize = 8,
+        label = "pale magenta"
+    ]
+
+    "clear gold" [
+        fontsize = 8,
+        label = "clear gold"
+    ]
+
+    "posh gold" [
+        fontsize = 8,
+        label = "posh gold"
+    ]
+
+    "dotted lime" [
+        fontsize = 8,
+        label = "dotted lime"
+    ]
+
+    "wavy silver" [
+        fontsize = 8,
+        label = "wavy silver"
+    ]
+
+    "muted crimson" [
+        fontsize = 8,
+        label = "muted crimson"
+    ]
+
+    "dull yellow" [
+        fontsize = 8,
+        label = "dull yellow"
+    ]
+
+    "clear silver" [
+        fontsize = 8,
+        label = "clear silver"
+    ]
+
+    "drab indigo" [
+        fontsize = 8,
+        label = "drab indigo"
+    ]
+
+    "faded violet" [
+        fontsize = 8,
+        label = "faded violet"
+    ]
+
+    "mirrored bronze" [
+        fontsize = 8,
+        label = "mirrored bronze"
+    ]
+
+    "muted turquoise" [
+        fontsize = 8,
+        label = "muted turquoise"
+    ]
+
+    "plaid green" [
+        fontsize = 8,
+        label = "plaid green"
+    ]
+
+    "dark violet" [
+        fontsize = 8,
+        label = "dark violet"
+    ]
+
+    "striped bronze" [
+        fontsize = 8,
+        label = "striped bronze"
+    ]
+
+    "striped white" [
+        fontsize = 8,
+        label = "striped white"
+    ]
+
+    "muted aqua" [
+        fontsize = 8,
+        label = "muted aqua"
+    ]
+
+    "pale black" [
+        fontsize = 8,
+        label = "pale black"
+    ]
+
+    "drab coral" [
+        fontsize = 8,
+        label = "drab coral"
+    ]
+
+    "dotted fuchsia" [
+        fontsize = 8,
+        label = "dotted fuchsia"
+    ]
+
+    "bright tomato" [
+        fontsize = 8,
+        label = "bright tomato"
+    ]
+
+    "bright blue" [
+        fontsize = 8,
+        label = "bright blue"
+    ]
+
+    "dim bronze" [
+        fontsize = 8,
+        label = "dim bronze"
+    ]
+
+    "dotted green" [
+        fontsize = 8,
+        label = "dotted green"
+    ]
+
+    "pale violet" [
+        fontsize = 8,
+        label = "pale violet"
+    ]
+
+    "bright beige" [
+        fontsize = 8,
+        label = "bright beige"
+    ]
+
+    "drab blue" [
+        fontsize = 8,
+        label = "drab blue"
+    ]
+
+    "vibrant olive" [
+        fontsize = 8,
+        label = "vibrant olive"
+    ]
+
+    "dotted olive" [
+        fontsize = 8,
+        label = "dotted olive"
+    ]
+
+    "clear tomato" [
+        fontsize = 8,
+        label = "clear tomato"
+    ]
+
+    "light gray" [
+        fontsize = 8,
+        label = "light gray"
+    ]
+
+    "light coral" [
+        fontsize = 8,
+        label = "light coral"
+    ]
+
+    "wavy magenta" [
+        fontsize = 8,
+        label = "wavy magenta"
+    ]
+
+    "pale silver" [
+        fontsize = 8,
+        label = "pale silver"
+    ]
+
+    "plaid aqua" [
+        fontsize = 8,
+        label = "plaid aqua"
+    ]
+
+    "plaid crimson" [
+        fontsize = 8,
+        label = "plaid crimson"
+    ]
+
+    "dim gray" [
+        fontsize = 8,
+        label = "dim gray"
+    ]
+
+    "plaid orange" [
+        fontsize = 8,
+        label = "plaid orange"
+    ]
+
+    "dotted blue" [
+        fontsize = 8,
+        label = "dotted blue"
+    ]
+
+    "light green" [
+        fontsize = 8,
+        label = "light green"
+    ]
+
+    "striped violet" [
+        fontsize = 8,
+        label = "striped violet"
+    ]
+
+    "drab brown" [
+        fontsize = 8,
+        label = "drab brown"
+    ]
+
+    "vibrant beige" [
+        fontsize = 8,
+        label = "vibrant beige"
+    ]
+
+    "posh violet" [
+        fontsize = 8,
+        label = "posh violet"
+    ]
+
+    "wavy orange" [
+        fontsize = 8,
+        label = "wavy orange"
+    ]
+
+    "drab orange" [
+        fontsize = 8,
+        label = "drab orange"
+    ]
+
+    "posh teal" [
+        fontsize = 8,
+        label = "posh teal"
+    ]
+
+    "clear beige" [
+        fontsize = 8,
+        label = "clear beige"
+    ]
+
+    "shiny crimson" [
+        fontsize = 8,
+        label = "shiny crimson"
+    ]
+
+    "drab gold" [
+        fontsize = 8,
+        label = "drab gold"
+    ]
+
+    "posh cyan" [
+        fontsize = 8,
+        label = "posh cyan"
+    ]
+
+    "light fuchsia" [
+        fontsize = 8,
+        label = "light fuchsia"
+    ]
+
+    "dark maroon" [
+        fontsize = 8,
+        label = "dark maroon"
+    ]
+
+    "faded bronze" [
+        fontsize = 8,
+        label = "faded bronze"
+    ]
+
+    "muted salmon" [
+        fontsize = 8,
+        label = "muted salmon"
+    ]
+
+    "dim violet" [
+        fontsize = 8,
+        label = "dim violet"
+    ]
+
+    "dark tan" [
+        fontsize = 8,
+        label = "dark tan"
+    ]
+
+    "vibrant white" [
+        fontsize = 8,
+        label = "vibrant white"
+    ]
+
+    "vibrant green" [
+        fontsize = 8,
+        label = "vibrant green"
+    ]
+
+    "drab violet" [
+        fontsize = 8,
+        label = "drab violet"
+    ]
+
+    "striped salmon" [
+        fontsize = 8,
+        label = "striped salmon"
+    ]
+
+    "shiny yellow" [
+        fontsize = 8,
+        label = "shiny yellow"
+    ]
+
+    "muted beige" [
+        fontsize = 8,
+        label = "muted beige"
+    ]
+
+    "mirrored green" [
+        fontsize = 8,
+        label = "mirrored green"
+    ]
+
+    "dim tan" [
+        fontsize = 8,
+        label = "dim tan"
+    ]
+
+    "bright yellow" [
+        fontsize = 8,
+        label = "bright yellow"
+    ]
+
+    "striped indigo" [
+        fontsize = 8,
+        label = "striped indigo"
+    ]
+
+    "wavy yellow" [
+        fontsize = 8,
+        label = "wavy yellow"
+    ]
+
+    "dotted gold" [
+        fontsize = 8,
+        label = "dotted gold"
+    ]
+
+    "posh green" [
+        fontsize = 8,
+        label = "posh green"
+    ]
+
+    "light chartreuse" [
+        fontsize = 8,
+        label = "light chartreuse"
+    ]
+
+    "faded blue" [
+        fontsize = 8,
+        label = "faded blue"
+    ]
+
+    "shiny plum" [
+        fontsize = 8,
+        label = "shiny plum"
+    ]
+
+    "light red" [
+        fontsize = 8,
+        label = "light red"
+    ]
+
+    "dark lime" [
+        fontsize = 8,
+        label = "dark lime"
+    ]
+
+    "muted magenta" [
+        fontsize = 8,
+        label = "muted magenta"
+    ]
+
+    "shiny silver" [
+        fontsize = 8,
+        label = "shiny silver"
+    ]
+
+    "pale fuchsia" [
+        fontsize = 8,
+        label = "pale fuchsia"
+    ]
+
+    "muted tan" [
+        fontsize = 8,
+        label = "muted tan"
+    ]
+
+    "dim tomato" [
+        fontsize = 8,
+        label = "dim tomato"
+    ]
+
+    "light silver" [
+        fontsize = 8,
+        label = "light silver"
+    ]
+
+    "pale lime" [
+        fontsize = 8,
+        label = "pale lime"
+    ]
+
+    "dull blue" [
+        fontsize = 8,
+        label = "dull blue"
+    ]
+
+    "dim black" [
+        fontsize = 8,
+        label = "dim black"
+    ]
+
+    "dull crimson" [
+        fontsize = 8,
+        label = "dull crimson"
+    ]
+
+    "wavy white" [
+        fontsize = 8,
+        label = "wavy white"
+    ]
+
+    "muted teal" [
+        fontsize = 8,
+        label = "muted teal"
+    ]
+
+    "mirrored lavender" [
+        fontsize = 8,
+        label = "mirrored lavender"
+    ]
+
+    "dull indigo" [
+        fontsize = 8,
+        label = "dull indigo"
+    ]
+
+    "clear red" [
+        fontsize = 8,
+        label = "clear red"
+    ]
+
+    "muted purple" [
+        fontsize = 8,
+        label = "muted purple"
+    ]
+
+    "mirrored red" [
+        fontsize = 8,
+        label = "mirrored red"
+    ]
+
+    "dull coral" [
+        fontsize = 8,
+        label = "dull coral"
+    ]
+
+    "pale teal" [
+        fontsize = 8,
+        label = "pale teal"
+    ]
+
+    "muted olive" [
+        fontsize = 8,
+        label = "muted olive"
+    ]
+
+    "vibrant red" [
+        fontsize = 8,
+        label = "vibrant red"
+    ]
+
+    "shiny fuchsia" [
+        fontsize = 8,
+        label = "shiny fuchsia"
+    ]
+
+    "drab purple" [
+        fontsize = 8,
+        label = "drab purple"
+    ]
+
+    "mirrored tomato" [
+        fontsize = 8,
+        label = "mirrored tomato"
+    ]
+
+    "shiny coral" [
+        fontsize = 8,
+        label = "shiny coral"
+    ]
+
+    "clear turquoise" [
+        fontsize = 8,
+        label = "clear turquoise"
+    ]
+
+    "wavy indigo" [
+        fontsize = 8,
+        label = "wavy indigo"
+    ]
+
+    "vibrant brown" [
+        fontsize = 8,
+        label = "vibrant brown"
+    ]
+
+    "dim turquoise" [
+        fontsize = 8,
+        label = "dim turquoise"
+    ]
+
+    "pale aqua" [
+        fontsize = 8,
+        label = "pale aqua"
+    ]
+
+    "bright olive" [
+        fontsize = 8,
+        label = "bright olive"
+    ]
+
+    "dotted violet" [
+        fontsize = 8,
+        label = "dotted violet"
+    ]
+
+    "drab olive" [
+        fontsize = 8,
+        label = "drab olive"
+    ]
+
+    "plaid cyan" [
+        fontsize = 8,
+        label = "plaid cyan"
+    ]
+
+    "dark purple" [
+        fontsize = 8,
+        label = "dark purple"
+    ]
+
+    "shiny chartreuse" [
+        fontsize = 8,
+        label = "shiny chartreuse"
+    ]
+
+    "striped tan" [
+        fontsize = 8,
+        label = "striped tan"
+    ]
+
+    "clear gray" [
+        fontsize = 8,
+        label = "clear gray"
+    ]
+
+    "bright fuchsia" [
+        fontsize = 8,
+        label = "bright fuchsia"
+    ]
+
+    "vibrant tomato" [
+        fontsize = 8,
+        label = "vibrant tomato"
+    ]
+
+    "clear crimson" [
+        fontsize = 8,
+        label = "clear crimson"
+    ]
+
+    "pale purple" [
+        fontsize = 8,
+        label = "pale purple"
+    ]
+
+    "faded gray" [
+        fontsize = 8,
+        label = "faded gray"
+    ]
+
+    "light orange" [
+        fontsize = 8,
+        label = "light orange"
+    ]
+
+    "shiny tomato" [
+        fontsize = 8,
+        label = "shiny tomato"
+    ]
+
+    "dim silver" [
+        fontsize = 8,
+        label = "dim silver"
+    ]
+
+    "faded green" [
+        fontsize = 8,
+        label = "faded green"
+    ]
+
+    "dull gray" [
+        fontsize = 8,
+        label = "dull gray"
+    ]
+
+    "muted white" [
+        fontsize = 8,
+        label = "muted white"
+    ]
+
+    "muted tomato" [
+        fontsize = 8,
+        label = "muted tomato"
+    ]
+
+    "faded black" [
+        fontsize = 8,
+        label = "faded black"
+    ]
+
+    "faded teal" [
+        fontsize = 8,
+        label = "faded teal"
+    ]
+
+    "muted lavender" [
+        fontsize = 8,
+        label = "muted lavender"
+    ]
+
+    "clear lime" [
+        fontsize = 8,
+        label = "clear lime"
+    ]
+
+    "plaid black" [
+        fontsize = 8,
+        label = "plaid black"
+    ]
+
+    "mirrored black" [
+        fontsize = 8,
+        label = "mirrored black"
+    ]
+
+    "dull black" [
+        fontsize = 8,
+        label = "dull black"
+    ]
+
+    "mirrored crimson" [
+        fontsize = 8,
+        label = "mirrored crimson"
+    ]
+
+    "faded indigo" [
+        fontsize = 8,
+        label = "faded indigo"
+    ]
+
+    "posh plum" [
+        fontsize = 8,
+        label = "posh plum"
+    ]
+
+    "faded maroon" [
+        fontsize = 8,
+        label = "faded maroon"
+    ]
+
+    "bright turquoise" [
+        fontsize = 8,
+        label = "bright turquoise"
+    ]
+
+    "faded olive" [
+        fontsize = 8,
+        label = "faded olive"
+    ]
+
+    "dim plum" [
+        fontsize = 8,
+        label = "dim plum"
+    ]
+
+    "clear fuchsia" [
+        fontsize = 8,
+        label = "clear fuchsia"
+    ]
+
+    "mirrored olive" [
+        fontsize = 8,
+        label = "mirrored olive"
+    ]
+
+    "plaid olive" [
+        fontsize = 8,
+        label = "plaid olive"
+    ]
+
+    "light white" [
+        fontsize = 8,
+        label = "light white"
+    ]
+
+    "dim aqua" [
+        fontsize = 8,
+        label = "dim aqua"
+    ]
+
+    "vibrant purple" [
+        fontsize = 8,
+        label = "vibrant purple"
+    ]
+
+    "striped crimson" [
+        fontsize = 8,
+        label = "striped crimson"
+    ]
+
+    "bright indigo" [
+        fontsize = 8,
+        label = "bright indigo"
+    ]
+
+    "muted gold" [
+        fontsize = 8,
+        label = "muted gold"
+    ]
+
+    "dotted black" [
+        fontsize = 8,
+        label = "dotted black"
+    ]
+
+    "vibrant magenta" [
+        fontsize = 8,
+        label = "vibrant magenta"
+    ]
+
+    "drab tomato" [
+        fontsize = 8,
+        label = "drab tomato"
+    ]
+
+    "bright bronze" [
+        fontsize = 8,
+        label = "bright bronze"
+    ]
+
+    "wavy lime" [
+        fontsize = 8,
+        label = "wavy lime"
+    ]
+
+    "wavy black" [
+        fontsize = 8,
+        label = "wavy black"
+    ]
+
+    "dotted brown" [
+        fontsize = 8,
+        label = "dotted brown"
+    ]
+
+    "light salmon" [
+        fontsize = 8,
+        label = "light salmon"
+    ]
+
+    "clear green" [
+        fontsize = 8,
+        label = "clear green"
+    ]
+
+    "dull chartreuse" [
+        fontsize = 8,
+        label = "dull chartreuse"
+    ]
+
+    "drab lime" [
+        fontsize = 8,
+        label = "drab lime"
+    ]
+
+    "wavy chartreuse" [
+        fontsize = 8,
+        label = "wavy chartreuse"
+    ]
+
+    "mirrored chartreuse" [
+        fontsize = 8,
+        label = "mirrored chartreuse"
+    ]
+
+    "posh olive" [
+        fontsize = 8,
+        label = "posh olive"
+    ]
+
+    "dim maroon" [
+        fontsize = 8,
+        label = "dim maroon"
+    ]
+
+    "dim orange" [
+        fontsize = 8,
+        label = "dim orange"
+    ]
+
+    "mirrored violet" [
+        fontsize = 8,
+        label = "mirrored violet"
+    ]
+
+    "faded purple" [
+        fontsize = 8,
+        label = "faded purple"
+    ]
+
+    "dim cyan" [
+        fontsize = 8,
+        label = "dim cyan"
+    ]
+
+    "posh purple" [
+        fontsize = 8,
+        label = "posh purple"
+    ]
+
+    "dark fuchsia" [
+        fontsize = 8,
+        label = "dark fuchsia"
+    ]
+
+    "dim fuchsia" [
+        fontsize = 8,
+        label = "dim fuchsia"
+    ]
+
+    "dotted aqua" [
+        fontsize = 8,
+        label = "dotted aqua"
+    ]
+
+    "bright white" [
+        fontsize = 8,
+        label = "bright white"
+    ]
+
+    "faded silver" [
+        fontsize = 8,
+        label = "faded silver"
+    ]
+
+    "light lime" [
+        fontsize = 8,
+        label = "light lime"
+    ]
+
+    "wavy gold" [
+        fontsize = 8,
+        label = "wavy gold"
+    ]
+
+    "light aqua" [
+        fontsize = 8,
+        label = "light aqua"
+    ]
+
+    "bright gray" [
+        fontsize = 8,
+        label = "bright gray"
+    ]
+
+    "faded red" [
+        fontsize = 8,
+        label = "faded red"
+    ]
+
+    "muted plum" [
+        fontsize = 8,
+        label = "muted plum"
+    ]
+
+    "wavy tan" [
+        fontsize = 8,
+        label = "wavy tan"
+    ]
+
+    "pale maroon" [
+        fontsize = 8,
+        label = "pale maroon"
+    ]
+
+    "posh black" [
+        fontsize = 8,
+        label = "posh black"
+    ]
+
+    "striped gold" [
+        fontsize = 8,
+        label = "striped gold"
+    ]
+
+    "dull tan" [
+        fontsize = 8,
+        label = "dull tan"
+    ]
+
+    "clear blue" [
+        fontsize = 8,
+        label = "clear blue"
+    ]
+
+    "bright magenta" [
+        fontsize = 8,
+        label = "bright magenta"
+    ]
+
+    "muted silver" [
+        fontsize = 8,
+        label = "muted silver"
+    ]
+
+    "wavy purple" [
+        fontsize = 8,
+        label = "wavy purple"
+    ]
+
+    "dim brown" [
+        fontsize = 8,
+        label = "dim brown"
+    ]
+
+    "shiny lime" [
+        fontsize = 8,
+        label = "shiny lime"
+    ]
+
+    "striped tomato" [
+        fontsize = 8,
+        label = "striped tomato"
+    ]
+
+    "clear magenta" [
+        fontsize = 8,
+        label = "clear magenta"
+    ]
+
+    "mirrored plum" [
+        fontsize = 8,
+        label = "mirrored plum"
+    ]
+
+    "wavy fuchsia" [
+        fontsize = 8,
+        label = "wavy fuchsia"
+    ]
+
+    "clear tan" [
+        fontsize = 8,
+        label = "clear tan"
+    ]
+
+    "dark teal" [
+        fontsize = 8,
+        label = "dark teal"
+    ]
+
+    "posh blue" [
+        fontsize = 8,
+        label = "posh blue"
+    ]
+
+    "light black" [
+        fontsize = 8,
+        label = "light black"
+    ]
+
+    "shiny indigo" [
+        fontsize = 8,
+        label = "shiny indigo"
+    ]
+
+    "pale chartreuse" [
+        fontsize = 8,
+        label = "pale chartreuse"
+    ]
+
+    "posh bronze" [
+        fontsize = 8,
+        label = "posh bronze"
+    ]
+
+    "pale gray" [
+        fontsize = 8,
+        label = "pale gray"
+    ]
+
+    "light tomato" [
+        fontsize = 8,
+        label = "light tomato"
+    ]
+
+    "clear violet" [
+        fontsize = 8,
+        label = "clear violet"
+    ]
+
+    "faded fuchsia" [
+        fontsize = 8,
+        label = "faded fuchsia"
+    ]
+
+    "plaid purple" [
+        fontsize = 8,
+        label = "plaid purple"
+    ]
+
+    "muted violet" [
+        fontsize = 8,
+        label = "muted violet"
+    ]
+
+    "bright green" [
+        fontsize = 8,
+        label = "bright green"
+    ]
+
+    "dim teal" [
+        fontsize = 8,
+        label = "dim teal"
+    ]
+
+    "vibrant plum" [
+        fontsize = 8,
+        label = "vibrant plum"
+    ]
+
+    "posh yellow" [
+        fontsize = 8,
+        label = "posh yellow"
+    ]
+
+    "plaid bronze" [
+        fontsize = 8,
+        label = "plaid bronze"
+    ]
+
+    "dotted coral" [
+        fontsize = 8,
+        label = "dotted coral"
+    ]
+
+    "plaid fuchsia" [
+        fontsize = 8,
+        label = "plaid fuchsia"
+    ]
+
+    "posh salmon" [
+        fontsize = 8,
+        label = "posh salmon"
+    ]
+
+    "wavy plum" [
+        fontsize = 8,
+        label = "wavy plum"
+    ]
+
+    "dark crimson" [
+        fontsize = 8,
+        label = "dark crimson"
+    ]
+
+    "dotted purple" [
+        fontsize = 8,
+        label = "dotted purple"
+    ]
+
+    "clear black" [
+        fontsize = 8,
+        label = "clear black"
+    ]
+
+    "pale cyan" [
+        fontsize = 8,
+        label = "pale cyan"
+    ]
+
+    "dark cyan" [
+        fontsize = 8,
+        label = "dark cyan"
+    ]
+
+    "dotted turquoise" [
+        fontsize = 8,
+        label = "dotted turquoise"
+    ]
+
+    "posh coral" [
+        fontsize = 8,
+        label = "posh coral"
+    ]
+
+    "muted bronze" [
+        fontsize = 8,
+        label = "muted bronze"
+    ]
+
+    "pale yellow" [
+        fontsize = 8,
+        label = "pale yellow"
+    ]
+
+    "plaid turquoise" [
+        fontsize = 8,
+        label = "plaid turquoise"
+    ]
+
+    "muted gray" [
+        fontsize = 8,
+        label = "muted gray"
+    ]
+
+    "posh silver" [
+        fontsize = 8,
+        label = "posh silver"
+    ]
+
+    "light indigo" [
+        fontsize = 8,
+        label = "light indigo"
+    ]
+
+    "faded plum" [
+        fontsize = 8,
+        label = "faded plum"
+    ]
+
+    "faded coral" [
+        fontsize = 8,
+        label = "faded coral"
+    ]
+
+    "clear indigo" [
+        fontsize = 8,
+        label = "clear indigo"
+    ]
+
+    "clear maroon" [
+        fontsize = 8,
+        label = "clear maroon"
+    ]
+
+    "dotted maroon" [
+        fontsize = 8,
+        label = "dotted maroon"
+    ]
+
+    "clear yellow" [
+        fontsize = 8,
+        label = "clear yellow"
+    ]
+
+    "light lavender" [
+        fontsize = 8,
+        label = "light lavender"
+    ]
+
+    "pale indigo" [
+        fontsize = 8,
+        label = "pale indigo"
+    ]
+
+    "light purple" [
+        fontsize = 8,
+        label = "light purple"
+    ]
+
+    "light cyan" [
+        fontsize = 8,
+        label = "light cyan"
+    ]
+
+    "bright gold" [
+        fontsize = 8,
+        label = "bright gold"
+    ]
+
+    "striped gray" [
+        fontsize = 8,
+        label = "striped gray"
+    ]
+
+    "plaid plum" [
+        fontsize = 8,
+        label = "plaid plum"
+    ]
+
+    "clear chartreuse" [
+        fontsize = 8,
+        label = "clear chartreuse"
+    ]
+
+    "striped chartreuse" [
+        fontsize = 8,
+        label = "striped chartreuse"
+    ]
+
+    "vibrant tan" [
+        fontsize = 8,
+        label = "vibrant tan"
+    ]
+
+    "striped lime" [
+        fontsize = 8,
+        label = "striped lime"
+    ]
+
+    "wavy violet" [
+        fontsize = 8,
+        label = "wavy violet"
+    ]
+
+    "dark white" [
+        fontsize = 8,
+        label = "dark white"
+    ]
+
+    "shiny maroon" [
+        fontsize = 8,
+        label = "shiny maroon"
+    ]
+
+    "dark beige" [
+        fontsize = 8,
+        label = "dark beige"
+    ]
+
+    "pale blue" [
+        fontsize = 8,
+        label = "pale blue"
+    ]
+
+    "vibrant lavender" [
+        fontsize = 8,
+        label = "vibrant lavender"
+    ]
+
+    "wavy red" [
+        fontsize = 8,
+        label = "wavy red"
+    ]
+
+    "striped silver" [
+        fontsize = 8,
+        label = "striped silver"
+    ]
+
+    "wavy bronze" [
+        fontsize = 8,
+        label = "wavy bronze"
+    ]
+
+    "drab cyan" [
+        fontsize = 8,
+        label = "drab cyan"
+    ]
+
+    "plaid lavender" [
+        fontsize = 8,
+        label = "plaid lavender"
+    ]
+
+    "clear lavender" [
+        fontsize = 8,
+        label = "clear lavender"
+    ]
+
+    "striped aqua" [
+        fontsize = 8,
+        label = "striped aqua"
+    ]
+
+    "plaid tomato" [
+        fontsize = 8,
+        label = "plaid tomato"
+    ]
+
+    "plaid salmon" [
+        fontsize = 8,
+        label = "plaid salmon"
+    ]
+
+    "bright aqua" [
+        fontsize = 8,
+        label = "bright aqua"
+    ]
+
+    "light blue" [
+        fontsize = 8,
+        label = "light blue"
+    ]
+
+    "dark blue" [
+        fontsize = 8,
+        label = "dark blue"
+    ]
+
+    "light beige" [
+        fontsize = 8,
+        label = "light beige"
+    ]
+
+    "dark bronze" [
+        fontsize = 8,
+        label = "dark bronze"
+    ]
+
+    "mirrored salmon" [
+        fontsize = 8,
+        label = "mirrored salmon"
+    ]
+
+    "posh tan" [
+        fontsize = 8,
+        label = "posh tan"
+    ]
+
+    "drab tan" [
+        fontsize = 8,
+        label = "drab tan"
+    ]
+
+    "posh gray" [
+        fontsize = 8,
+        label = "posh gray"
+    ]
+
+    "dim gold" [
+        fontsize = 8,
+        label = "dim gold"
+    ]
+
+    "striped maroon" [
+        fontsize = 8,
+        label = "striped maroon"
+    ]
+
+    "muted indigo" [
+        fontsize = 8,
+        label = "muted indigo"
+    ]
+
+    "dark green" [
+        fontsize = 8,
+        label = "dark green"
+    ]
+
+    "vibrant coral" [
+        fontsize = 8,
+        label = "vibrant coral"
+    ]
+
+    "plaid tan" [
+        fontsize = 8,
+        label = "plaid tan"
+    ]
+
+    "faded aqua" [
+        fontsize = 8,
+        label = "faded aqua"
+    ]
+
+    "bright coral" [
+        fontsize = 8,
+        label = "bright coral"
+    ]
+
+    "dark turquoise" [
+        fontsize = 8,
+        label = "dark turquoise"
+    ]
+
+    "shiny salmon" [
+        fontsize = 8,
+        label = "shiny salmon"
+    ]
+
+    "shiny green" [
+        fontsize = 8,
+        label = "shiny green"
+    ]
+
+    "dim red" [
+        fontsize = 8,
+        label = "dim red"
+    ]
+
+    "clear teal" [
+        fontsize = 8,
+        label = "clear teal"
+    ]
+
+    "plaid silver" [
+        fontsize = 8,
+        label = "plaid silver"
+    ]
+
+    "dark olive" [
+        fontsize = 8,
+        label = "dark olive"
+    ]
+
+    "light gold" [
+        fontsize = 8,
+        label = "light gold"
+    ]
+
+    "dim olive" [
+        fontsize = 8,
+        label = "dim olive"
+    ]
+
+    "dotted crimson" [
+        fontsize = 8,
+        label = "dotted crimson"
+    ]
+
+    "vibrant blue" [
+        fontsize = 8,
+        label = "vibrant blue"
+    ]
+
+    "mirrored brown" [
+        fontsize = 8,
+        label = "mirrored brown"
+    ]
+
+    "bright cyan" [
+        fontsize = 8,
+        label = "bright cyan"
+    ]
+
+    "wavy coral" [
+        fontsize = 8,
+        label = "wavy coral"
+    ]
+
+    "mirrored turquoise" [
+        fontsize = 8,
+        label = "mirrored turquoise"
+    ]
+
+    "dark chartreuse" [
+        fontsize = 8,
+        label = "dark chartreuse"
+    ]
+
+    "shiny turquoise" [
+        fontsize = 8,
+        label = "shiny turquoise"
+    ]
+
+    "posh turquoise" [
+        fontsize = 8,
+        label = "posh turquoise"
+    ]
+
+    "shiny cyan" [
+        fontsize = 8,
+        label = "shiny cyan"
+    ]
+
+    "posh tomato" [
+        fontsize = 8,
+        label = "posh tomato"
+    ]
+
+    "muted fuchsia" [
+        fontsize = 8,
+        label = "muted fuchsia"
+    ]
+
+    "pale salmon" [
+        fontsize = 8,
+        label = "pale salmon"
+    ]
+
+    "mirrored maroon" [
+        fontsize = 8,
+        label = "mirrored maroon"
+    ]
+
+    "pale bronze" [
+        fontsize = 8,
+        label = "pale bronze"
+    ]
+
+    "striped green" [
+        fontsize = 8,
+        label = "striped green"
+    ]
+
+    "dull aqua" [
+        fontsize = 8,
+        label = "dull aqua"
+    ]
+
+    "striped coral" [
+        fontsize = 8,
+        label = "striped coral"
+    ]
+
+    "vibrant silver" [
+        fontsize = 8,
+        label = "vibrant silver"
+    ]
+
+    "dotted salmon" [
+        fontsize = 8,
+        label = "dotted salmon"
+    ]
+
+    "dull teal" [
+        fontsize = 8,
+        label = "dull teal"
+    ]
+
+    "muted lime" [
+        fontsize = 8,
+        label = "muted lime"
+    ]
+
+    "pale brown" [
+        fontsize = 8,
+        label = "pale brown"
+    ]
+
+    "dull salmon" [
+        fontsize = 8,
+        label = "dull salmon"
+    ]
+
+    "dull maroon" [
+        fontsize = 8,
+        label = "dull maroon"
+    ]
+
+    "dull magenta" [
+        fontsize = 8,
+        label = "dull magenta"
+    ]
+
+    "drab bronze" [
+        fontsize = 8,
+        label = "drab bronze"
+    ]
+
+    "mirrored aqua" [
+        fontsize = 8,
+        label = "mirrored aqua"
+    ]
+
+    "posh lavender" [
+        fontsize = 8,
+        label = "posh lavender"
+    ]
+
+    "plaid lime" [
+        fontsize = 8,
+        label = "plaid lime"
+    ]
+
+    "dull lime" [
+        fontsize = 8,
+        label = "dull lime"
+    ]
+
+    "drab maroon" [
+        fontsize = 8,
+        label = "drab maroon"
+    ]
+
+    "bright red" [
+        fontsize = 8,
+        label = "bright red"
+    ]
+
+    "dark gold" [
+        fontsize = 8,
+        label = "dark gold"
+    ]
+
+    "dull lavender" [
+        fontsize = 8,
+        label = "dull lavender"
+    ]
+
+    "pale olive" [
+        fontsize = 8,
+        label = "pale olive"
+    ]
+
+    "muted red" [
+        fontsize = 8,
+        label = "muted red"
+    ]
+
+    "pale tan" [
+        fontsize = 8,
+        label = "pale tan"
+    ]
+
+    "light tan" [
+        fontsize = 8,
+        label = "light tan"
+    ]
+
+    "dark orange" [
+        fontsize = 8,
+        label = "dark orange"
+    ]
+
+    "dim lavender" [
+        fontsize = 8,
+        label = "dim lavender"
+    ]
+
+    "dotted beige" [
+        fontsize = 8,
+        label = "dotted beige"
+    ]
+
+    "dim green" [
+        fontsize = 8,
+        label = "dim green"
+    ]
+
+    "bright black" [
+        fontsize = 8,
+        label = "bright black"
+    ]
+
+    "plaid gold" [
+        fontsize = 8,
+        label = "plaid gold"
+    ]
+
+    "plaid maroon" [
+        fontsize = 8,
+        label = "plaid maroon"
+    ]
+
+    "plaid coral" [
+        fontsize = 8,
+        label = "plaid coral"
+    ]
+
+    "dotted white" [
+        fontsize = 8,
+        label = "dotted white"
+    ]
+
+    "dark yellow" [
+        fontsize = 8,
+        label = "dark yellow"
+    ]
+
+    "faded white" [
+        fontsize = 8,
+        label = "faded white"
+    ]
+
+    "plaid magenta" [
+        fontsize = 8,
+        label = "plaid magenta"
+    ]
+
+    "vibrant orange" [
+        fontsize = 8,
+        label = "vibrant orange"
+    ]
+
+    "bright chartreuse" [
+        fontsize = 8,
+        label = "bright chartreuse"
+    ]
+
+    "dark lavender" [
+        fontsize = 8,
+        label = "dark lavender"
+    ]
+
+    "dotted tomato" [
+        fontsize = 8,
+        label = "dotted tomato"
+    ]
+
+    "plaid red" [
+        fontsize = 8,
+        label = "plaid red"
+    ]
+
+    "plaid violet" [
+        fontsize = 8,
+        label = "plaid violet"
+    ]
+
+    "striped red" [
+        fontsize = 8,
+        label = "striped red"
+    ]
+
+    "drab crimson" [
+        fontsize = 8,
+        label = "drab crimson"
+    ]
+
+    "clear salmon" [
+        fontsize = 8,
+        label = "clear salmon"
+    ]
+
+    "plaid gray" [
+        fontsize = 8,
+        label = "plaid gray"
+    ]
+
+    "dotted chartreuse" [
+        fontsize = 8,
+        label = "dotted chartreuse"
+    ]
+
+    "vibrant cyan" [
+        fontsize = 8,
+        label = "vibrant cyan"
+    ]
+
+    "faded lavender" [
+        fontsize = 8,
+        label = "faded lavender"
+    ]
+
+    "dark tomato" [
+        fontsize = 8,
+        label = "dark tomato"
+    ]
+
+    "vibrant crimson" [
+        fontsize = 8,
+        label = "vibrant crimson"
+    ]
+
+    "bright violet" [
+        fontsize = 8,
+        label = "bright violet"
+    ]
+
+    "drab magenta" [
+        fontsize = 8,
+        label = "drab magenta"
+    ]
+
+    "posh fuchsia" [
+        fontsize = 8,
+        label = "posh fuchsia"
+    ]
+
+    "dull tomato" [
+        fontsize = 8,
+        label = "dull tomato"
+    ]
+
+    "wavy aqua" [
+        fontsize = 8,
+        label = "wavy aqua"
+    ]
+
+    "shiny white" [
+        fontsize = 8,
+        label = "shiny white"
+    ]
+
+    "vibrant black" [
+        fontsize = 8,
+        label = "vibrant black"
+    ]
+
+    "posh maroon" [
+        fontsize = 8,
+        label = "posh maroon"
+    ]
+
+    "faded tomato" [
+        fontsize = 8,
+        label = "faded tomato"
+    ]
+
+    "posh magenta" [
+        fontsize = 8,
+        label = "posh magenta"
+    ]
+
+    "posh red" [
+        fontsize = 8,
+        label = "posh red"
+    ]
+
+    "dim blue" [
+        fontsize = 8,
+        label = "dim blue"
+    ]
+
+    "drab plum" [
+        fontsize = 8,
+        label = "drab plum"
+    ]
+
+    "pale turquoise" [
+        fontsize = 8,
+        label = "pale turquoise"
+    ]
+
+    "shiny tan" [
+        fontsize = 8,
+        label = "shiny tan"
+    ]
+
+    "mirrored silver" [
+        fontsize = 8,
+        label = "mirrored silver"
+    ]
+
+    "shiny bronze" [
+        fontsize = 8,
+        label = "shiny bronze"
+    ]
+
+    "clear cyan" [
+        fontsize = 8,
+        label = "clear cyan"
+    ]
+
+    "plaid teal" [
+        fontsize = 8,
+        label = "plaid teal"
+    ]
+
+    "posh orange" [
+        fontsize = 8,
+        label = "posh orange"
+    ]
+
+    "dotted bronze" [
+        fontsize = 8,
+        label = "dotted bronze"
+    ]
+
+    "bright crimson" [
+        fontsize = 8,
+        label = "bright crimson"
+    ]
+
+    "clear olive" [
+        fontsize = 8,
+        label = "clear olive"
+    ]
+
+    "dim salmon" [
+        fontsize = 8,
+        label = "dim salmon"
+    ]
+
+    "muted maroon" [
+        fontsize = 8,
+        label = "muted maroon"
+    ]
+
+    "bright plum" [
+        fontsize = 8,
+        label = "bright plum"
+    ]
+
+    "dim indigo" [
+        fontsize = 8,
+        label = "dim indigo"
+    ]
+
+    "vibrant bronze" [
+        fontsize = 8,
+        label = "vibrant bronze"
+    ]
+
+    "mirrored indigo" [
+        fontsize = 8,
+        label = "mirrored indigo"
+    ]
+
+    "dotted indigo" [
+        fontsize = 8,
+        label = "dotted indigo"
+    ]
+
+    "shiny gray" [
+        fontsize = 8,
+        label = "shiny gray"
+    ]
+
+    "bright lime" [
+        fontsize = 8,
+        label = "bright lime"
+    ]
+
+    "dotted gray" [
+        fontsize = 8,
+        label = "dotted gray"
+    ]
+
+    "pale beige" [
+        fontsize = 8,
+        label = "pale beige"
+    ]
+
+    "mirrored white" [
+        fontsize = 8,
+        label = "mirrored white"
+    ]
+
+    "bright brown" [
+        fontsize = 8,
+        label = "bright brown"
+    ]
+
+    "muted orange" [
+        fontsize = 8,
+        label = "muted orange"
+    ]
+
+    "light maroon" [
+        fontsize = 8,
+        label = "light maroon"
+    ]
+
+    "muted yellow" [
+        fontsize = 8,
+        label = "muted yellow"
+    ]
+
+    "dim beige" [
+        fontsize = 8,
+        label = "dim beige"
+    ]
+
+    "plaid beige" [
+        fontsize = 8,
+        label = "plaid beige"
+    ]
+
+    "striped teal" [
+        fontsize = 8,
+        label = "striped teal"
+    ]
+
+    "dotted plum" [
+        fontsize = 8,
+        label = "dotted plum"
+    ]
+
+    "dull fuchsia" [
+        fontsize = 8,
+        label = "dull fuchsia"
+    ]
+
+    "shiny violet" [
+        fontsize = 8,
+        label = "shiny violet"
+    ]
+
+    "shiny purple" [
+        fontsize = 8,
+        label = "shiny purple"
+    ]
+
+    "striped turquoise" [
+        fontsize = 8,
+        label = "striped turquoise"
+    ]
+
+    "dull brown" [
+        fontsize = 8,
+        label = "dull brown"
+    ]
+
+    "dim lime" [
+        fontsize = 8,
+        label = "dim lime"
+    ]
+
+    "dull olive" [
+        fontsize = 8,
+        label = "dull olive"
+    ]
+
+    "mirrored gray" [
+        fontsize = 8,
+        label = "mirrored gray"
+    ]
+
+    "striped fuchsia" [
+        fontsize = 8,
+        label = "striped fuchsia"
+    ]
+
+    "striped plum" [
+        fontsize = 8,
+        label = "striped plum"
+    ]
+
+    "pale gold" [
+        fontsize = 8,
+        label = "pale gold"
+    ]
+
+    "clear plum" [
+        fontsize = 8,
+        label = "clear plum"
+    ]
+
+    "drab gray" [
+        fontsize = 8,
+        label = "drab gray"
+    ]
+
+    "vibrant maroon" [
+        fontsize = 8,
+        label = "vibrant maroon"
+    ]
+
+    "dim purple" [
+        fontsize = 8,
+        label = "dim purple"
+    ]
+
+    "drab lavender" [
+        fontsize = 8,
+        label = "drab lavender"
+    ]
+
+    "dotted silver" [
+        fontsize = 8,
+        label = "dotted silver"
+    ]
+
+    "posh crimson" [
+        fontsize = 8,
+        label = "posh crimson"
+    ]
+
+    "dull orange" [
+        fontsize = 8,
+        label = "dull orange"
+    ]
+
+    "mirrored tan" [
+        fontsize = 8,
+        label = "mirrored tan"
+    ]
+
+    "wavy tomato" [
+        fontsize = 8,
+        label = "wavy tomato"
+    ]
+
+    "dotted teal" [
+        fontsize = 8,
+        label = "dotted teal"
+    ]
+
+    "dull silver" -> "striped magenta" [
+        fontsize = 8
+    ]
+
+    "dull silver" -> "dark coral" [
+        fontsize = 8
+    ]
+
+    "dull silver" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "dull silver" -> "plaid blue" [
+        fontsize = 8
+    ]
+
+    "striped magenta" -> "dark olive" [
+        fontsize = 8
+    ]
+
+    "striped magenta" -> "bright chartreuse" [
+        fontsize = 8
+    ]
+
+    "dark coral" -> "light turquoise" [
+        fontsize = 8
+    ]
+
+    "plaid blue" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "dark plum" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "wavy turquoise" -> "bright salmon" [
+        fontsize = 8
+    ]
+
+    "bright salmon" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "bright salmon" -> "dotted crimson" [
+        fontsize = 8
+    ]
+
+    "bright salmon" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "bright salmon" -> "pale chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored gold" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "mirrored gold" -> "posh beige" [
+        fontsize = 8
+    ]
+
+    "mirrored gold" -> "light crimson" [
+        fontsize = 8
+    ]
+
+    "mirrored gold" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "wavy brown" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "wavy brown" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "wavy brown" -> "dim black" [
+        fontsize = 8
+    ]
+
+    "posh beige" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "light crimson" -> "drab fuchsia" [
+        fontsize = 8
+    ]
+
+    "light crimson" -> "bright blue" [
+        fontsize = 8
+    ]
+
+    "light crimson" -> "dark purple" [
+        fontsize = 8
+    ]
+
+    "vibrant salmon" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "vibrant salmon" -> "clear aqua" [
+        fontsize = 8
+    ]
+
+    "drab green" -> "dull white" [
+        fontsize = 8
+    ]
+
+    "drab green" -> "posh indigo" [
+        fontsize = 8
+    ]
+
+    "dull white" -> "posh olive" [
+        fontsize = 8
+    ]
+
+    "dull white" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "dull white" -> "bright teal" [
+        fontsize = 8
+    ]
+
+    "posh indigo" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "faded lime" -> "dim magenta" [
+        fontsize = 8
+    ]
+
+    "faded lime" -> "wavy salmon" [
+        fontsize = 8
+    ]
+
+    "faded lime" -> "dull purple" [
+        fontsize = 8
+    ]
+
+    "dim magenta" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "dim magenta" -> "pale maroon" [
+        fontsize = 8
+    ]
+
+    "dim magenta" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "dim magenta" -> "drab yellow" [
+        fontsize = 8
+    ]
+
+    "wavy salmon" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "wavy salmon" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "dull purple" -> "pale crimson" [
+        fontsize = 8
+    ]
+
+    "mirrored blue" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "mirrored blue" -> "muted black" [
+        fontsize = 8
+    ]
+
+    "mirrored blue" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "mirrored blue" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "muted black" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "muted black" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "muted black" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "muted brown" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "muted brown" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "muted brown" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "muted brown" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "vibrant gold" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "vibrant gold" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "vibrant gold" -> "drab coral" [
+        fontsize = 8
+    ]
+
+    "vibrant gold" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "faded crimson" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "faded crimson" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "faded crimson" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "mirrored fuchsia" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "mirrored fuchsia" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "mirrored fuchsia" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "faded magenta" -> "clear orange" [
+        fontsize = 8
+    ]
+
+    "faded magenta" -> "dull green" [
+        fontsize = 8
+    ]
+
+    "faded magenta" -> "pale white" [
+        fontsize = 8
+    ]
+
+    "clear orange" -> "striped blue" [
+        fontsize = 8
+    ]
+
+    "clear orange" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "clear orange" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "dull green" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "pale white" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale white" -> "pale tan" [
+        fontsize = 8
+    ]
+
+    "pale white" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "pale red" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "pale red" -> "dull gold" [
+        fontsize = 8
+    ]
+
+    "pale red" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "shiny black" [
+        fontsize = 8
+    ]
+
+    "shiny gold" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "dull gold" -> "drab tan" [
+        fontsize = 8
+    ]
+
+    "dull gold" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "dull gold" -> "pale maroon" [
+        fontsize = 8
+    ]
+
+    "dull gold" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "drab black" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "drab black" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "drab black" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "light turquoise" -> "pale fuchsia" [
+        fontsize = 8
+    ]
+
+    "light turquoise" -> "vibrant fuchsia" [
+        fontsize = 8
+    ]
+
+    "light turquoise" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "light turquoise" -> "pale indigo" [
+        fontsize = 8
+    ]
+
+    "faded chartreuse" -> "shiny brown" [
+        fontsize = 8
+    ]
+
+    "faded chartreuse" -> "mirrored beige" [
+        fontsize = 8
+    ]
+
+    "faded chartreuse" -> "clear purple" [
+        fontsize = 8
+    ]
+
+    "shiny brown" -> "dark lavender" [
+        fontsize = 8
+    ]
+
+    "shiny brown" -> "vibrant yellow" [
+        fontsize = 8
+    ]
+
+    "shiny brown" -> "dark black" [
+        fontsize = 8
+    ]
+
+    "shiny brown" -> "drab olive" [
+        fontsize = 8
+    ]
+
+    "mirrored beige" -> "light coral" [
+        fontsize = 8
+    ]
+
+    "mirrored beige" -> "bright teal" [
+        fontsize = 8
+    ]
+
+    "mirrored beige" -> "wavy magenta" [
+        fontsize = 8
+    ]
+
+    "clear purple" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "clear purple" -> "dark white" [
+        fontsize = 8
+    ]
+
+    "muted coral" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "muted coral" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "pale coral" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "pale coral" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "pale coral" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "pale coral" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "plaid brown" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "plaid brown" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "bright teal" -> "striped blue" [
+        fontsize = 8
+    ]
+
+    "bright teal" -> "faded orange" [
+        fontsize = 8
+    ]
+
+    "bright teal" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "striped blue" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "faded orange" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "faded orange" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "faded orange" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "wavy green" -> "dim chartreuse" [
+        fontsize = 8
+    ]
+
+    "dim chartreuse" -> "clear white" [
+        fontsize = 8
+    ]
+
+    "clear white" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "clear aqua" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "faded beige" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "vibrant yellow" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "posh brown" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "posh brown" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "posh brown" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "posh brown" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "pale lavender" -> "striped beige" [
+        fontsize = 8
+    ]
+
+    "pale lavender" -> "striped cyan" [
+        fontsize = 8
+    ]
+
+    "striped beige" -> "dull red" [
+        fontsize = 8
+    ]
+
+    "striped beige" -> "drab salmon" [
+        fontsize = 8
+    ]
+
+    "striped beige" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "striped cyan" -> "light gold" [
+        fontsize = 8
+    ]
+
+    "striped cyan" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "mirrored lime" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "faded tan" -> "drab beige" [
+        fontsize = 8
+    ]
+
+    "drab beige" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "dark indigo" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "dark indigo" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "dark indigo" -> "vibrant indigo" [
+        fontsize = 8
+    ]
+
+    "dark brown" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "dark brown" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "shiny beige" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "shiny beige" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "shiny beige" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "vibrant indigo" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "vibrant indigo" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "vibrant indigo" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "drab teal" -> "vibrant fuchsia" [
+        fontsize = 8
+    ]
+
+    "drab teal" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "drab teal" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "drab teal" -> "shiny lavender" [
+        fontsize = 8
+    ]
+
+    "vibrant fuchsia" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "vibrant fuchsia" -> "striped black" [
+        fontsize = 8
+    ]
+
+    "muted green" -> "dull cyan" [
+        fontsize = 8
+    ]
+
+    "muted green" -> "dull red" [
+        fontsize = 8
+    ]
+
+    "muted green" -> "pale chartreuse" [
+        fontsize = 8
+    ]
+
+    "dotted magenta" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "dotted magenta" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "dotted magenta" -> "bright tan" [
+        fontsize = 8
+    ]
+
+    "dotted magenta" -> "dull gold" [
+        fontsize = 8
+    ]
+
+    "shiny lavender" -> "vibrant blue" [
+        fontsize = 8
+    ]
+
+    "shiny lavender" -> "pale purple" [
+        fontsize = 8
+    ]
+
+    "shiny lavender" -> "wavy bronze" [
+        fontsize = 8
+    ]
+
+    "shiny lavender" -> "posh violet" [
+        fontsize = 8
+    ]
+
+    "shiny aqua" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "shiny aqua" -> "clear white" [
+        fontsize = 8
+    ]
+
+    "shiny aqua" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "faded gold" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "faded gold" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "dull bronze" -> "vibrant teal" [
+        fontsize = 8
+    ]
+
+    "dull bronze" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "vibrant teal" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "vibrant teal" -> "pale orange" [
+        fontsize = 8
+    ]
+
+    "vibrant teal" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "vibrant violet" -> "striped blue" [
+        fontsize = 8
+    ]
+
+    "vibrant violet" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "vibrant violet" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "dark aqua" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "dim coral" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "light yellow" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "light yellow" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "faded salmon" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "faded salmon" -> "dotted red" [
+        fontsize = 8
+    ]
+
+    "faded salmon" -> "drab yellow" [
+        fontsize = 8
+    ]
+
+    "faded salmon" -> "dark red" [
+        fontsize = 8
+    ]
+
+    "dotted red" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "dotted red" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "dotted red" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "dotted red" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "drab yellow" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "dark red" -> "shiny salmon" [
+        fontsize = 8
+    ]
+
+    "bright lavender" -> "wavy maroon" [
+        fontsize = 8
+    ]
+
+    "bright lavender" -> "light brown" [
+        fontsize = 8
+    ]
+
+    "bright lavender" -> "bright silver" [
+        fontsize = 8
+    ]
+
+    "bright lavender" -> "dark gray" [
+        fontsize = 8
+    ]
+
+    "wavy maroon" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "light brown" -> "muted magenta" [
+        fontsize = 8
+    ]
+
+    "bright silver" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "bright silver" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "bright silver" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "bright silver" -> "posh lavender" [
+        fontsize = 8
+    ]
+
+    "dark gray" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "dark gray" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "dark gray" -> "bright chartreuse" [
+        fontsize = 8
+    ]
+
+    "dark gray" -> "muted purple" [
+        fontsize = 8
+    ]
+
+    "mirrored cyan" -> "dotted cyan" [
+        fontsize = 8
+    ]
+
+    "mirrored cyan" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "mirrored cyan" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "dotted cyan" -> "drab gold" [
+        fontsize = 8
+    ]
+
+    "striped orange" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "striped orange" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "striped orange" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "striped orange" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "drab aqua" -> "striped black" [
+        fontsize = 8
+    ]
+
+    "drab aqua" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "drab aqua" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "drab aqua" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "striped black" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "striped black" -> "dim chartreuse" [
+        fontsize = 8
+    ]
+
+    "striped black" -> "mirrored lavender" [
+        fontsize = 8
+    ]
+
+    "dark salmon" -> "dull green" [
+        fontsize = 8
+    ]
+
+    "dark salmon" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "drab white" -> "drab tan" [
+        fontsize = 8
+    ]
+
+    "drab white" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "drab white" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "drab white" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "striped purple" -> "faded yellow" [
+        fontsize = 8
+    ]
+
+    "striped purple" -> "faded brown" [
+        fontsize = 8
+    ]
+
+    "faded yellow" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "faded yellow" -> "wavy lavender" [
+        fontsize = 8
+    ]
+
+    "faded brown" -> "light aqua" [
+        fontsize = 8
+    ]
+
+    "drab fuchsia" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "drab fuchsia" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "mirrored yellow" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "mirrored yellow" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "shiny red" -> "faded cyan" [
+        fontsize = 8
+    ]
+
+    "shiny red" -> "dull beige" [
+        fontsize = 8
+    ]
+
+    "shiny red" -> "shiny blue" [
+        fontsize = 8
+    ]
+
+    "shiny red" -> "dull cyan" [
+        fontsize = 8
+    ]
+
+    "faded cyan" -> "striped lime" [
+        fontsize = 8
+    ]
+
+    "faded cyan" -> "bright red" [
+        fontsize = 8
+    ]
+
+    "dull beige" -> "mirrored coral" [
+        fontsize = 8
+    ]
+
+    "shiny blue" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "shiny blue" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "shiny blue" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "shiny blue" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "dull cyan" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "dull cyan" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "mirrored teal" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "mirrored teal" -> "light bronze" [
+        fontsize = 8
+    ]
+
+    "mirrored teal" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "mirrored teal" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "clear brown" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "clear brown" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "light bronze" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "light bronze" -> "dim chartreuse" [
+        fontsize = 8
+    ]
+
+    "light teal" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "pale tomato" -> "posh green" [
+        fontsize = 8
+    ]
+
+    "pale tomato" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "dotted orange" -> "dull white" [
+        fontsize = 8
+    ]
+
+    "dotted orange" -> "wavy blue" [
+        fontsize = 8
+    ]
+
+    "wavy blue" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "wavy blue" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "wavy blue" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "wavy blue" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "dotted lavender" -> "vibrant aqua" [
+        fontsize = 8
+    ]
+
+    "dotted lavender" -> "shiny magenta" [
+        fontsize = 8
+    ]
+
+    "dotted lavender" -> "dull plum" [
+        fontsize = 8
+    ]
+
+    "vibrant aqua" -> "vibrant gray" [
+        fontsize = 8
+    ]
+
+    "vibrant aqua" -> "light violet" [
+        fontsize = 8
+    ]
+
+    "vibrant aqua" -> "dim yellow" [
+        fontsize = 8
+    ]
+
+    "shiny magenta" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "dull plum" -> "posh black" [
+        fontsize = 8
+    ]
+
+    "dull plum" -> "vibrant fuchsia" [
+        fontsize = 8
+    ]
+
+    "dull plum" -> "dull bronze" [
+        fontsize = 8
+    ]
+
+    "pale crimson" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "pale crimson" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "pale crimson" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "muted cyan" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "muted cyan" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "muted cyan" -> "wavy lavender" [
+        fontsize = 8
+    ]
+
+    "muted cyan" -> "vibrant indigo" [
+        fontsize = 8
+    ]
+
+    "light magenta" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "shiny black" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "shiny black" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "shiny black" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "shiny black" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "vibrant chartreuse" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "vibrant chartreuse" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "clear bronze" -> "dull violet" [
+        fontsize = 8
+    ]
+
+    "clear bronze" -> "pale plum" [
+        fontsize = 8
+    ]
+
+    "dull violet" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "dull violet" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "dull violet" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "dull violet" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "pale plum" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "pale plum" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale plum" -> "posh violet" [
+        fontsize = 8
+    ]
+
+    "striped lavender" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "striped lavender" -> "striped yellow" [
+        fontsize = 8
+    ]
+
+    "striped yellow" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "striped yellow" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "striped yellow" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "striped yellow" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "plaid indigo" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "plaid chartreuse" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "shiny teal" -> "wavy gray" [
+        fontsize = 8
+    ]
+
+    "shiny teal" -> "drab teal" [
+        fontsize = 8
+    ]
+
+    "shiny teal" -> "dark silver" [
+        fontsize = 8
+    ]
+
+    "wavy gray" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "wavy gray" -> "muted lavender" [
+        fontsize = 8
+    ]
+
+    "dark silver" -> "wavy orange" [
+        fontsize = 8
+    ]
+
+    "dark silver" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "dull turquoise" -> "wavy gray" [
+        fontsize = 8
+    ]
+
+    "striped brown" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "striped brown" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "striped brown" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "striped olive" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "striped olive" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "striped olive" -> "mirrored lavender" [
+        fontsize = 8
+    ]
+
+    "wavy olive" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "wavy olive" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "wavy olive" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "drab silver" -> "bright chartreuse" [
+        fontsize = 8
+    ]
+
+    "drab silver" -> "pale crimson" [
+        fontsize = 8
+    ]
+
+    "drab silver" -> "dotted crimson" [
+        fontsize = 8
+    ]
+
+    "drab silver" -> "faded yellow" [
+        fontsize = 8
+    ]
+
+    "light olive" -> "dark tan" [
+        fontsize = 8
+    ]
+
+    "light olive" -> "dim orange" [
+        fontsize = 8
+    ]
+
+    "light olive" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "bright tan" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "bright tan" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "bright tan" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "bright tan" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "plaid yellow" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "plaid yellow" -> "wavy lavender" [
+        fontsize = 8
+    ]
+
+    "plaid yellow" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "wavy lavender" -> "striped lime" [
+        fontsize = 8
+    ]
+
+    "wavy lavender" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "muted blue" -> "posh aqua" [
+        fontsize = 8
+    ]
+
+    "posh aqua" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "posh aqua" -> "shiny blue" [
+        fontsize = 8
+    ]
+
+    "posh aqua" -> "posh purple" [
+        fontsize = 8
+    ]
+
+    "shiny olive" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "shiny olive" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "shiny olive" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "shiny olive" -> "dotted yellow" [
+        fontsize = 8
+    ]
+
+    "dotted yellow" -> "posh black" [
+        fontsize = 8
+    ]
+
+    "dotted yellow" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "dotted yellow" -> "dull violet" [
+        fontsize = 8
+    ]
+
+    "dotted yellow" -> "muted plum" [
+        fontsize = 8
+    ]
+
+    "vibrant lime" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "vibrant lime" -> "bright maroon" [
+        fontsize = 8
+    ]
+
+    "vibrant lime" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "bright maroon" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "bright maroon" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "dim crimson" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "vibrant gray" -> "mirrored coral" [
+        fontsize = 8
+    ]
+
+    "vibrant gray" -> "wavy beige" [
+        fontsize = 8
+    ]
+
+    "vibrant gray" -> "drab turquoise" [
+        fontsize = 8
+    ]
+
+    "mirrored coral" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "mirrored coral" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "mirrored coral" -> "dim olive" [
+        fontsize = 8
+    ]
+
+    "wavy beige" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "wavy beige" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "drab turquoise" -> "drab gold" [
+        fontsize = 8
+    ]
+
+    "drab turquoise" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "drab turquoise" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "posh chartreuse" -> "light plum" [
+        fontsize = 8
+    ]
+
+    "posh chartreuse" -> "pale green" [
+        fontsize = 8
+    ]
+
+    "posh chartreuse" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "light plum" -> "drab gold" [
+        fontsize = 8
+    ]
+
+    "pale green" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "pale green" -> "vibrant green" [
+        fontsize = 8
+    ]
+
+    "pale green" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "dull red" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "dull red" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "dull red" -> "bright olive" [
+        fontsize = 8
+    ]
+
+    "dull red" -> "dim orange" [
+        fontsize = 8
+    ]
+
+    "drab salmon" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "drab salmon" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "drab salmon" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "dotted tan" -> "wavy crimson" [
+        fontsize = 8
+    ]
+
+    "dotted tan" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "dotted tan" -> "drab turquoise" [
+        fontsize = 8
+    ]
+
+    "wavy crimson" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "wavy crimson" -> "muted beige" [
+        fontsize = 8
+    ]
+
+    "shiny orange" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "shiny orange" -> "clear beige" [
+        fontsize = 8
+    ]
+
+    "shiny orange" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "shiny orange" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "light violet" -> "bright beige" [
+        fontsize = 8
+    ]
+
+    "light violet" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "light violet" -> "wavy fuchsia" [
+        fontsize = 8
+    ]
+
+    "light violet" -> "clear tan" [
+        fontsize = 8
+    ]
+
+    "dim yellow" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "dim yellow" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "dim yellow" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "dim yellow" -> "drab turquoise" [
+        fontsize = 8
+    ]
+
+    "faded turquoise" -> "faded yellow" [
+        fontsize = 8
+    ]
+
+    "faded turquoise" -> "mirrored coral" [
+        fontsize = 8
+    ]
+
+    "mirrored purple" -> "pale orange" [
+        fontsize = 8
+    ]
+
+    "pale orange" -> "bright blue" [
+        fontsize = 8
+    ]
+
+    "pale orange" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "pale orange" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "dim white" -> "drab turquoise" [
+        fontsize = 8
+    ]
+
+    "bright purple" -> "muted chartreuse" [
+        fontsize = 8
+    ]
+
+    "bright purple" -> "dotted yellow" [
+        fontsize = 8
+    ]
+
+    "bright purple" -> "bright salmon" [
+        fontsize = 8
+    ]
+
+    "muted chartreuse" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "drab red" -> "mirrored magenta" [
+        fontsize = 8
+    ]
+
+    "mirrored magenta" -> "vibrant lime" [
+        fontsize = 8
+    ]
+
+    "mirrored magenta" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored magenta" -> "striped aqua" [
+        fontsize = 8
+    ]
+
+    "clear coral" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "clear coral" -> "dark black" [
+        fontsize = 8
+    ]
+
+    "dark black" -> "pale tan" [
+        fontsize = 8
+    ]
+
+    "dark black" -> "mirrored orange" [
+        fontsize = 8
+    ]
+
+    "dark black" -> "dull teal" [
+        fontsize = 8
+    ]
+
+    "mirrored orange" -> "muted chartreuse" [
+        fontsize = 8
+    ]
+
+    "wavy cyan" -> "posh lime" [
+        fontsize = 8
+    ]
+
+    "wavy cyan" -> "dark magenta" [
+        fontsize = 8
+    ]
+
+    "wavy cyan" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "posh lime" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "posh lime" -> "bright coral" [
+        fontsize = 8
+    ]
+
+    "dark magenta" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "dark magenta" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "dark magenta" -> "striped black" [
+        fontsize = 8
+    ]
+
+    "dark magenta" -> "light beige" [
+        fontsize = 8
+    ]
+
+    "vibrant turquoise" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "vibrant turquoise" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "vibrant turquoise" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "pale magenta" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "pale magenta" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "clear gold" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "clear gold" -> "drab coral" [
+        fontsize = 8
+    ]
+
+    "clear gold" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "posh gold" -> "dotted lime" [
+        fontsize = 8
+    ]
+
+    "posh gold" -> "wavy silver" [
+        fontsize = 8
+    ]
+
+    "posh gold" -> "muted crimson" [
+        fontsize = 8
+    ]
+
+    "posh gold" -> "dull yellow" [
+        fontsize = 8
+    ]
+
+    "dotted lime" -> "posh olive" [
+        fontsize = 8
+    ]
+
+    "dotted lime" -> "pale orange" [
+        fontsize = 8
+    ]
+
+    "wavy silver" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "wavy silver" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "muted crimson" -> "light aqua" [
+        fontsize = 8
+    ]
+
+    "muted crimson" -> "dim gold" [
+        fontsize = 8
+    ]
+
+    "dull yellow" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "dull yellow" -> "dark olive" [
+        fontsize = 8
+    ]
+
+    "clear silver" -> "drab indigo" [
+        fontsize = 8
+    ]
+
+    "drab indigo" -> "muted lavender" [
+        fontsize = 8
+    ]
+
+    "drab indigo" -> "posh salmon" [
+        fontsize = 8
+    ]
+
+    "drab indigo" -> "pale brown" [
+        fontsize = 8
+    ]
+
+    "faded violet" -> "mirrored bronze" [
+        fontsize = 8
+    ]
+
+    "mirrored bronze" -> "muted tomato" [
+        fontsize = 8
+    ]
+
+    "mirrored bronze" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "mirrored bronze" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "muted turquoise" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "muted turquoise" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "muted turquoise" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "striped bronze" -> "striped white" [
+        fontsize = 8
+    ]
+
+    "striped bronze" -> "dim yellow" [
+        fontsize = 8
+    ]
+
+    "striped bronze" -> "clear aqua" [
+        fontsize = 8
+    ]
+
+    "striped white" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "striped white" -> "posh purple" [
+        fontsize = 8
+    ]
+
+    "striped white" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "striped white" -> "pale crimson" [
+        fontsize = 8
+    ]
+
+    "muted aqua" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "pale black" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "dotted fuchsia" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "dotted fuchsia" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "bright tomato" -> "bright blue" [
+        fontsize = 8
+    ]
+
+    "bright blue" -> "posh purple" [
+        fontsize = 8
+    ]
+
+    "dim bronze" -> "dotted green" [
+        fontsize = 8
+    ]
+
+    "dim bronze" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "dim bronze" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "dim bronze" -> "striped yellow" [
+        fontsize = 8
+    ]
+
+    "dotted green" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "dotted green" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "pale violet" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "pale violet" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "bright beige" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "drab blue" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "drab blue" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "vibrant olive" -> "dotted olive" [
+        fontsize = 8
+    ]
+
+    "dotted olive" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "dotted olive" -> "wavy green" [
+        fontsize = 8
+    ]
+
+    "clear tomato" -> "light gray" [
+        fontsize = 8
+    ]
+
+    "clear tomato" -> "light turquoise" [
+        fontsize = 8
+    ]
+
+    "clear tomato" -> "striped yellow" [
+        fontsize = 8
+    ]
+
+    "light gray" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "light gray" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "light gray" -> "dotted salmon" [
+        fontsize = 8
+    ]
+
+    "light coral" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "light coral" -> "dark magenta" [
+        fontsize = 8
+    ]
+
+    "light coral" -> "drab teal" [
+        fontsize = 8
+    ]
+
+    "light coral" -> "mirrored crimson" [
+        fontsize = 8
+    ]
+
+    "wavy magenta" -> "dotted salmon" [
+        fontsize = 8
+    ]
+
+    "wavy magenta" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "wavy magenta" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "wavy magenta" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "pale silver" -> "drab black" [
+        fontsize = 8
+    ]
+
+    "plaid aqua" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "plaid aqua" -> "dim gray" [
+        fontsize = 8
+    ]
+
+    "plaid aqua" -> "plaid orange" [
+        fontsize = 8
+    ]
+
+    "plaid aqua" -> "dotted blue" [
+        fontsize = 8
+    ]
+
+    "plaid crimson" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "plaid crimson" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "dim gray" -> "muted white" [
+        fontsize = 8
+    ]
+
+    "dim gray" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "dim gray" -> "muted tomato" [
+        fontsize = 8
+    ]
+
+    "plaid orange" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "plaid orange" -> "dotted coral" [
+        fontsize = 8
+    ]
+
+    "plaid orange" -> "posh teal" [
+        fontsize = 8
+    ]
+
+    "dotted blue" -> "vibrant gray" [
+        fontsize = 8
+    ]
+
+    "dotted blue" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "light green" -> "light violet" [
+        fontsize = 8
+    ]
+
+    "light green" -> "striped violet" [
+        fontsize = 8
+    ]
+
+    "light green" -> "drab brown" [
+        fontsize = 8
+    ]
+
+    "light green" -> "dull white" [
+        fontsize = 8
+    ]
+
+    "striped violet" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "striped violet" -> "plaid olive" [
+        fontsize = 8
+    ]
+
+    "striped violet" -> "light white" [
+        fontsize = 8
+    ]
+
+    "drab brown" -> "clear green" [
+        fontsize = 8
+    ]
+
+    "vibrant beige" -> "posh violet" [
+        fontsize = 8
+    ]
+
+    "vibrant beige" -> "plaid blue" [
+        fontsize = 8
+    ]
+
+    "vibrant beige" -> "shiny lavender" [
+        fontsize = 8
+    ]
+
+    "vibrant beige" -> "wavy orange" [
+        fontsize = 8
+    ]
+
+    "posh violet" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "wavy orange" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "wavy orange" -> "dim coral" [
+        fontsize = 8
+    ]
+
+    "drab orange" -> "striped beige" [
+        fontsize = 8
+    ]
+
+    "drab orange" -> "posh teal" [
+        fontsize = 8
+    ]
+
+    "drab orange" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "drab orange" -> "dark indigo" [
+        fontsize = 8
+    ]
+
+    "posh teal" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "posh teal" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "posh teal" -> "dotted purple" [
+        fontsize = 8
+    ]
+
+    "clear beige" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "clear beige" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "drab gold" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "drab gold" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "posh cyan" -> "light fuchsia" [
+        fontsize = 8
+    ]
+
+    "posh cyan" -> "dark maroon" [
+        fontsize = 8
+    ]
+
+    "light fuchsia" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "light fuchsia" -> "striped beige" [
+        fontsize = 8
+    ]
+
+    "dark maroon" -> "dull plum" [
+        fontsize = 8
+    ]
+
+    "dark maroon" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "faded bronze" -> "muted salmon" [
+        fontsize = 8
+    ]
+
+    "faded bronze" -> "dim violet" [
+        fontsize = 8
+    ]
+
+    "faded bronze" -> "dark tan" [
+        fontsize = 8
+    ]
+
+    "faded bronze" -> "vibrant white" [
+        fontsize = 8
+    ]
+
+    "muted salmon" -> "posh salmon" [
+        fontsize = 8
+    ]
+
+    "muted salmon" -> "posh silver" [
+        fontsize = 8
+    ]
+
+    "dim violet" -> "dark teal" [
+        fontsize = 8
+    ]
+
+    "dim violet" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "dim violet" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "dark tan" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "dark tan" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "dark tan" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "dark tan" -> "muted plum" [
+        fontsize = 8
+    ]
+
+    "vibrant white" -> "light gray" [
+        fontsize = 8
+    ]
+
+    "vibrant white" -> "dark fuchsia" [
+        fontsize = 8
+    ]
+
+    "vibrant white" -> "pale cyan" [
+        fontsize = 8
+    ]
+
+    "vibrant green" -> "light orange" [
+        fontsize = 8
+    ]
+
+    "vibrant green" -> "mirrored magenta" [
+        fontsize = 8
+    ]
+
+    "vibrant green" -> "bright teal" [
+        fontsize = 8
+    ]
+
+    "vibrant green" -> "striped brown" [
+        fontsize = 8
+    ]
+
+    "striped salmon" -> "mirrored orange" [
+        fontsize = 8
+    ]
+
+    "striped salmon" -> "shiny yellow" [
+        fontsize = 8
+    ]
+
+    "striped salmon" -> "muted beige" [
+        fontsize = 8
+    ]
+
+    "striped salmon" -> "clear purple" [
+        fontsize = 8
+    ]
+
+    "shiny yellow" -> "faded indigo" [
+        fontsize = 8
+    ]
+
+    "muted beige" -> "clear white" [
+        fontsize = 8
+    ]
+
+    "muted beige" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "mirrored green" -> "dim tan" [
+        fontsize = 8
+    ]
+
+    "dim tan" -> "mirrored bronze" [
+        fontsize = 8
+    ]
+
+    "dim tan" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "dim tan" -> "drab purple" [
+        fontsize = 8
+    ]
+
+    "bright yellow" -> "striped indigo" [
+        fontsize = 8
+    ]
+
+    "bright yellow" -> "dark silver" [
+        fontsize = 8
+    ]
+
+    "striped indigo" -> "dark gray" [
+        fontsize = 8
+    ]
+
+    "striped indigo" -> "drab olive" [
+        fontsize = 8
+    ]
+
+    "wavy yellow" -> "dotted gold" [
+        fontsize = 8
+    ]
+
+    "wavy yellow" -> "posh green" [
+        fontsize = 8
+    ]
+
+    "dotted gold" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "dotted gold" -> "bright olive" [
+        fontsize = 8
+    ]
+
+    "posh green" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "posh green" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "posh green" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "light chartreuse" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "light chartreuse" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "light chartreuse" -> "shiny plum" [
+        fontsize = 8
+    ]
+
+    "light chartreuse" -> "light red" [
+        fontsize = 8
+    ]
+
+    "faded blue" -> "muted violet" [
+        fontsize = 8
+    ]
+
+    "faded blue" -> "wavy plum" [
+        fontsize = 8
+    ]
+
+    "faded blue" -> "pale indigo" [
+        fontsize = 8
+    ]
+
+    "faded blue" -> "wavy bronze" [
+        fontsize = 8
+    ]
+
+    "shiny plum" -> "clear olive" [
+        fontsize = 8
+    ]
+
+    "shiny plum" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "light red" -> "dim maroon" [
+        fontsize = 8
+    ]
+
+    "light red" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "light red" -> "dotted olive" [
+        fontsize = 8
+    ]
+
+    "dark lime" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "dark lime" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "dark lime" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "muted magenta" -> "shiny silver" [
+        fontsize = 8
+    ]
+
+    "muted magenta" -> "dotted yellow" [
+        fontsize = 8
+    ]
+
+    "muted magenta" -> "pale fuchsia" [
+        fontsize = 8
+    ]
+
+    "muted magenta" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "shiny silver" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "shiny silver" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "shiny silver" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "pale fuchsia" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "pale fuchsia" -> "dark purple" [
+        fontsize = 8
+    ]
+
+    "muted tan" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "muted tan" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "muted tan" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "dim tomato" -> "light silver" [
+        fontsize = 8
+    ]
+
+    "light silver" -> "dim maroon" [
+        fontsize = 8
+    ]
+
+    "light silver" -> "mirrored teal" [
+        fontsize = 8
+    ]
+
+    "pale lime" -> "dull blue" [
+        fontsize = 8
+    ]
+
+    "dull blue" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "dull blue" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "dull blue" -> "dotted crimson" [
+        fontsize = 8
+    ]
+
+    "dim black" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "dim black" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "dim black" -> "wavy white" [
+        fontsize = 8
+    ]
+
+    "dim black" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "dull crimson" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "wavy white" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "wavy white" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "wavy white" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "muted teal" -> "dim black" [
+        fontsize = 8
+    ]
+
+    "muted teal" -> "mirrored lavender" [
+        fontsize = 8
+    ]
+
+    "muted teal" -> "dull indigo" [
+        fontsize = 8
+    ]
+
+    "muted teal" -> "clear red" [
+        fontsize = 8
+    ]
+
+    "mirrored lavender" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "mirrored lavender" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "dull indigo" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "dull indigo" -> "wavy white" [
+        fontsize = 8
+    ]
+
+    "dull indigo" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "dull indigo" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "clear red" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "clear red" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "muted purple" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "mirrored red" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "mirrored red" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "mirrored red" -> "shiny black" [
+        fontsize = 8
+    ]
+
+    "dull coral" -> "pale teal" [
+        fontsize = 8
+    ]
+
+    "dull coral" -> "faded cyan" [
+        fontsize = 8
+    ]
+
+    "dull coral" -> "pale black" [
+        fontsize = 8
+    ]
+
+    "dull coral" -> "muted olive" [
+        fontsize = 8
+    ]
+
+    "pale teal" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "muted olive" -> "pale brown" [
+        fontsize = 8
+    ]
+
+    "muted olive" -> "light gray" [
+        fontsize = 8
+    ]
+
+    "muted olive" -> "wavy green" [
+        fontsize = 8
+    ]
+
+    "muted olive" -> "drab tan" [
+        fontsize = 8
+    ]
+
+    "vibrant red" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "vibrant red" -> "shiny fuchsia" [
+        fontsize = 8
+    ]
+
+    "vibrant red" -> "drab purple" [
+        fontsize = 8
+    ]
+
+    "vibrant red" -> "muted olive" [
+        fontsize = 8
+    ]
+
+    "shiny fuchsia" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "shiny fuchsia" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "shiny fuchsia" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "shiny fuchsia" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "drab purple" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "mirrored tomato" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "shiny coral" -> "clear turquoise" [
+        fontsize = 8
+    ]
+
+    "shiny coral" -> "wavy salmon" [
+        fontsize = 8
+    ]
+
+    "shiny coral" -> "drab brown" [
+        fontsize = 8
+    ]
+
+    "clear turquoise" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "clear turquoise" -> "dull yellow" [
+        fontsize = 8
+    ]
+
+    "clear turquoise" -> "pale black" [
+        fontsize = 8
+    ]
+
+    "clear turquoise" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "wavy indigo" -> "vibrant brown" [
+        fontsize = 8
+    ]
+
+    "wavy indigo" -> "dim turquoise" [
+        fontsize = 8
+    ]
+
+    "wavy indigo" -> "posh violet" [
+        fontsize = 8
+    ]
+
+    "wavy indigo" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "vibrant brown" -> "posh teal" [
+        fontsize = 8
+    ]
+
+    "vibrant brown" -> "wavy silver" [
+        fontsize = 8
+    ]
+
+    "vibrant brown" -> "pale plum" [
+        fontsize = 8
+    ]
+
+    "dim turquoise" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "dim turquoise" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "pale aqua" -> "dark beige" [
+        fontsize = 8
+    ]
+
+    "pale aqua" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "bright olive" -> "dark tan" [
+        fontsize = 8
+    ]
+
+    "bright olive" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "bright olive" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "dotted violet" -> "drab olive" [
+        fontsize = 8
+    ]
+
+    "dotted violet" -> "plaid cyan" [
+        fontsize = 8
+    ]
+
+    "dotted violet" -> "posh beige" [
+        fontsize = 8
+    ]
+
+    "drab olive" -> "plaid cyan" [
+        fontsize = 8
+    ]
+
+    "drab olive" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "plaid cyan" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "plaid cyan" -> "muted cyan" [
+        fontsize = 8
+    ]
+
+    "dark purple" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "shiny chartreuse" -> "striped tan" [
+        fontsize = 8
+    ]
+
+    "shiny chartreuse" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "striped tan" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "striped tan" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "striped tan" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "striped tan" -> "vibrant lime" [
+        fontsize = 8
+    ]
+
+    "clear gray" -> "bright fuchsia" [
+        fontsize = 8
+    ]
+
+    "clear gray" -> "dotted olive" [
+        fontsize = 8
+    ]
+
+    "clear gray" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "clear gray" -> "shiny magenta" [
+        fontsize = 8
+    ]
+
+    "bright fuchsia" -> "striped silver" [
+        fontsize = 8
+    ]
+
+    "vibrant tomato" -> "clear crimson" [
+        fontsize = 8
+    ]
+
+    "vibrant tomato" -> "pale purple" [
+        fontsize = 8
+    ]
+
+    "vibrant tomato" -> "faded gray" [
+        fontsize = 8
+    ]
+
+    "clear crimson" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "clear crimson" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "clear crimson" -> "striped cyan" [
+        fontsize = 8
+    ]
+
+    "pale purple" -> "striped white" [
+        fontsize = 8
+    ]
+
+    "pale purple" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale purple" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "faded gray" -> "dull purple" [
+        fontsize = 8
+    ]
+
+    "faded gray" -> "posh salmon" [
+        fontsize = 8
+    ]
+
+    "light orange" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "shiny tomato" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "shiny tomato" -> "dim silver" [
+        fontsize = 8
+    ]
+
+    "shiny tomato" -> "posh violet" [
+        fontsize = 8
+    ]
+
+    "shiny tomato" -> "striped lavender" [
+        fontsize = 8
+    ]
+
+    "dim silver" -> "striped aqua" [
+        fontsize = 8
+    ]
+
+    "dim silver" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "dim silver" -> "striped tan" [
+        fontsize = 8
+    ]
+
+    "dim silver" -> "wavy maroon" [
+        fontsize = 8
+    ]
+
+    "faded green" -> "dotted gold" [
+        fontsize = 8
+    ]
+
+    "faded green" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "faded green" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "faded green" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "dull gray" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "muted white" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "muted white" -> "plaid magenta" [
+        fontsize = 8
+    ]
+
+    "muted white" -> "drab white" [
+        fontsize = 8
+    ]
+
+    "muted white" -> "dim brown" [
+        fontsize = 8
+    ]
+
+    "muted tomato" -> "dotted red" [
+        fontsize = 8
+    ]
+
+    "muted tomato" -> "drab purple" [
+        fontsize = 8
+    ]
+
+    "muted tomato" -> "light orange" [
+        fontsize = 8
+    ]
+
+    "faded black" -> "faded teal" [
+        fontsize = 8
+    ]
+
+    "faded black" -> "striped lavender" [
+        fontsize = 8
+    ]
+
+    "faded black" -> "striped blue" [
+        fontsize = 8
+    ]
+
+    "faded black" -> "muted lavender" [
+        fontsize = 8
+    ]
+
+    "faded teal" -> "light beige" [
+        fontsize = 8
+    ]
+
+    "muted lavender" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "clear lime" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "clear lime" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "plaid black" -> "wavy indigo" [
+        fontsize = 8
+    ]
+
+    "plaid black" -> "pale red" [
+        fontsize = 8
+    ]
+
+    "mirrored black" -> "dull black" [
+        fontsize = 8
+    ]
+
+    "mirrored black" -> "clear coral" [
+        fontsize = 8
+    ]
+
+    "mirrored black" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "mirrored black" -> "dull silver" [
+        fontsize = 8
+    ]
+
+    "dull black" -> "vibrant plum" [
+        fontsize = 8
+    ]
+
+    "dull black" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "dull black" -> "muted brown" [
+        fontsize = 8
+    ]
+
+    "dull black" -> "clear tomato" [
+        fontsize = 8
+    ]
+
+    "mirrored crimson" -> "drab coral" [
+        fontsize = 8
+    ]
+
+    "mirrored crimson" -> "dull lime" [
+        fontsize = 8
+    ]
+
+    "faded indigo" -> "drab tomato" [
+        fontsize = 8
+    ]
+
+    "posh plum" -> "faded maroon" [
+        fontsize = 8
+    ]
+
+    "posh plum" -> "vibrant indigo" [
+        fontsize = 8
+    ]
+
+    "posh plum" -> "bright turquoise" [
+        fontsize = 8
+    ]
+
+    "faded maroon" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "faded maroon" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "faded maroon" -> "faded tan" [
+        fontsize = 8
+    ]
+
+    "faded maroon" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "bright turquoise" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "bright turquoise" -> "vibrant teal" [
+        fontsize = 8
+    ]
+
+    "faded olive" -> "vibrant gray" [
+        fontsize = 8
+    ]
+
+    "faded olive" -> "drab teal" [
+        fontsize = 8
+    ]
+
+    "faded olive" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "dim plum" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "dim plum" -> "wavy beige" [
+        fontsize = 8
+    ]
+
+    "dim plum" -> "wavy green" [
+        fontsize = 8
+    ]
+
+    "clear fuchsia" -> "mirrored olive" [
+        fontsize = 8
+    ]
+
+    "clear fuchsia" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored olive" -> "dull teal" [
+        fontsize = 8
+    ]
+
+    "mirrored olive" -> "dim white" [
+        fontsize = 8
+    ]
+
+    "plaid olive" -> "light crimson" [
+        fontsize = 8
+    ]
+
+    "plaid olive" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "plaid olive" -> "vibrant blue" [
+        fontsize = 8
+    ]
+
+    "light white" -> "striped yellow" [
+        fontsize = 8
+    ]
+
+    "dim aqua" -> "vibrant purple" [
+        fontsize = 8
+    ]
+
+    "dim aqua" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "vibrant purple" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "vibrant purple" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "vibrant purple" -> "bright chartreuse" [
+        fontsize = 8
+    ]
+
+    "striped crimson" -> "muted coral" [
+        fontsize = 8
+    ]
+
+    "bright indigo" -> "muted gold" [
+        fontsize = 8
+    ]
+
+    "muted gold" -> "dim cyan" [
+        fontsize = 8
+    ]
+
+    "dotted black" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "dotted black" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "dotted black" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "dotted black" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "vibrant magenta" -> "dim black" [
+        fontsize = 8
+    ]
+
+    "drab tomato" -> "dim orange" [
+        fontsize = 8
+    ]
+
+    "drab tomato" -> "mirrored violet" [
+        fontsize = 8
+    ]
+
+    "drab tomato" -> "faded purple" [
+        fontsize = 8
+    ]
+
+    "bright bronze" -> "wavy lime" [
+        fontsize = 8
+    ]
+
+    "bright bronze" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "wavy lime" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "wavy lime" -> "bright chartreuse" [
+        fontsize = 8
+    ]
+
+    "wavy lime" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "wavy black" -> "dotted brown" [
+        fontsize = 8
+    ]
+
+    "wavy black" -> "light salmon" [
+        fontsize = 8
+    ]
+
+    "dotted brown" -> "faded teal" [
+        fontsize = 8
+    ]
+
+    "dotted brown" -> "mirrored coral" [
+        fontsize = 8
+    ]
+
+    "light salmon" -> "vibrant olive" [
+        fontsize = 8
+    ]
+
+    "clear green" -> "dull bronze" [
+        fontsize = 8
+    ]
+
+    "clear green" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "clear green" -> "light white" [
+        fontsize = 8
+    ]
+
+    "dull chartreuse" -> "dim aqua" [
+        fontsize = 8
+    ]
+
+    "dull chartreuse" -> "shiny black" [
+        fontsize = 8
+    ]
+
+    "drab lime" -> "wavy chartreuse" [
+        fontsize = 8
+    ]
+
+    "drab lime" -> "mirrored chartreuse" [
+        fontsize = 8
+    ]
+
+    "drab lime" -> "posh olive" [
+        fontsize = 8
+    ]
+
+    "drab lime" -> "mirrored lavender" [
+        fontsize = 8
+    ]
+
+    "wavy chartreuse" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "wavy chartreuse" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "wavy chartreuse" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "mirrored chartreuse" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "mirrored chartreuse" -> "plaid salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored chartreuse" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored chartreuse" -> "muted violet" [
+        fontsize = 8
+    ]
+
+    "posh olive" -> "dull magenta" [
+        fontsize = 8
+    ]
+
+    "posh olive" -> "wavy blue" [
+        fontsize = 8
+    ]
+
+    "posh olive" -> "drab yellow" [
+        fontsize = 8
+    ]
+
+    "posh olive" -> "dotted gold" [
+        fontsize = 8
+    ]
+
+    "dim maroon" -> "clear red" [
+        fontsize = 8
+    ]
+
+    "dim maroon" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "dim maroon" -> "bright maroon" [
+        fontsize = 8
+    ]
+
+    "dim maroon" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "dim orange" -> "clear lime" [
+        fontsize = 8
+    ]
+
+    "dim orange" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "dim orange" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "mirrored violet" -> "pale fuchsia" [
+        fontsize = 8
+    ]
+
+    "faded purple" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "dim cyan" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "posh purple" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "dark fuchsia" -> "pale purple" [
+        fontsize = 8
+    ]
+
+    "dark fuchsia" -> "dim fuchsia" [
+        fontsize = 8
+    ]
+
+    "dark fuchsia" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "dark fuchsia" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "dim fuchsia" -> "pale purple" [
+        fontsize = 8
+    ]
+
+    "dim fuchsia" -> "wavy orange" [
+        fontsize = 8
+    ]
+
+    "dim fuchsia" -> "clear lime" [
+        fontsize = 8
+    ]
+
+    "dotted aqua" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "dotted aqua" -> "clear gold" [
+        fontsize = 8
+    ]
+
+    "dotted aqua" -> "clear tomato" [
+        fontsize = 8
+    ]
+
+    "bright white" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "faded silver" -> "light lime" [
+        fontsize = 8
+    ]
+
+    "faded silver" -> "wavy gold" [
+        fontsize = 8
+    ]
+
+    "light lime" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "wavy gold" -> "wavy coral" [
+        fontsize = 8
+    ]
+
+    "light aqua" -> "dim red" [
+        fontsize = 8
+    ]
+
+    "light aqua" -> "pale red" [
+        fontsize = 8
+    ]
+
+    "bright gray" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "bright gray" -> "muted plum" [
+        fontsize = 8
+    ]
+
+    "bright gray" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "faded red" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "faded red" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "faded red" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "faded red" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "muted plum" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "wavy tan" -> "pale maroon" [
+        fontsize = 8
+    ]
+
+    "wavy tan" -> "posh black" [
+        fontsize = 8
+    ]
+
+    "pale maroon" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "pale maroon" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale maroon" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "pale maroon" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "posh black" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "posh black" -> "clear white" [
+        fontsize = 8
+    ]
+
+    "posh black" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "striped gold" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "striped gold" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "striped gold" -> "clear blue" [
+        fontsize = 8
+    ]
+
+    "dull tan" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "dull tan" -> "dull green" [
+        fontsize = 8
+    ]
+
+    "dull tan" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "clear blue" -> "posh maroon" [
+        fontsize = 8
+    ]
+
+    "bright magenta" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "muted silver" -> "striped black" [
+        fontsize = 8
+    ]
+
+    "muted silver" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "muted silver" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "muted silver" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "wavy purple" -> "dim brown" [
+        fontsize = 8
+    ]
+
+    "wavy purple" -> "bright yellow" [
+        fontsize = 8
+    ]
+
+    "wavy purple" -> "shiny lime" [
+        fontsize = 8
+    ]
+
+    "dim brown" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "dim brown" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "dim brown" -> "drab tomato" [
+        fontsize = 8
+    ]
+
+    "dim brown" -> "faded teal" [
+        fontsize = 8
+    ]
+
+    "shiny lime" -> "dotted black" [
+        fontsize = 8
+    ]
+
+    "shiny lime" -> "plaid turquoise" [
+        fontsize = 8
+    ]
+
+    "shiny lime" -> "dim tomato" [
+        fontsize = 8
+    ]
+
+    "shiny lime" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "striped tomato" -> "shiny black" [
+        fontsize = 8
+    ]
+
+    "clear magenta" -> "vibrant chartreuse" [
+        fontsize = 8
+    ]
+
+    "clear magenta" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "mirrored plum" -> "faded red" [
+        fontsize = 8
+    ]
+
+    "wavy fuchsia" -> "dark gray" [
+        fontsize = 8
+    ]
+
+    "wavy fuchsia" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "clear tan" -> "drab tomato" [
+        fontsize = 8
+    ]
+
+    "clear tan" -> "mirrored bronze" [
+        fontsize = 8
+    ]
+
+    "clear tan" -> "shiny chartreuse" [
+        fontsize = 8
+    ]
+
+    "dark teal" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "dark teal" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "dark teal" -> "clear beige" [
+        fontsize = 8
+    ]
+
+    "posh blue" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "posh blue" -> "dim coral" [
+        fontsize = 8
+    ]
+
+    "light black" -> "drab coral" [
+        fontsize = 8
+    ]
+
+    "light black" -> "shiny indigo" [
+        fontsize = 8
+    ]
+
+    "shiny indigo" -> "drab teal" [
+        fontsize = 8
+    ]
+
+    "pale chartreuse" -> "pale tomato" [
+        fontsize = 8
+    ]
+
+    "posh bronze" -> "drab aqua" [
+        fontsize = 8
+    ]
+
+    "posh bronze" -> "pale gray" [
+        fontsize = 8
+    ]
+
+    "pale gray" -> "dotted crimson" [
+        fontsize = 8
+    ]
+
+    "pale gray" -> "striped magenta" [
+        fontsize = 8
+    ]
+
+    "pale gray" -> "wavy white" [
+        fontsize = 8
+    ]
+
+    "pale gray" -> "vibrant blue" [
+        fontsize = 8
+    ]
+
+    "light tomato" -> "wavy lime" [
+        fontsize = 8
+    ]
+
+    "clear violet" -> "dim coral" [
+        fontsize = 8
+    ]
+
+    "clear violet" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "faded fuchsia" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "faded fuchsia" -> "shiny silver" [
+        fontsize = 8
+    ]
+
+    "faded fuchsia" -> "muted violet" [
+        fontsize = 8
+    ]
+
+    "plaid purple" -> "dull gold" [
+        fontsize = 8
+    ]
+
+    "muted violet" -> "dotted crimson" [
+        fontsize = 8
+    ]
+
+    "muted violet" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "bright green" -> "dim teal" [
+        fontsize = 8
+    ]
+
+    "bright green" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "bright green" -> "clear crimson" [
+        fontsize = 8
+    ]
+
+    "dim teal" -> "muted salmon" [
+        fontsize = 8
+    ]
+
+    "vibrant plum" -> "posh yellow" [
+        fontsize = 8
+    ]
+
+    "posh yellow" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "posh yellow" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "plaid bronze" -> "dotted coral" [
+        fontsize = 8
+    ]
+
+    "plaid bronze" -> "dull green" [
+        fontsize = 8
+    ]
+
+    "plaid bronze" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "dotted coral" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "dotted coral" -> "light crimson" [
+        fontsize = 8
+    ]
+
+    "dotted coral" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "plaid fuchsia" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "posh salmon" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "wavy plum" -> "pale violet" [
+        fontsize = 8
+    ]
+
+    "wavy plum" -> "striped magenta" [
+        fontsize = 8
+    ]
+
+    "wavy plum" -> "pale red" [
+        fontsize = 8
+    ]
+
+    "dark crimson" -> "dim yellow" [
+        fontsize = 8
+    ]
+
+    "dark crimson" -> "dotted purple" [
+        fontsize = 8
+    ]
+
+    "dark crimson" -> "wavy indigo" [
+        fontsize = 8
+    ]
+
+    "dark crimson" -> "clear black" [
+        fontsize = 8
+    ]
+
+    "dotted purple" -> "posh silver" [
+        fontsize = 8
+    ]
+
+    "dotted purple" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "clear black" -> "wavy blue" [
+        fontsize = 8
+    ]
+
+    "clear black" -> "plaid tan" [
+        fontsize = 8
+    ]
+
+    "clear black" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "pale cyan" -> "shiny coral" [
+        fontsize = 8
+    ]
+
+    "pale cyan" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "pale cyan" -> "plaid olive" [
+        fontsize = 8
+    ]
+
+    "dark cyan" -> "dotted turquoise" [
+        fontsize = 8
+    ]
+
+    "dark cyan" -> "clear purple" [
+        fontsize = 8
+    ]
+
+    "dark cyan" -> "dim teal" [
+        fontsize = 8
+    ]
+
+    "dotted turquoise" -> "dim olive" [
+        fontsize = 8
+    ]
+
+    "dotted turquoise" -> "mirrored blue" [
+        fontsize = 8
+    ]
+
+    "dotted turquoise" -> "dull lime" [
+        fontsize = 8
+    ]
+
+    "dotted turquoise" -> "vibrant lavender" [
+        fontsize = 8
+    ]
+
+    "posh coral" -> "muted bronze" [
+        fontsize = 8
+    ]
+
+    "muted bronze" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "pale yellow" -> "drab tomato" [
+        fontsize = 8
+    ]
+
+    "plaid turquoise" -> "muted gray" [
+        fontsize = 8
+    ]
+
+    "muted gray" -> "dim orange" [
+        fontsize = 8
+    ]
+
+    "posh silver" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "posh silver" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "light indigo" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "light indigo" -> "light olive" [
+        fontsize = 8
+    ]
+
+    "faded plum" -> "mirrored gold" [
+        fontsize = 8
+    ]
+
+    "faded coral" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "clear indigo" -> "mirrored magenta" [
+        fontsize = 8
+    ]
+
+    "clear indigo" -> "clear maroon" [
+        fontsize = 8
+    ]
+
+    "clear indigo" -> "bright blue" [
+        fontsize = 8
+    ]
+
+    "clear indigo" -> "light aqua" [
+        fontsize = 8
+    ]
+
+    "clear maroon" -> "wavy bronze" [
+        fontsize = 8
+    ]
+
+    "clear maroon" -> "dim gold" [
+        fontsize = 8
+    ]
+
+    "clear maroon" -> "muted beige" [
+        fontsize = 8
+    ]
+
+    "clear maroon" -> "posh coral" [
+        fontsize = 8
+    ]
+
+    "dotted maroon" -> "pale maroon" [
+        fontsize = 8
+    ]
+
+    "dotted maroon" -> "dark indigo" [
+        fontsize = 8
+    ]
+
+    "clear yellow" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "clear yellow" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "light lavender" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "light lavender" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "light lavender" -> "light indigo" [
+        fontsize = 8
+    ]
+
+    "pale indigo" -> "clear aqua" [
+        fontsize = 8
+    ]
+
+    "pale indigo" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "light purple" -> "light cyan" [
+        fontsize = 8
+    ]
+
+    "light cyan" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "bright gold" -> "dark aqua" [
+        fontsize = 8
+    ]
+
+    "striped gray" -> "light cyan" [
+        fontsize = 8
+    ]
+
+    "striped gray" -> "pale black" [
+        fontsize = 8
+    ]
+
+    "striped gray" -> "plaid plum" [
+        fontsize = 8
+    ]
+
+    "plaid plum" -> "shiny maroon" [
+        fontsize = 8
+    ]
+
+    "plaid plum" -> "dotted coral" [
+        fontsize = 8
+    ]
+
+    "clear chartreuse" -> "vibrant lime" [
+        fontsize = 8
+    ]
+
+    "clear chartreuse" -> "faded plum" [
+        fontsize = 8
+    ]
+
+    "clear chartreuse" -> "striped chartreuse" [
+        fontsize = 8
+    ]
+
+    "clear chartreuse" -> "clear maroon" [
+        fontsize = 8
+    ]
+
+    "striped chartreuse" -> "dull teal" [
+        fontsize = 8
+    ]
+
+    "vibrant tan" -> "striped lime" [
+        fontsize = 8
+    ]
+
+    "vibrant tan" -> "pale maroon" [
+        fontsize = 8
+    ]
+
+    "vibrant tan" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "vibrant tan" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "striped lime" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "striped lime" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "striped lime" -> "wavy white" [
+        fontsize = 8
+    ]
+
+    "striped lime" -> "light teal" [
+        fontsize = 8
+    ]
+
+    "wavy violet" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "wavy violet" -> "shiny fuchsia" [
+        fontsize = 8
+    ]
+
+    "wavy violet" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "wavy violet" -> "shiny plum" [
+        fontsize = 8
+    ]
+
+    "dark white" -> "shiny maroon" [
+        fontsize = 8
+    ]
+
+    "dark white" -> "dim brown" [
+        fontsize = 8
+    ]
+
+    "dark white" -> "dark beige" [
+        fontsize = 8
+    ]
+
+    "dark white" -> "pale blue" [
+        fontsize = 8
+    ]
+
+    "shiny maroon" -> "clear tomato" [
+        fontsize = 8
+    ]
+
+    "shiny maroon" -> "wavy crimson" [
+        fontsize = 8
+    ]
+
+    "dark beige" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "dark beige" -> "pale indigo" [
+        fontsize = 8
+    ]
+
+    "pale blue" -> "wavy crimson" [
+        fontsize = 8
+    ]
+
+    "pale blue" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "pale blue" -> "shiny chartreuse" [
+        fontsize = 8
+    ]
+
+    "vibrant lavender" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "vibrant lavender" -> "wavy red" [
+        fontsize = 8
+    ]
+
+    "vibrant lavender" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "vibrant lavender" -> "clear indigo" [
+        fontsize = 8
+    ]
+
+    "wavy red" -> "striped gray" [
+        fontsize = 8
+    ]
+
+    "wavy red" -> "posh salmon" [
+        fontsize = 8
+    ]
+
+    "wavy red" -> "dotted violet" [
+        fontsize = 8
+    ]
+
+    "wavy red" -> "striped aqua" [
+        fontsize = 8
+    ]
+
+    "striped silver" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "striped silver" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "wavy bronze" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "wavy bronze" -> "dull gray" [
+        fontsize = 8
+    ]
+
+    "wavy bronze" -> "dull tan" [
+        fontsize = 8
+    ]
+
+    "wavy bronze" -> "mirrored teal" [
+        fontsize = 8
+    ]
+
+    "drab cyan" -> "dim tomato" [
+        fontsize = 8
+    ]
+
+    "drab cyan" -> "plaid lavender" [
+        fontsize = 8
+    ]
+
+    "drab cyan" -> "pale red" [
+        fontsize = 8
+    ]
+
+    "drab cyan" -> "drab olive" [
+        fontsize = 8
+    ]
+
+    "plaid lavender" -> "striped silver" [
+        fontsize = 8
+    ]
+
+    "plaid lavender" -> "clear lime" [
+        fontsize = 8
+    ]
+
+    "clear lavender" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "clear lavender" -> "bright gray" [
+        fontsize = 8
+    ]
+
+    "clear lavender" -> "wavy beige" [
+        fontsize = 8
+    ]
+
+    "clear lavender" -> "dim violet" [
+        fontsize = 8
+    ]
+
+    "striped aqua" -> "mirrored lavender" [
+        fontsize = 8
+    ]
+
+    "plaid tomato" -> "posh cyan" [
+        fontsize = 8
+    ]
+
+    "plaid tomato" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "plaid salmon" -> "muted lavender" [
+        fontsize = 8
+    ]
+
+    "plaid salmon" -> "muted green" [
+        fontsize = 8
+    ]
+
+    "plaid salmon" -> "bright aqua" [
+        fontsize = 8
+    ]
+
+    "bright aqua" -> "drab brown" [
+        fontsize = 8
+    ]
+
+    "bright aqua" -> "dotted purple" [
+        fontsize = 8
+    ]
+
+    "light blue" -> "light white" [
+        fontsize = 8
+    ]
+
+    "light blue" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "light blue" -> "dark brown" [
+        fontsize = 8
+    ]
+
+    "dark blue" -> "posh aqua" [
+        fontsize = 8
+    ]
+
+    "light beige" -> "mirrored fuchsia" [
+        fontsize = 8
+    ]
+
+    "light beige" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "light beige" -> "muted tan" [
+        fontsize = 8
+    ]
+
+    "dark bronze" -> "faded turquoise" [
+        fontsize = 8
+    ]
+
+    "dark bronze" -> "faded silver" [
+        fontsize = 8
+    ]
+
+    "dark bronze" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored salmon" -> "striped salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored salmon" -> "posh tan" [
+        fontsize = 8
+    ]
+
+    "mirrored salmon" -> "faded bronze" [
+        fontsize = 8
+    ]
+
+    "posh tan" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "posh tan" -> "dim magenta" [
+        fontsize = 8
+    ]
+
+    "posh tan" -> "dark violet" [
+        fontsize = 8
+    ]
+
+    "drab tan" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "posh gray" -> "mirrored lime" [
+        fontsize = 8
+    ]
+
+    "dim gold" -> "bright cyan" [
+        fontsize = 8
+    ]
+
+    "dim gold" -> "dull white" [
+        fontsize = 8
+    ]
+
+    "dim gold" -> "vibrant blue" [
+        fontsize = 8
+    ]
+
+    "striped maroon" -> "dotted violet" [
+        fontsize = 8
+    ]
+
+    "striped maroon" -> "bright fuchsia" [
+        fontsize = 8
+    ]
+
+    "striped maroon" -> "striped aqua" [
+        fontsize = 8
+    ]
+
+    "muted indigo" -> "dark green" [
+        fontsize = 8
+    ]
+
+    "muted indigo" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "muted indigo" -> "bright indigo" [
+        fontsize = 8
+    ]
+
+    "muted indigo" -> "wavy silver" [
+        fontsize = 8
+    ]
+
+    "dark green" -> "pale salmon" [
+        fontsize = 8
+    ]
+
+    "dark green" -> "dim brown" [
+        fontsize = 8
+    ]
+
+    "dark green" -> "wavy violet" [
+        fontsize = 8
+    ]
+
+    "dark green" -> "pale chartreuse" [
+        fontsize = 8
+    ]
+
+    "vibrant coral" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "vibrant coral" -> "vibrant indigo" [
+        fontsize = 8
+    ]
+
+    "plaid tan" -> "pale gray" [
+        fontsize = 8
+    ]
+
+    "plaid tan" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "plaid tan" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "plaid tan" -> "wavy lime" [
+        fontsize = 8
+    ]
+
+    "faded aqua" -> "wavy teal" [
+        fontsize = 8
+    ]
+
+    "bright coral" -> "shiny fuchsia" [
+        fontsize = 8
+    ]
+
+    "bright coral" -> "light lime" [
+        fontsize = 8
+    ]
+
+    "bright coral" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "dark turquoise" -> "shiny salmon" [
+        fontsize = 8
+    ]
+
+    "dark turquoise" -> "light lavender" [
+        fontsize = 8
+    ]
+
+    "shiny salmon" -> "faded beige" [
+        fontsize = 8
+    ]
+
+    "shiny green" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "shiny green" -> "dim red" [
+        fontsize = 8
+    ]
+
+    "shiny green" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "shiny green" -> "drab coral" [
+        fontsize = 8
+    ]
+
+    "dim red" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "dim red" -> "plaid crimson" [
+        fontsize = 8
+    ]
+
+    "dim red" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "clear teal" -> "striped gray" [
+        fontsize = 8
+    ]
+
+    "plaid silver" -> "vibrant violet" [
+        fontsize = 8
+    ]
+
+    "plaid silver" -> "muted magenta" [
+        fontsize = 8
+    ]
+
+    "plaid silver" -> "dark olive" [
+        fontsize = 8
+    ]
+
+    "plaid silver" -> "mirrored gold" [
+        fontsize = 8
+    ]
+
+    "dark olive" -> "pale coral" [
+        fontsize = 8
+    ]
+
+    "dark olive" -> "vibrant indigo" [
+        fontsize = 8
+    ]
+
+    "light gold" -> "dim lavender" [
+        fontsize = 8
+    ]
+
+    "light gold" -> "light magenta" [
+        fontsize = 8
+    ]
+
+    "light gold" -> "drab gold" [
+        fontsize = 8
+    ]
+
+    "dim olive" -> "vibrant lime" [
+        fontsize = 8
+    ]
+
+    "dim olive" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "dim olive" -> "muted turquoise" [
+        fontsize = 8
+    ]
+
+    "dotted crimson" -> "pale silver" [
+        fontsize = 8
+    ]
+
+    "dotted crimson" -> "striped magenta" [
+        fontsize = 8
+    ]
+
+    "dotted crimson" -> "striped white" [
+        fontsize = 8
+    ]
+
+    "vibrant blue" -> "clear beige" [
+        fontsize = 8
+    ]
+
+    "mirrored brown" -> "bright cyan" [
+        fontsize = 8
+    ]
+
+    "mirrored brown" -> "plaid brown" [
+        fontsize = 8
+    ]
+
+    "mirrored brown" -> "faded turquoise" [
+        fontsize = 8
+    ]
+
+    "bright cyan" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "bright cyan" -> "plaid bronze" [
+        fontsize = 8
+    ]
+
+    "bright cyan" -> "light beige" [
+        fontsize = 8
+    ]
+
+    "bright cyan" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "wavy coral" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "wavy coral" -> "wavy white" [
+        fontsize = 8
+    ]
+
+    "mirrored turquoise" -> "mirrored olive" [
+        fontsize = 8
+    ]
+
+    "mirrored turquoise" -> "bright yellow" [
+        fontsize = 8
+    ]
+
+    "dark chartreuse" -> "dotted cyan" [
+        fontsize = 8
+    ]
+
+    "dark chartreuse" -> "shiny turquoise" [
+        fontsize = 8
+    ]
+
+    "dark chartreuse" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "dark chartreuse" -> "wavy yellow" [
+        fontsize = 8
+    ]
+
+    "shiny turquoise" -> "dark teal" [
+        fontsize = 8
+    ]
+
+    "shiny turquoise" -> "plaid yellow" [
+        fontsize = 8
+    ]
+
+    "posh turquoise" -> "clear lavender" [
+        fontsize = 8
+    ]
+
+    "posh turquoise" -> "dim coral" [
+        fontsize = 8
+    ]
+
+    "posh turquoise" -> "striped salmon" [
+        fontsize = 8
+    ]
+
+    "shiny cyan" -> "striped gold" [
+        fontsize = 8
+    ]
+
+    "posh tomato" -> "drab tan" [
+        fontsize = 8
+    ]
+
+    "posh tomato" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "muted fuchsia" -> "pale salmon" [
+        fontsize = 8
+    ]
+
+    "muted fuchsia" -> "wavy violet" [
+        fontsize = 8
+    ]
+
+    "muted fuchsia" -> "mirrored maroon" [
+        fontsize = 8
+    ]
+
+    "pale salmon" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale salmon" -> "striped white" [
+        fontsize = 8
+    ]
+
+    "mirrored maroon" -> "dark magenta" [
+        fontsize = 8
+    ]
+
+    "mirrored maroon" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "mirrored maroon" -> "light gray" [
+        fontsize = 8
+    ]
+
+    "pale bronze" -> "drab yellow" [
+        fontsize = 8
+    ]
+
+    "pale bronze" -> "muted chartreuse" [
+        fontsize = 8
+    ]
+
+    "striped green" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "striped green" -> "dull green" [
+        fontsize = 8
+    ]
+
+    "striped green" -> "vibrant tan" [
+        fontsize = 8
+    ]
+
+    "dull aqua" -> "striped coral" [
+        fontsize = 8
+    ]
+
+    "striped coral" -> "pale gray" [
+        fontsize = 8
+    ]
+
+    "striped coral" -> "wavy chartreuse" [
+        fontsize = 8
+    ]
+
+    "vibrant silver" -> "mirrored yellow" [
+        fontsize = 8
+    ]
+
+    "vibrant silver" -> "dotted salmon" [
+        fontsize = 8
+    ]
+
+    "vibrant silver" -> "drab silver" [
+        fontsize = 8
+    ]
+
+    "dotted salmon" -> "drab violet" [
+        fontsize = 8
+    ]
+
+    "dotted salmon" -> "posh white" [
+        fontsize = 8
+    ]
+
+    "dull teal" -> "drab turquoise" [
+        fontsize = 8
+    ]
+
+    "dull teal" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "dull teal" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "muted lime" -> "vibrant lime" [
+        fontsize = 8
+    ]
+
+    "muted lime" -> "pale plum" [
+        fontsize = 8
+    ]
+
+    "muted lime" -> "dark indigo" [
+        fontsize = 8
+    ]
+
+    "pale brown" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "pale brown" -> "pale indigo" [
+        fontsize = 8
+    ]
+
+    "pale brown" -> "dim chartreuse" [
+        fontsize = 8
+    ]
+
+    "pale brown" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "dull salmon" -> "striped coral" [
+        fontsize = 8
+    ]
+
+    "dull salmon" -> "striped aqua" [
+        fontsize = 8
+    ]
+
+    "dull maroon" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "dull maroon" -> "dull magenta" [
+        fontsize = 8
+    ]
+
+    "dull maroon" -> "dim red" [
+        fontsize = 8
+    ]
+
+    "dull magenta" -> "faded crimson" [
+        fontsize = 8
+    ]
+
+    "dull magenta" -> "shiny orange" [
+        fontsize = 8
+    ]
+
+    "dull magenta" -> "dark tan" [
+        fontsize = 8
+    ]
+
+    "drab bronze" -> "drab chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored aqua" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "posh lavender" -> "shiny plum" [
+        fontsize = 8
+    ]
+
+    "posh lavender" -> "drab salmon" [
+        fontsize = 8
+    ]
+
+    "posh lavender" -> "dim brown" [
+        fontsize = 8
+    ]
+
+    "posh lavender" -> "plaid blue" [
+        fontsize = 8
+    ]
+
+    "plaid lime" -> "faded teal" [
+        fontsize = 8
+    ]
+
+    "plaid lime" -> "pale brown" [
+        fontsize = 8
+    ]
+
+    "plaid lime" -> "dim red" [
+        fontsize = 8
+    ]
+
+    "dull lime" -> "shiny plum" [
+        fontsize = 8
+    ]
+
+    "dull lime" -> "vibrant magenta" [
+        fontsize = 8
+    ]
+
+    "dull lime" -> "dark olive" [
+        fontsize = 8
+    ]
+
+    "drab maroon" -> "bright red" [
+        fontsize = 8
+    ]
+
+    "bright red" -> "shiny beige" [
+        fontsize = 8
+    ]
+
+    "dark gold" -> "clear maroon" [
+        fontsize = 8
+    ]
+
+    "dark gold" -> "dotted maroon" [
+        fontsize = 8
+    ]
+
+    "dark gold" -> "light red" [
+        fontsize = 8
+    ]
+
+    "dull lavender" -> "shiny blue" [
+        fontsize = 8
+    ]
+
+    "pale olive" -> "clear brown" [
+        fontsize = 8
+    ]
+
+    "muted red" -> "pale tan" [
+        fontsize = 8
+    ]
+
+    "muted red" -> "bright white" [
+        fontsize = 8
+    ]
+
+    "pale tan" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "pale tan" -> "dim orange" [
+        fontsize = 8
+    ]
+
+    "pale tan" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "pale tan" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "light tan" -> "light purple" [
+        fontsize = 8
+    ]
+
+    "light tan" -> "pale aqua" [
+        fontsize = 8
+    ]
+
+    "light tan" -> "wavy bronze" [
+        fontsize = 8
+    ]
+
+    "dark orange" -> "posh cyan" [
+        fontsize = 8
+    ]
+
+    "dark orange" -> "wavy brown" [
+        fontsize = 8
+    ]
+
+    "dark orange" -> "dull black" [
+        fontsize = 8
+    ]
+
+    "dim lavender" -> "drab fuchsia" [
+        fontsize = 8
+    ]
+
+    "dotted beige" -> "light blue" [
+        fontsize = 8
+    ]
+
+    "dotted beige" -> "plaid tan" [
+        fontsize = 8
+    ]
+
+    "dotted beige" -> "wavy maroon" [
+        fontsize = 8
+    ]
+
+    "dotted beige" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "dim green" -> "plaid tan" [
+        fontsize = 8
+    ]
+
+    "dim green" -> "drab blue" [
+        fontsize = 8
+    ]
+
+    "dim green" -> "clear aqua" [
+        fontsize = 8
+    ]
+
+    "bright black" -> "striped white" [
+        fontsize = 8
+    ]
+
+    "plaid gold" -> "shiny lime" [
+        fontsize = 8
+    ]
+
+    "plaid gold" -> "plaid maroon" [
+        fontsize = 8
+    ]
+
+    "plaid gold" -> "bright blue" [
+        fontsize = 8
+    ]
+
+    "plaid maroon" -> "posh brown" [
+        fontsize = 8
+    ]
+
+    "plaid maroon" -> "striped crimson" [
+        fontsize = 8
+    ]
+
+    "plaid maroon" -> "plaid green" [
+        fontsize = 8
+    ]
+
+    "plaid coral" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "plaid coral" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "plaid coral" -> "posh blue" [
+        fontsize = 8
+    ]
+
+    "dotted white" -> "wavy lavender" [
+        fontsize = 8
+    ]
+
+    "dark yellow" -> "wavy bronze" [
+        fontsize = 8
+    ]
+
+    "dark yellow" -> "bright purple" [
+        fontsize = 8
+    ]
+
+    "faded white" -> "light tomato" [
+        fontsize = 8
+    ]
+
+    "plaid magenta" -> "wavy orange" [
+        fontsize = 8
+    ]
+
+    "plaid magenta" -> "wavy chartreuse" [
+        fontsize = 8
+    ]
+
+    "plaid magenta" -> "striped coral" [
+        fontsize = 8
+    ]
+
+    "vibrant orange" -> "posh yellow" [
+        fontsize = 8
+    ]
+
+    "bright chartreuse" -> "wavy blue" [
+        fontsize = 8
+    ]
+
+    "dark lavender" -> "pale purple" [
+        fontsize = 8
+    ]
+
+    "dark lavender" -> "vibrant yellow" [
+        fontsize = 8
+    ]
+
+    "dotted tomato" -> "shiny magenta" [
+        fontsize = 8
+    ]
+
+    "dotted tomato" -> "mirrored tomato" [
+        fontsize = 8
+    ]
+
+    "dotted tomato" -> "plaid chartreuse" [
+        fontsize = 8
+    ]
+
+    "plaid red" -> "pale cyan" [
+        fontsize = 8
+    ]
+
+    "plaid violet" -> "shiny maroon" [
+        fontsize = 8
+    ]
+
+    "striped red" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "striped red" -> "drab crimson" [
+        fontsize = 8
+    ]
+
+    "striped red" -> "faded turquoise" [
+        fontsize = 8
+    ]
+
+    "drab crimson" -> "vibrant salmon" [
+        fontsize = 8
+    ]
+
+    "clear salmon" -> "striped lime" [
+        fontsize = 8
+    ]
+
+    "clear salmon" -> "dull violet" [
+        fontsize = 8
+    ]
+
+    "plaid gray" -> "plaid plum" [
+        fontsize = 8
+    ]
+
+    "dotted chartreuse" -> "vibrant cyan" [
+        fontsize = 8
+    ]
+
+    "dotted chartreuse" -> "light salmon" [
+        fontsize = 8
+    ]
+
+    "dotted chartreuse" -> "vibrant red" [
+        fontsize = 8
+    ]
+
+    "dotted chartreuse" -> "light turquoise" [
+        fontsize = 8
+    ]
+
+    "vibrant cyan" -> "clear crimson" [
+        fontsize = 8
+    ]
+
+    "vibrant cyan" -> "pale orange" [
+        fontsize = 8
+    ]
+
+    "vibrant cyan" -> "dull indigo" [
+        fontsize = 8
+    ]
+
+    "vibrant cyan" -> "light red" [
+        fontsize = 8
+    ]
+
+    "faded lavender" -> "dark tomato" [
+        fontsize = 8
+    ]
+
+    "faded lavender" -> "muted lime" [
+        fontsize = 8
+    ]
+
+    "faded lavender" -> "light fuchsia" [
+        fontsize = 8
+    ]
+
+    "faded lavender" -> "dull lavender" [
+        fontsize = 8
+    ]
+
+    "dark tomato" -> "clear lime" [
+        fontsize = 8
+    ]
+
+    "dark tomato" -> "light beige" [
+        fontsize = 8
+    ]
+
+    "dark tomato" -> "bright turquoise" [
+        fontsize = 8
+    ]
+
+    "vibrant crimson" -> "faded teal" [
+        fontsize = 8
+    ]
+
+    "vibrant crimson" -> "dotted green" [
+        fontsize = 8
+    ]
+
+    "vibrant crimson" -> "clear maroon" [
+        fontsize = 8
+    ]
+
+    "bright violet" -> "dim yellow" [
+        fontsize = 8
+    ]
+
+    "bright violet" -> "muted purple" [
+        fontsize = 8
+    ]
+
+    "bright violet" -> "muted teal" [
+        fontsize = 8
+    ]
+
+    "bright violet" -> "striped cyan" [
+        fontsize = 8
+    ]
+
+    "drab magenta" -> "dark beige" [
+        fontsize = 8
+    ]
+
+    "posh fuchsia" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "posh fuchsia" -> "pale salmon" [
+        fontsize = 8
+    ]
+
+    "posh fuchsia" -> "light coral" [
+        fontsize = 8
+    ]
+
+    "posh fuchsia" -> "mirrored plum" [
+        fontsize = 8
+    ]
+
+    "dull tomato" -> "clear lime" [
+        fontsize = 8
+    ]
+
+    "wavy aqua" -> "dotted orange" [
+        fontsize = 8
+    ]
+
+    "wavy aqua" -> "shiny crimson" [
+        fontsize = 8
+    ]
+
+    "shiny white" -> "faded blue" [
+        fontsize = 8
+    ]
+
+    "shiny white" -> "pale cyan" [
+        fontsize = 8
+    ]
+
+    "vibrant black" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "vibrant black" -> "dull silver" [
+        fontsize = 8
+    ]
+
+    "vibrant black" -> "striped purple" [
+        fontsize = 8
+    ]
+
+    "vibrant black" -> "dark plum" [
+        fontsize = 8
+    ]
+
+    "posh maroon" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "posh maroon" -> "posh yellow" [
+        fontsize = 8
+    ]
+
+    "posh maroon" -> "drab beige" [
+        fontsize = 8
+    ]
+
+    "faded tomato" -> "clear beige" [
+        fontsize = 8
+    ]
+
+    "faded tomato" -> "bright orange" [
+        fontsize = 8
+    ]
+
+    "posh magenta" -> "posh red" [
+        fontsize = 8
+    ]
+
+    "posh magenta" -> "light bronze" [
+        fontsize = 8
+    ]
+
+    "posh red" -> "mirrored violet" [
+        fontsize = 8
+    ]
+
+    "posh red" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "posh red" -> "striped olive" [
+        fontsize = 8
+    ]
+
+    "dim blue" -> "dim gray" [
+        fontsize = 8
+    ]
+
+    "dim blue" -> "light turquoise" [
+        fontsize = 8
+    ]
+
+    "dim blue" -> "muted bronze" [
+        fontsize = 8
+    ]
+
+    "drab plum" -> "vibrant plum" [
+        fontsize = 8
+    ]
+
+    "drab plum" -> "striped coral" [
+        fontsize = 8
+    ]
+
+    "pale turquoise" -> "dark lime" [
+        fontsize = 8
+    ]
+
+    "pale turquoise" -> "drab maroon" [
+        fontsize = 8
+    ]
+
+    "shiny tan" -> "plaid coral" [
+        fontsize = 8
+    ]
+
+    "shiny tan" -> "dim black" [
+        fontsize = 8
+    ]
+
+    "shiny tan" -> "dull plum" [
+        fontsize = 8
+    ]
+
+    "mirrored silver" -> "striped salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored silver" -> "clear chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored silver" -> "clear orange" [
+        fontsize = 8
+    ]
+
+    "mirrored silver" -> "posh aqua" [
+        fontsize = 8
+    ]
+
+    "shiny bronze" -> "posh indigo" [
+        fontsize = 8
+    ]
+
+    "shiny bronze" -> "wavy blue" [
+        fontsize = 8
+    ]
+
+    "shiny bronze" -> "faded gold" [
+        fontsize = 8
+    ]
+
+    "shiny bronze" -> "striped tomato" [
+        fontsize = 8
+    ]
+
+    "clear cyan" -> "dim plum" [
+        fontsize = 8
+    ]
+
+    "clear cyan" -> "shiny brown" [
+        fontsize = 8
+    ]
+
+    "clear cyan" -> "muted purple" [
+        fontsize = 8
+    ]
+
+    "clear cyan" -> "plaid lime" [
+        fontsize = 8
+    ]
+
+    "plaid teal" -> "faded aqua" [
+        fontsize = 8
+    ]
+
+    "plaid teal" -> "wavy olive" [
+        fontsize = 8
+    ]
+
+    "posh orange" -> "bright aqua" [
+        fontsize = 8
+    ]
+
+    "posh orange" -> "dim crimson" [
+        fontsize = 8
+    ]
+
+    "posh orange" -> "dim turquoise" [
+        fontsize = 8
+    ]
+
+    "posh orange" -> "dotted bronze" [
+        fontsize = 8
+    ]
+
+    "dotted bronze" -> "light yellow" [
+        fontsize = 8
+    ]
+
+    "bright crimson" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "clear olive" -> "bright olive" [
+        fontsize = 8
+    ]
+
+    "dim salmon" -> "clear tomato" [
+        fontsize = 8
+    ]
+
+    "dim salmon" -> "shiny teal" [
+        fontsize = 8
+    ]
+
+    "dim salmon" -> "plaid olive" [
+        fontsize = 8
+    ]
+
+    "dim salmon" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "muted maroon" -> "muted violet" [
+        fontsize = 8
+    ]
+
+    "muted maroon" -> "dark white" [
+        fontsize = 8
+    ]
+
+    "bright plum" -> "dim black" [
+        fontsize = 8
+    ]
+
+    "dim indigo" -> "dotted lime" [
+        fontsize = 8
+    ]
+
+    "dim indigo" -> "dotted purple" [
+        fontsize = 8
+    ]
+
+    "vibrant bronze" -> "clear red" [
+        fontsize = 8
+    ]
+
+    "vibrant bronze" -> "posh red" [
+        fontsize = 8
+    ]
+
+    "mirrored indigo" -> "posh chartreuse" [
+        fontsize = 8
+    ]
+
+    "mirrored indigo" -> "clear tomato" [
+        fontsize = 8
+    ]
+
+    "dotted indigo" -> "drab olive" [
+        fontsize = 8
+    ]
+
+    "dotted indigo" -> "dim indigo" [
+        fontsize = 8
+    ]
+
+    "dotted indigo" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "shiny gray" -> "muted chartreuse" [
+        fontsize = 8
+    ]
+
+    "shiny gray" -> "plaid gray" [
+        fontsize = 8
+    ]
+
+    "shiny gray" -> "dull red" [
+        fontsize = 8
+    ]
+
+    "shiny gray" -> "striped orange" [
+        fontsize = 8
+    ]
+
+    "bright lime" -> "shiny bronze" [
+        fontsize = 8
+    ]
+
+    "bright lime" -> "wavy aqua" [
+        fontsize = 8
+    ]
+
+    "bright lime" -> "plaid turquoise" [
+        fontsize = 8
+    ]
+
+    "dotted gray" -> "shiny gold" [
+        fontsize = 8
+    ]
+
+    "pale beige" -> "posh black" [
+        fontsize = 8
+    ]
+
+    "pale beige" -> "clear white" [
+        fontsize = 8
+    ]
+
+    "mirrored white" -> "faded yellow" [
+        fontsize = 8
+    ]
+
+    "bright brown" -> "pale gray" [
+        fontsize = 8
+    ]
+
+    "muted orange" -> "bright magenta" [
+        fontsize = 8
+    ]
+
+    "muted orange" -> "bright plum" [
+        fontsize = 8
+    ]
+
+    "light maroon" -> "muted gray" [
+        fontsize = 8
+    ]
+
+    "light maroon" -> "dull crimson" [
+        fontsize = 8
+    ]
+
+    "light maroon" -> "shiny maroon" [
+        fontsize = 8
+    ]
+
+    "muted yellow" -> "vibrant purple" [
+        fontsize = 8
+    ]
+
+    "muted yellow" -> "dark teal" [
+        fontsize = 8
+    ]
+
+    "dim beige" -> "muted silver" [
+        fontsize = 8
+    ]
+
+    "dim beige" -> "mirrored beige" [
+        fontsize = 8
+    ]
+
+    "dim beige" -> "striped violet" [
+        fontsize = 8
+    ]
+
+    "plaid beige" -> "vibrant turquoise" [
+        fontsize = 8
+    ]
+
+    "striped teal" -> "dim chartreuse" [
+        fontsize = 8
+    ]
+
+    "striped teal" -> "dark green" [
+        fontsize = 8
+    ]
+
+    "dotted plum" -> "light cyan" [
+        fontsize = 8
+    ]
+
+    "dull fuchsia" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "dull fuchsia" -> "mirrored red" [
+        fontsize = 8
+    ]
+
+    "shiny violet" -> "muted tomato" [
+        fontsize = 8
+    ]
+
+    "shiny violet" -> "dull yellow" [
+        fontsize = 8
+    ]
+
+    "shiny violet" -> "drab teal" [
+        fontsize = 8
+    ]
+
+    "shiny purple" -> "drab orange" [
+        fontsize = 8
+    ]
+
+    "shiny purple" -> "dark red" [
+        fontsize = 8
+    ]
+
+    "shiny purple" -> "vibrant fuchsia" [
+        fontsize = 8
+    ]
+
+    "shiny purple" -> "light fuchsia" [
+        fontsize = 8
+    ]
+
+    "striped turquoise" -> "faded magenta" [
+        fontsize = 8
+    ]
+
+    "striped turquoise" -> "shiny indigo" [
+        fontsize = 8
+    ]
+
+    "striped turquoise" -> "striped lavender" [
+        fontsize = 8
+    ]
+
+    "dull brown" -> "clear crimson" [
+        fontsize = 8
+    ]
+
+    "dull brown" -> "dotted green" [
+        fontsize = 8
+    ]
+
+    "dull brown" -> "dull magenta" [
+        fontsize = 8
+    ]
+
+    "dull brown" -> "dim tan" [
+        fontsize = 8
+    ]
+
+    "dim lime" -> "muted black" [
+        fontsize = 8
+    ]
+
+    "dull olive" -> "vibrant coral" [
+        fontsize = 8
+    ]
+
+    "dull olive" -> "shiny teal" [
+        fontsize = 8
+    ]
+
+    "dull olive" -> "plaid purple" [
+        fontsize = 8
+    ]
+
+    "mirrored gray" -> "striped silver" [
+        fontsize = 8
+    ]
+
+    "striped fuchsia" -> "bright crimson" [
+        fontsize = 8
+    ]
+
+    "striped fuchsia" -> "dark silver" [
+        fontsize = 8
+    ]
+
+    "striped fuchsia" -> "clear magenta" [
+        fontsize = 8
+    ]
+
+    "striped fuchsia" -> "drab salmon" [
+        fontsize = 8
+    ]
+
+    "striped plum" -> "drab tan" [
+        fontsize = 8
+    ]
+
+    "striped plum" -> "pale gold" [
+        fontsize = 8
+    ]
+
+    "striped plum" -> "dull white" [
+        fontsize = 8
+    ]
+
+    "striped plum" -> "clear coral" [
+        fontsize = 8
+    ]
+
+    "pale gold" -> "vibrant gold" [
+        fontsize = 8
+    ]
+
+    "pale gold" -> "dotted magenta" [
+        fontsize = 8
+    ]
+
+    "clear plum" -> "striped maroon" [
+        fontsize = 8
+    ]
+
+    "clear plum" -> "dark white" [
+        fontsize = 8
+    ]
+
+    "drab gray" -> "plaid maroon" [
+        fontsize = 8
+    ]
+
+    "drab gray" -> "pale tan" [
+        fontsize = 8
+    ]
+
+    "drab gray" -> "plaid white" [
+        fontsize = 8
+    ]
+
+    "vibrant maroon" -> "light gray" [
+        fontsize = 8
+    ]
+
+    "dim purple" -> "muted white" [
+        fontsize = 8
+    ]
+
+    "dim purple" -> "shiny aqua" [
+        fontsize = 8
+    ]
+
+    "drab lavender" -> "mirrored crimson" [
+        fontsize = 8
+    ]
+
+    "drab lavender" -> "bright violet" [
+        fontsize = 8
+    ]
+
+    "drab lavender" -> "posh gold" [
+        fontsize = 8
+    ]
+
+    "drab lavender" -> "bright olive" [
+        fontsize = 8
+    ]
+
+    "dotted silver" -> "posh plum" [
+        fontsize = 8
+    ]
+
+    "dotted silver" -> "pale chartreuse" [
+        fontsize = 8
+    ]
+
+    "posh crimson" -> "dull yellow" [
+        fontsize = 8
+    ]
+
+    "posh crimson" -> "clear fuchsia" [
+        fontsize = 8
+    ]
+
+    "dull orange" -> "dull silver" [
+        fontsize = 8
+    ]
+
+    "dull orange" -> "clear violet" [
+        fontsize = 8
+    ]
+
+    "dull orange" -> "clear chartreuse" [
+        fontsize = 8
+    ]
+
+    "dull orange" -> "faded salmon" [
+        fontsize = 8
+    ]
+
+    "mirrored tan" -> "dull silver" [
+        fontsize = 8
+    ]
+
+    "mirrored tan" -> "light coral" [
+        fontsize = 8
+    ]
+
+    "mirrored tan" -> "plaid lavender" [
+        fontsize = 8
+    ]
+
+    "wavy tomato" -> "clear orange" [
+        fontsize = 8
+    ]
+
+    "wavy tomato" -> "shiny fuchsia" [
+        fontsize = 8
+    ]
+
+    "wavy tomato" -> "light red" [
+        fontsize = 8
+    ]
+
+    "dotted teal" -> "dark salmon" [
+        fontsize = 8
+    ]
+
+    "dotted teal" -> "light indigo" [
+        fontsize = 8
+    ]
+
+    "dotted teal" -> "pale white" [
+        fontsize = 8
+    ]
+
+    "dotted teal" -> "clear olive" [
+        fontsize = 8
+    ]
+}
