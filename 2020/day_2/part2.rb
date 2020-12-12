@@ -2,8 +2,8 @@
 
 passwords = File.read('input.txt').split("\n").map do |password_line|
   minmax, policy_letter, password = password_line
-                                    .tr(':', '')
-                                    .split
+    .tr(':', '')
+    .split
   position_one, position_two = minmax.split('-')
 
   {

@@ -24,13 +24,13 @@ loop do
     ball = [x_pos, y_pos]
   end
 
-  joystick = if ball[0] > paddle[0]
-               1
-             elsif ball[0] < paddle[0]
-               -1
-             else
-               0
-             end
+  if ball[0] > paddle[0]
+    joystick = 1
+  elsif ball[0] < paddle[0]
+    joystick = -1
+  else
+    joystick = 0
+  end
 
   break if intcode_computer.terminated?
 end

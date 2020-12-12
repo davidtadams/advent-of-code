@@ -70,7 +70,7 @@ def deploy_robot(input, intcodes)
       current_direction, direction_to_go, current_location[0], current_location[1]
     )
 
-    input = panels.key?(current_location) ? panels[current_location] : 0
+    panels.key?(current_location) ? input = panels[current_location] : input = 0
   end
 
   panels

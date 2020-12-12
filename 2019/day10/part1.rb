@@ -32,12 +32,12 @@ all_points.each_with_index do |current_point, current_point_index|
 
     if y_diff.zero?
       # horizontal line
-      slope = x_current > x_new ? '0-left' : '0-right'
+      x_current > x_new ? slope = '0-left' : slope = '0-right'
     elsif x_diff.zero?
       # vertical line
-      slope = y_current > y_new ? 'nil-above' : 'nil-below'
+      y_current > y_new ? slope = 'nil-above' : slope = 'nil-below'
     else
-      postfix = y_current > y_new ? '-above' : '-below'
+      y_current > y_new ? postfix = '-above' : postfix = '-below'
       slope = "#{y_diff / x_diff}#{postfix}"
     end
 

@@ -81,7 +81,7 @@ all_points.each do |point| # rubocop:todo Metrics/BlockLength
     end
   else
     slope = y_diff / x_diff
-    postfix = y_current < BEST_Y ? '-above' : '-below'
+    y_current < BEST_Y ? postfix = '-above' : postfix = '-below'
     slope_name = "#{slope}#{postfix}"
     point_info[:slope] = slope
 
@@ -118,12 +118,12 @@ quadrants.each do |quadrant_key, quadrant|
     point_info.sort_by! { |point| -point[:distance] }
   end
 
-  quadrants[quadrant_key] = if %i[quadrant0 quadrant2].include?(quadrant_key)
-                              # this does not actually sort hash in place
-                              quadrant.sort_by { |_key, value| -value.first[:slope].abs }
-                            else
-                              quadrant.sort_by { |_key, value| value.first[:slope].abs }
-                            end
+  if %i[quadrant0 quadrant2].include?(quadrant_key)
+    # this does not actually sort hash in place
+    quadrants[quadrant_key] = quadrant.sort_by { |_key, value| -value.first[:slope].abs }
+  else
+    quadrants[quadrant_key] = quadrant.sort_by { |_key, value| value.first[:slope].abs }
+  end
 end
 
 vaporized_asteroids = []

@@ -90,19 +90,19 @@ def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
         pointer += 3
       end
     when 7
-      intcodes[param3] = if param1 < param2
-                           1
-                         else
-                           0
-                         end
+      if param1 < param2
+        intcodes[param3] = 1
+      else
+        intcodes[param3] = 0
+      end
 
       pointer += 4
     when 8
-      intcodes[param3] = if param1 == param2
-                           1
-                         else
-                           0
-                         end
+      if param1 == param2
+        intcodes[param3] = 1
+      else
+        intcodes[param3] = 0
+      end
 
       pointer += 4
     when 9

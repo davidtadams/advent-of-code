@@ -39,9 +39,9 @@ class IntcodeComputer
         @pointer += 2
         break
       when 5
-        @pointer = value1.zero? ? @pointer + 3 : value2
+        value1.zero? ? @pointer += 3 : @pointer = value2
       when 6
-        @pointer = value1.zero? ? value2 : @pointer + 3
+        value1.zero? ? @pointer = value2 : @pointer += 3
       when 7
         set_value(modes, 3, value1 < value2 ? 1 : 0)
         @pointer += 4
