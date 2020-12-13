@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input = File.read('./simple_input.txt')
+input = File.readlines('./simple_input.txt', chomp: true)
 
 puts input
 
