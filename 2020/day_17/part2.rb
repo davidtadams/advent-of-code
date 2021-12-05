@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 input = File.readlines('./input.txt', chomp: true)
-  .map { |line| line.split('') }
+  .map(&:chars)
 
 # [x,y,z,w]
 NEIGHBORS = [1, 0, -1].repeated_permutation(4).to_a

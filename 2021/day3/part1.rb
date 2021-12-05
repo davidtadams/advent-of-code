@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input = ARGF.each_line.map { |line| line.chomp.split('') }
+input = ARGF.each_line.map { |line| line.chomp.chars }
 
 bits_by_column = Array.new(input[0].size) { [] }
 input.each do |bit_line|

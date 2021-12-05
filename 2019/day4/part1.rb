@@ -7,7 +7,7 @@ def test_number(number) # rubocop:todo Metrics/AbcSize
   invalid_number = false
   are_only_two_the_same = false
 
-  number[1..].split('').each_with_index do |_character, index|
+  number[1..].chars.each_with_index do |_character, index|
     if number[index + 1].to_i < number[index].to_i
       invalid_number = true
       break

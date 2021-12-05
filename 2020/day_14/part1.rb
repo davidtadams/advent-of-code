@@ -11,7 +11,7 @@ instructions = File.readlines('./input.txt', chomp: true).map do |line|
 end
 
 def bitmask(value, mask)
-  value = format('%036d', value.to_s(2)).split('')
+  value = format('%036d', value.to_s(2)).chars
 
   (value.size - 1).downto(0) do |index|
     next if mask[index] == 'X'

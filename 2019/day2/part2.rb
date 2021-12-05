@@ -41,4 +41,4 @@ def find_inputs(opcodes)
 end
 
 noun, verb = find_inputs(input_data)
-puts 100 * noun + verb
+puts (100 * noun) + verb

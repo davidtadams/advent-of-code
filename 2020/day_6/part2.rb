@@ -4,7 +4,7 @@ final_answer = File.read('./input.txt').split("\n\n").map do |input_line|
   answers = input_line.split("\n")
   number_of_people = answers.size
   answer_counts = {}
-  answers.join.split('').reduce(0) do |acc, answer|
+  answers.join.chars.reduce(0) do |acc, answer|
     if answer_counts[answer]
       answer_counts[answer] += 1
     else

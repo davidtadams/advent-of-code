@@ -3,7 +3,7 @@
 input_data = File.read('input.txt').split
 
 def get_total_fuel(mass)
-  fuel = mass / 3 - 2
+  fuel = (mass / 3) - 2
 
   return 0 if fuel.negative?
 

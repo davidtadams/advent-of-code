@@ -14,7 +14,7 @@ class Grid
   end
 
   def calc_shortest_distance
-    max_int = (2**(0.size * 8 - 2) - 1)
+    max_int = ((2**((0.size * 8) - 2)) - 1)
     @intersections.reduce(max_int) do |memo, coordinates|
       distance = calc_manhattan_distance(coordinates[0], coordinates[1])
       distance < memo ? distance : memo

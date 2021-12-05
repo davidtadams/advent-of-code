@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GRID = File.read('./input.txt').split("\n").map { |line| line.split('') }
+GRID = File.read('./input.txt').split("\n").map(&:chars)
 GRID_ROW_MAX = GRID.size - 1
 GRID_COLUMN_MAX = GRID[0].size - 1
 

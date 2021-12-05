@@ -2,7 +2,7 @@
 
 require 'ostruct'
 
-input = File.read('./input.txt').split("\n").map { |line| [line[0..6].split(''), line[7..].split('')] }
+input = File.read('./input.txt').split("\n").map { |line| [line[0..6].chars, line[7..].chars] }
 
 def get_upper_range(range)
   min, max = range
@@ -49,9 +49,9 @@ end
 boarding_passes = input.map do |(row_input, column_input)|
   row = get_row(row_input)
   column = get_column(column_input)
-  seat_id = row * 8 + column
+  seat_id = (row * 8) + column
 
-  OpenStruct.new({
+  Struct.new({
     'row' => row,
     'column' => column,
     'seat_id' => seat_id,

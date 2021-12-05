@@ -11,7 +11,7 @@ instructions = File.readlines('./input.txt', chomp: true).map do |line|
 end
 
 def bitmask(address, mask)
-  binary_address = format('%036d', address.to_s(2)).split('')
+  binary_address = format('%036d', address.to_s(2)).chars
 
   (binary_address.size - 1).downto(0) do |index|
     next if mask[index] == '0'

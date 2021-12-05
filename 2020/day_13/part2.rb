@@ -24,7 +24,7 @@ def modulo_inverse(num_a, num_m)
     num_m = num_a % num_m
     num_a = temp
     temp = x0
-    x0 = x1 - quotient * x0
+    x0 = x1 - (quotient * x0)
     x1 = temp
   end
 

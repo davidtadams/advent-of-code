@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 input = File.readlines('./input.txt', chomp: true)
-  .map { |line| line.split('') }
+  .map(&:chars)
 
 # [x,y,z]
 # [1, 0, -1].repeated_permutation(3).to_a

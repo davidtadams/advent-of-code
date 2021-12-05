@@ -2,7 +2,7 @@
 
 require 'set'
 
-asteroid_map = File.read('input.txt').split.map { |row| row.split('') }
+asteroid_map = File.read('input.txt').split.map(&:chars)
 
 # TODO: this one could use some refactoring :<
 

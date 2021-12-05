@@ -4,7 +4,7 @@ OPERATORS = ['*', '+'].freeze
 PARENS = ['(', ')'].freeze
 
 expressions = File.readlines('./input.txt', chomp: true).map do |line|
-  line.delete(' ').split('').map do |char|
+  line.delete(' ').chars.map do |char|
     OPERATORS.include?(char) || PARENS.include?(char) ? char : char.to_i
   end
 end

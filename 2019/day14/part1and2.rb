@@ -56,7 +56,7 @@ def calculate_costs(reaction_name, reaction_amount, reactions, total_costs = {},
     multiplier = ((reaction_amount - wasted_costs[reaction_name]) / reaction.result.to_f).ceil
 
     total_costs[reaction_name] -= wasted_costs[reaction_name]
-    wasted_costs[reaction_name] += multiplier * reaction.result - reaction_amount
+    wasted_costs[reaction_name] += (multiplier * reaction.result) - reaction_amount
 
     reaction.inputs.each do |input|
       total_costs[input.name] ||= 0

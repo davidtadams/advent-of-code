@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GRID = File.read('./input.txt').split("\n").map { |line| line.split('') }
+GRID = File.read('./input.txt').split("\n").map(&:chars)
 
 def print_grid(grid)
   grid.each do |row|

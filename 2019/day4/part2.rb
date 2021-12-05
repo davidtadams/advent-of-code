@@ -16,7 +16,7 @@ def test_number(number) # rubocop:todo Metrics/CyclomaticComplexity
 
   are_only_two_the_same = true if back_three[1] == back_three[2] && back_three[1] != back_three[0]
 
-  number.split('').each_with_index do |_character, index|
+  number.chars.each_with_index do |_character, index|
     if index != 0 && number[index] < number[index - 1]
       invalid_number = true
       break
