@@ -1,11 +1,7 @@
 PreCommit:
   Standard:
     enabled: true
-
-CommitMsg:
-  ALL:
-    quiet: true
-  CapitalizedSubject:
-    enabled: false
-  SingleLineSubject:
-    enabled: false
+    required_executable: 'standardrb'
+    include: 
+      - '**/*.rb'
+      - '**/Gemfile'
