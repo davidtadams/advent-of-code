@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'pry-byebug'
+require "pry-byebug"
 
 # I had to look this one up to find an efficient solution
 # used the Chinese Remainder Theorem
@@ -8,8 +8,8 @@ require 'pry-byebug'
 # https://www.geeksforgeeks.org/chinese-remainder-theorem-set-2-implementation/
 # https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
 
-input = File.readlines('./input.txt', chomp: true)
-bus_lines = input[1].split(',').map(&:to_i)
+input = File.readlines("./input.txt", chomp: true)
+bus_lines = input[1].split(",").map(&:to_i)
 
 def modulo_inverse(num_a, num_m)
   return 0 if num_m == 1

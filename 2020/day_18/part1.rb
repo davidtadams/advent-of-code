@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-OPERATORS = ['*', '+'].freeze
-PARENS = ['(', ')'].freeze
+OPERATORS = ["*", "+"].freeze
+PARENS = ["(", ")"].freeze
 
-expressions = File.readlines('./input.txt', chomp: true).map do |line|
-  line.delete(' ').chars.map do |char|
+expressions = File.readlines("./input.txt", chomp: true).map do |line|
+  line.delete(" ").chars.map do |char|
     OPERATORS.include?(char) || PARENS.include?(char) ? char : char.to_i
   end
 end
@@ -15,8 +15,8 @@ def find_paren_end_index(expression)
   right_index = 0
 
   expression.each_with_index do |char, index|
-    left_count += 1 if char == '('
-    right_count += 1 if char == ')'
+    left_count += 1 if char == "("
+    right_count += 1 if char == ")"
 
     if left_count == right_count
       right_index = index
@@ -27,14 +27,13 @@ def find_paren_end_index(expression)
   right_index
 end
 
-# rubocop:todo Metrics/MethodLength
-def evaluate_expression(expression) # rubocop:todo Metrics/AbcSize
+def evaluate_expression(expression)
   left_num = expression[0]
   operator = expression[1]
   right_num = expression[2]
   right_expression = expression[3..]
 
-  if left_num == '('
+  if left_num == "("
     paren_end_index = find_paren_end_index(expression)
     paren_expression = expression[1..paren_end_index - 1]
 
@@ -44,8 +43,8 @@ def evaluate_expression(expression) # rubocop:todo Metrics/AbcSize
     right_num = expression[paren_end_index + 2]
     right_expression = expression[paren_end_index + 3..]
 
-    return evaluate_expression([left_num, operator, *expression[paren_end_index + 2..]]) if right_num == '('
-  elsif right_num == '('
+    return evaluate_expression([left_num, operator, *expression[paren_end_index + 2..]]) if right_num == "("
+  elsif right_num == "("
     paren_end_index = find_paren_end_index(expression[2..])
     paren_expression = expression[3..paren_end_index + 1]
 

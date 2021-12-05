@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
-require 'set'
+require "set"
 
-asteroid_map = File.read('input.txt').split.map(&:chars)
+asteroid_map = File.read("input.txt").split.map(&:chars)
 
 all_points = []
 
 asteroid_map.each_with_index do |row, y_value|
   row.each_with_index do |_point, x_value|
-    next unless asteroid_map[y_value][x_value] == '#'
+    next unless asteroid_map[y_value][x_value] == "#"
 
     all_points.push({
       x: x_value,
       y: y_value,
-      slopes: Set.new,
+      slopes: Set.new
     })
   end
 end
@@ -32,12 +32,12 @@ all_points.each_with_index do |current_point, current_point_index|
 
     if y_diff.zero?
       # horizontal line
-      x_current > x_new ? slope = '0-left' : slope = '0-right'
+      slope = x_current > x_new ? "0-left" : "0-right"
     elsif x_diff.zero?
       # vertical line
-      y_current > y_new ? slope = 'nil-above' : slope = 'nil-below'
+      slope = y_current > y_new ? "nil-above" : "nil-below"
     else
-      y_current > y_new ? postfix = '-above' : postfix = '-below'
+      postfix = y_current > y_new ? "-above" : "-below"
       slope = "#{y_diff / x_diff}#{postfix}"
     end
 

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GRID = File.read('./input.txt').split("\n").map(&:chars)
+GRID = File.read("./input.txt").split("\n").map(&:chars)
 
 def print_grid(grid)
   grid.each do |row|
@@ -9,15 +9,13 @@ def print_grid(grid)
   nil
 end
 
-# rubocop:todo Metrics/MethodLength
-# rubocop:todo Metrics/AbcSize
-def calculate_seat(row, column, grid) # rubocop:todo Metrics/CyclomaticComplexity
+def calculate_seat(row, column, grid)
   seat = grid[row][column]
 
-  return seat if seat == '.'
+  return seat if seat == "."
 
-  row - 1 >= 0 ? top_row = row - 1 : top_row = 1_000_000
-  column - 1 >= 0 ? left_column = column - 1 : left_column = 1_000_000
+  top_row = row - 1 >= 0 ? row - 1 : 1_000_000
+  left_column = column - 1 >= 0 ? column - 1 : 1_000_000
   top_left = grid.dig(top_row, left_column)
   top = grid.dig(top_row, column)
   top_right = grid.dig(top_row, column + 1)
@@ -27,7 +25,7 @@ def calculate_seat(row, column, grid) # rubocop:todo Metrics/CyclomaticComplexit
   bottom = grid.dig(row + 1, column)
   bottom_right = grid.dig(row + 1, column + 1)
 
-  occupied_adjacent_seats = [
+  seats = [
     top_left,
     top,
     top_right,
@@ -36,11 +34,13 @@ def calculate_seat(row, column, grid) # rubocop:todo Metrics/CyclomaticComplexit
     bottom_left,
     bottom,
     bottom_right
-  ].count('#')
+  ]
 
-  return '#' if seat == 'L' && occupied_adjacent_seats.zero?
+  occupied_adjacent_seats = seats.count("#")
 
-  return 'L' if seat == '#' && occupied_adjacent_seats >= 4
+  return "#" if seat == "L" && occupied_adjacent_seats.zero?
+
+  return "L" if seat == "#" && occupied_adjacent_seats >= 4
 
   seat
 end
@@ -55,7 +55,7 @@ def calculate_seats(grid)
     row.each_with_index do |_column, column_index|
       new_seat = calculate_seat(row_index, column_index, grid)
       new_grid[row_index][column_index] = new_seat
-      occupied_seats += 1 if new_seat == '#'
+      occupied_seats += 1 if new_seat == "#"
     end
   end
 

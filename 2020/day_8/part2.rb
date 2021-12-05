@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'set'
+require "set"
 
-instructions = File.read('./input.txt').split("\n").map do |input_line|
+instructions = File.read("./input.txt").split("\n").map do |input_line|
   instruction, argument_string = input_line.split
   [instruction, argument_string.to_i]
 end
@@ -20,10 +20,10 @@ def execute_program(instructions)
     visited.add(current_position)
 
     case operation
-    when 'acc'
+    when "acc"
       accumulator += argument
       current_position += 1
-    when 'jmp'
+    when "jmp"
       current_position += argument
     else
       current_position += 1
@@ -41,10 +41,10 @@ loop do
   current_swapped_instruction += 1
 
   case operation
-  when 'jmp'
-    new_operation = 'nop'
-  when 'nop'
-    new_operation = 'jmp'
+  when "jmp"
+    new_operation = "nop"
+  when "nop"
+    new_operation = "jmp"
   else
     next
   end

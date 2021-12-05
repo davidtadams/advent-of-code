@@ -15,10 +15,8 @@ class IntcodeComputer
     @terminated
   end
 
-  # rubocop:todo Metrics/MethodLength
-  # rubocop:todo Metrics/AbcSize
-  def run(input = 0) # rubocop:todo Metrics/CyclomaticComplexity
-    loop do # rubocop:todo Metrics/BlockLength
+  def run(input = 0)
+    loop do
       opcode, modes = instruction
 
       value1 = get_value(modes, 1)

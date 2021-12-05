@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-min_range, max_range = File.read('input.txt').split('-')
+min_range, max_range = File.read("input.txt").split("-")
 
-# rubocop:todo Metrics/PerceivedComplexity
-# rubocop:todo Metrics/AbcSize
-def test_number(number) # rubocop:todo Metrics/CyclomaticComplexity
+def test_number(number)
   number = number.to_s
   invalid_number = false
   are_only_two_the_same = false
@@ -25,7 +23,7 @@ def test_number(number) # rubocop:todo Metrics/CyclomaticComplexity
     not_front_or_back = index != 0 || index != 1 || index != number.size - 1 || index != number.size - 2
 
     if !are_only_two_the_same && not_front_or_back && number[index] == number[index + 1] &&
-       number[index] != number[index - 1] && number[index] != number[index + 2]
+        number[index] != number[index - 1] && number[index] != number[index + 2]
       are_only_two_the_same = true
     end
   end

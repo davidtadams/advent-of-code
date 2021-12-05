@@ -4,8 +4,8 @@
 # This takes way too long to get the answer to the full input
 # I thought if I found the largest interval to iterate by, that it would be fast enough, but nope
 
-input = File.readlines('./simple_input.txt', chomp: true)
-bus_lines = input[1].split(',').map(&:to_i)
+input = File.readlines("./simple_input.txt", chomp: true)
+bus_lines = input[1].split(",").map(&:to_i)
 bus_lines_with_indexes = bus_lines.each_with_index.map do |bus_line, index|
   bus_line.zero? ? 0 : [bus_line, index]
 end

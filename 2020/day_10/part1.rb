@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-adapters = File.read('./input.txt').split("\n").map(&:to_i).sort
+adapters = File.read("./input.txt").split("\n").map(&:to_i).sort
 
 DIFFERENCES = [1, 2, 3].freeze
 

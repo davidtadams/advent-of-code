@@ -1,21 +1,19 @@
 # frozen_string_literal: true
 
-intcodes = File.read('input.txt').split(',').map(&:to_i)
+intcodes = File.read("input.txt").split(",").map(&:to_i)
 
-# rubocop:todo Metrics/MethodLength
-# rubocop:todo Metrics/AbcSize
-def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
+def run_program(input, intcodes)
   pointer = 0
 
-  loop do # rubocop:todo Metrics/BlockLength
+  loop do
     instruction = intcodes[pointer]
     opcode = instruction % 100
     modes = (instruction / 100).digits
 
     mode1 = modes[0] || 0
     mode2 = modes[1] || 0
-    mode1.zero? ? param1 = intcodes[intcodes[pointer + 1]] : param1 = intcodes[pointer + 1]
-    mode2.zero? ? param2 = intcodes[intcodes[pointer + 2]] : param2 = intcodes[pointer + 2]
+    param1 = mode1.zero? ? intcodes[intcodes[pointer + 1]] : intcodes[pointer + 1]
+    param2 = mode2.zero? ? intcodes[intcodes[pointer + 2]] : intcodes[pointer + 2]
     param3 = intcodes[pointer + 3]
 
     case opcode
@@ -33,7 +31,7 @@ def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
       pointer += 2
     when 99
       break
-    else # rubocop:todo Lint/DuplicateBranch
+    else
       break
     end
   end

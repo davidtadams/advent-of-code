@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read('input.txt').chars.map(&:to_i)
+input_data = File.read("input.txt").chars.map(&:to_i)
 
 WIDTH = 25
 HEIGHT = 6
@@ -40,9 +40,9 @@ end
 def print_image(image)
   print "\n"
   image.each_with_index do |digit, index|
-    print_digit = '*'
+    print_digit = "*"
 
-    print_digit = ' ' if digit.zero?
+    print_digit = " " if digit.zero?
 
     if index != 0 && ((index + 1) % WIDTH).zero?
       print "#{print_digit}\n"

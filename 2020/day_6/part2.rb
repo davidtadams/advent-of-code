@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-final_answer = File.read('./input.txt').split("\n\n").map do |input_line|
+final_answer = File.read("./input.txt").split("\n\n").map do |input_line|
   answers = input_line.split("\n")
   number_of_people = answers.size
   answer_counts = {}

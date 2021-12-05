@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read('input.txt').split
+input_data = File.read("input.txt").split
 
 def get_total_fuel(mass)
   fuel = (mass / 3) - 2

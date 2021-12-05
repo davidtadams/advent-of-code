@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'set'
+require "set"
 
-require_relative '../intcode/intcode_computer'
+require_relative "../intcode/intcode_computer"
 
-intcodes = File.read('input.txt').split(',').map(&:to_i) # rubocop:todo Lint/UselessAssignment
+intcodes = File.read("input.txt").split(",").map(&:to_i) # rubocop:todo Lint/UselessAssignment
 
 intcode_computer = IntcodeComputer.new intcodes NORTH = 1
 SOUTH = 2

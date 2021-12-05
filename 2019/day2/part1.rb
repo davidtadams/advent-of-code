@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-input_data = File.read('input.txt').split(',').map(&:to_i)
+input_data = File.read("input.txt").split(",").map(&:to_i)
 input_data[1] = 12
 input_data[2] = 2
 
-def run_opcodes(opcodes) # rubocop:todo Metrics/AbcSize
+def run_opcodes(opcodes)
   current_position = 0
   current_instruction = opcodes[current_position]
 

@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-passports = File.read('./input.txt').split("\n\n").map do |input_line|
+passports = File.read("./input.txt").split("\n\n").map do |input_line|
   input_line
-    .tr("\n", ' ')
+    .tr("\n", " ")
     .split
     .each_with_object({}) do |field, passport|
-      name, value = field.split(':')
+      name, value = field.split(":")
       passport[name] = value
     end
 end
@@ -33,7 +33,7 @@ def validate_height(height)
 
   number = height[0..-3].to_i
   unit = height[-2..]
-  (unit == 'cm' && number >= 150 && number <= 193) || (unit == 'in' && number >= 59 && number <= 76)
+  (unit == "cm" && number >= 150 && number <= 193) || (unit == "in" && number >= 59 && number <= 76)
 end
 
 def validate_hair_color(color)
@@ -59,14 +59,14 @@ def validate_country_id(_id)
 end
 
 valid_passports = passports.count do |passport|
-  birth_year_is_valid = validate_birth_year(passport['byr'])
-  issue_year_is_valid = validate_issue_year(passport['iyr'])
-  exp_year_is_valid = validate_exp_year(passport['eyr'])
-  height_is_valid = validate_height(passport['hgt'])
-  hair_color_is_valid = validate_hair_color(passport['hcl'])
-  eye_color_is_valid = validate_eye_color(passport['ecl'])
-  passport_id_is_valid = validate_passport_id(passport['pid'])
-  country_id_is_valid = validate_country_id(passport['cid'])
+  birth_year_is_valid = validate_birth_year(passport["byr"])
+  issue_year_is_valid = validate_issue_year(passport["iyr"])
+  exp_year_is_valid = validate_exp_year(passport["eyr"])
+  height_is_valid = validate_height(passport["hgt"])
+  hair_color_is_valid = validate_hair_color(passport["hcl"])
+  eye_color_is_valid = validate_eye_color(passport["ecl"])
+  passport_id_is_valid = validate_passport_id(passport["pid"])
+  country_id_is_valid = validate_country_id(passport["cid"])
 
   birth_year_is_valid && issue_year_is_valid && exp_year_is_valid && height_is_valid && hair_color_is_valid &&
     eye_color_is_valid && passport_id_is_valid && country_id_is_valid

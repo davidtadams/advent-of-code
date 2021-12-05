@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'set'
+require "set"
 
-input_data = File.read('input.txt').split.map { |s| s.split(',') }
+input_data = File.read("input.txt").split.map { |s| s.split(",") }
 
 class Grid
   def initialize(line1, line2)
@@ -16,8 +16,7 @@ class Grid
 
   private
 
-  # rubocop:todo Metrics/AbcSize
-  def draw_line(line) # rubocop:todo Metrics/CyclomaticComplexity
+  def draw_line(line)
     line_points = Set.new
     x = 0
     y = 0
@@ -27,13 +26,13 @@ class Grid
       length = instruction[1..].to_i
 
       case direction
-      when 'U'
+      when "U"
         (1..length).each { line_points.add([x, y -= 1]) }
-      when 'D'
+      when "D"
         (1..length).each { line_points.add([x, y += 1]) }
-      when 'L'
+      when "L"
         (1..length).each { line_points.add([x -= 1, y]) }
-      when 'R'
+      when "R"
         (1..length).each { line_points.add([x += 1, y]) }
       end
     end

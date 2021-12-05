@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read('input.txt').chars.map(&:to_i)
+input_data = File.read("input.txt").chars.map(&:to_i)
 
 WIDTH = 25
 HEIGHT = 6

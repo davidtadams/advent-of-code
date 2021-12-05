@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-starting_positions = File.read('input.txt').split("\n").map do |row|
-  row_sections = row.split(', ')
+starting_positions = File.read("input.txt").split("\n").map do |row|
+  row_sections = row.split(", ")
   x = row_sections[0][3..].to_i
   y = row_sections[1][2..].to_i
   z = row_sections[2][2..-2].to_i

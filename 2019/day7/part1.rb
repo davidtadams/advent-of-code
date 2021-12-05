@@ -1,15 +1,12 @@
 # frozen_string_literal: true
 
-intcodes = File.read('input.txt').split(',').map(&:to_i)
+intcodes = File.read("input.txt").split(",").map(&:to_i)
 
 # using Heap's algorithm to find all perumutations of array [0, 1, 2, 3, 4]
 # https://en.wikipedia.org/wiki/Heap%27s_algorithm
 # lol jk, Ruby already has this: https://apidock.com/ruby/v2_5_5/Array/permutation
 
-# rubocop:todo Metrics/PerceivedComplexity
-# rubocop:todo Metrics/MethodLength
-# rubocop:todo Metrics/AbcSize
-def run_program(phase_setting, input_signal, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
+def run_program(phase_setting, input_signal, intcodes)
   pointer = 0
   input_count = 0
   instruction = intcodes[pointer]
@@ -20,8 +17,8 @@ def run_program(phase_setting, input_signal, intcodes) # rubocop:todo Metrics/Cy
     mode1 = modes[0] || 0
     mode2 = modes[1] || 0
 
-    mode1.zero? ? param1 = intcodes[intcodes[pointer + 1]] : param1 = intcodes[pointer + 1]
-    mode2.zero? ? param2 = intcodes[intcodes[pointer + 2]] : param2 = intcodes[pointer + 2]
+    param1 = mode1.zero? ? intcodes[intcodes[pointer + 1]] : intcodes[pointer + 1]
+    param2 = mode2.zero? ? intcodes[intcodes[pointer + 2]] : intcodes[pointer + 2]
     param3 = intcodes[pointer + 3]
 
     case opcode
@@ -55,18 +52,18 @@ def run_program(phase_setting, input_signal, intcodes) # rubocop:todo Metrics/Cy
         pointer += 3
       end
     when 7
-      if param1 < param2
-        intcodes[param3] = 1
+      intcodes[param3] = if param1 < param2
+        1
       else
-        intcodes[param3] = 0
+        0
       end
 
       pointer += 4
     when 8
-      if param1 == param2
-        intcodes[param3] = 1
+      intcodes[param3] = if param1 == param2
+        1
       else
-        intcodes[param3] = 0
+        0
       end
 
       pointer += 4

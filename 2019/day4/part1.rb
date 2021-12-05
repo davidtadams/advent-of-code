@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-min_range, max_range = File.read('input.txt').split('-')
+min_range, max_range = File.read("input.txt").split("-")
 
-def test_number(number) # rubocop:todo Metrics/AbcSize
+def test_number(number)
   number = number.to_s
   invalid_number = false
   are_only_two_the_same = false

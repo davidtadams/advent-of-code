@@ -1,12 +1,9 @@
 # frozen_string_literal: true
 
-intcodes = File.read('input.txt').split(',').map(&:to_i)
+intcodes = File.read("input.txt").split(",").map(&:to_i)
 
 # TODO: at this point, this could use some refactoring :/
-# rubocop:todo Metrics/PerceivedComplexity
-# rubocop:todo Metrics/MethodLength
-# rubocop:todo Metrics/AbcSize
-def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
+def run_program(input, intcodes)
   relative_base = 0
   pointer = 0
   instruction = intcodes[pointer]
@@ -90,18 +87,18 @@ def run_program(input, intcodes) # rubocop:todo Metrics/CyclomaticComplexity
         pointer += 3
       end
     when 7
-      if param1 < param2
-        intcodes[param3] = 1
+      intcodes[param3] = if param1 < param2
+        1
       else
-        intcodes[param3] = 0
+        0
       end
 
       pointer += 4
     when 8
-      if param1 == param2
-        intcodes[param3] = 1
+      intcodes[param3] = if param1 == param2
+        1
       else
-        intcodes[param3] = 0
+        0
       end
 
       pointer += 4

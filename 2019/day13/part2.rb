@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative '../intcode/intcode_computer'
+require_relative "../intcode/intcode_computer"
 
-intcodes = File.read('input.txt').split(',').map(&:to_i)
+intcodes = File.read("input.txt").split(",").map(&:to_i)
 
 intcode_computer = IntcodeComputer.new intcodes
 intcodes[0] = 2
@@ -24,12 +24,12 @@ loop do
     ball = [x_pos, y_pos]
   end
 
-  if ball[0] > paddle[0]
-    joystick = 1
+  joystick = if ball[0] > paddle[0]
+    1
   elsif ball[0] < paddle[0]
-    joystick = -1
+    -1
   else
-    joystick = 0
+    0
   end
 
   break if intcode_computer.terminated?
