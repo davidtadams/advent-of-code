@@ -1,5 +1,3 @@
-require "pry-byebug"
-
 class Heightmap
   attr_reader :grid, :low_points, :basin_sizes
 
