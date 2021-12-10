@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "pry-byebug"
-
 # I had to look this one up to find an efficient solution
 # used the Chinese Remainder Theorem
 # https://en.wikipedia.org/wiki/Chinese_remainder_theorem

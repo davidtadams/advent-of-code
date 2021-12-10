@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "pry"
 require "ostruct"
 require "rgl/adjacency"
 require "rgl/traversal"
