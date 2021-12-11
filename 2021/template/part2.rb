@@ -1,5 +1,3 @@
-input = ARGF.each_line { |line| line }
+answer = ARGF.each_line { |line| line }
 
-puts input
-
-# solve the second part :)
+puts "answer: #{answer}"
