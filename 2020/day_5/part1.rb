@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "ostruct"
+require 'ostruct'
 
-input = File.read("./input.txt").split("\n").map { |line| [line[0..6].chars, line[7..].chars] }
+input = File.read('./input.txt').split("\n").map { |line| [line[0..6].chars, line[7..].chars] }
 
 def get_upper_range(range)
   min, max = range
@@ -21,9 +21,9 @@ def get_row(row_input)
 
   row_input.each do |row_direction|
     case row_direction
-    when "F"
+    when 'F'
       range = get_lower_range(range)
-    when "B"
+    when 'B'
       range = get_upper_range(range)
     end
   end
@@ -36,9 +36,9 @@ def get_column(column_input)
 
   column_input.each do |row_direction|
     case row_direction
-    when "L"
+    when 'L'
       range = get_lower_range(range)
-    when "R"
+    when 'R'
       range = get_upper_range(range)
     end
   end
@@ -52,10 +52,10 @@ boarding_passes = input.map do |(row_input, column_input)|
   seat_id = (row * 8) + column
 
   Struct.new({
-    "row" => row,
-    "column" => column,
-    "seat_id" => seat_id
-  })
+               'row' => row,
+               'column' => column,
+               'seat_id' => seat_id
+             })
 end
 
 answer = boarding_passes.max_by(&:seat_id).seat_id

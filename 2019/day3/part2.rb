@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require "set"
+require 'set'
 
 # input_data = File.read("simple_input.txt").split.map { |s| s.split(',') }
-input_data = File.read("input.txt").split.map { |s| s.split(",") }
+input_data = File.read('input.txt').split.map { |s| s.split(',') }
 
 def draw_line(line)
   line_points = Set.new
@@ -17,28 +17,28 @@ def draw_line(line)
     length = instruction[1..].to_i
 
     case direction
-    when "U"
+    when 'U'
       (1..length).each do |_i|
         line_points.add([x, y -= 1])
         steps += 1
 
         line_points_to_steps[[x, y]] = steps unless line_points_to_steps.key?([x, y])
       end
-    when "D"
+    when 'D'
       (1..length).each do |_i|
         line_points.add([x, y += 1])
         steps += 1
 
         line_points_to_steps[[x, y]] = steps unless line_points_to_steps.key?([x, y])
       end
-    when "L"
+    when 'L'
       (1..length).each do |_i|
         line_points.add([x -= 1, y])
         steps += 1
 
         line_points_to_steps[[x, y]] = steps unless line_points_to_steps.key?([x, y])
       end
-    when "R"
+    when 'R'
       (1..length).each do |_i|
         line_points.add([x += 1, y])
         steps += 1
@@ -50,10 +50,6 @@ def draw_line(line)
 
   [line_points, line_points_to_steps]
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/PerceivedComplexity
-
 line_1_points, line_1_steps = draw_line(input_data[0])
 line_2_points, line_2_steps = draw_line(input_data[1])
 

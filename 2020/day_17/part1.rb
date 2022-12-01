@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-input = File.readlines("./input.txt", chomp: true)
-  .map(&:chars)
+input = File.readlines('./input.txt', chomp: true)
+            .map(&:chars)
 
 # [x,y,z]
 # [1, 0, -1].repeated_permutation(3).to_a
@@ -42,7 +42,7 @@ grid = {}
 (-GRID_SIZE..GRID_SIZE).each do |z_index|
   (-GRID_SIZE..GRID_SIZE).each do |y_index|
     (-GRID_SIZE..GRID_SIZE).each do |x_index|
-      grid[[x_index, y_index, z_index]] = "."
+      grid[[x_index, y_index, z_index]] = '.'
     end
   end
 end
@@ -50,25 +50,25 @@ end
 # initialize grid with input layer
 input.each_with_index do |row, x_index|
   row.each_with_index do |state, y_index|
-    grid[[x_index, y_index, 0]] = state if state == "#"
+    grid[[x_index, y_index, 0]] = state if state == '#'
   end
 end
 
 def calculate_state(coords, grid)
   x, y, z = coords
   state = grid[coords]
-  new_state = "."
+  new_state = '.'
   active_neighbors = 0
 
   NEIGHBORS.each do |x_mod, y_mod, z_mod|
     key = [x + x_mod, y + y_mod, z + z_mod]
-    active_neighbors += 1 if grid[key] == "#"
+    active_neighbors += 1 if grid[key] == '#'
   end
 
-  if state == "#"
-    new_state = "#" if [2, 3].include?(active_neighbors)
+  if state == '#'
+    new_state = '#' if [2, 3].include?(active_neighbors)
   elsif active_neighbors == 3
-    new_state = "#"
+    new_state = '#'
   end
 
   new_state
@@ -84,7 +84,7 @@ def run_cycles(cycles, grid)
     grid.each do |coords, state|
       new_state = calculate_state(coords, grid)
       changed_coordinates[coords] = new_state if new_state != state
-      active_count += 1 if new_state == "#"
+      active_count += 1 if new_state == '#'
     end
 
     changed_coordinates.each do |coords, state|

@@ -6,8 +6,8 @@
 # https://www.geeksforgeeks.org/chinese-remainder-theorem-set-2-implementation/
 # https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
 
-input = File.readlines("./input.txt", chomp: true)
-bus_lines = input[1].split(",").map(&:to_i)
+input = File.readlines('./input.txt', chomp: true)
+bus_lines = input[1].split(',').map(&:to_i)
 
 def modulo_inverse(num_a, num_m)
   return 0 if num_m == 1

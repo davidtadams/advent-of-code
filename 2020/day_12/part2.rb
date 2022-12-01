@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 instructions = File
-  .readlines("./input.txt", chomp: true)
-  .map { |line| [line[0], line[1..].to_i] }
+               .readlines('./input.txt', chomp: true)
+               .map { |line| [line[0], line[1..].to_i] }
 
 def rotate_waypoint(x_pos, y_pos, direction)
   radians = direction * (Math::PI / 180)
@@ -21,19 +21,19 @@ instructions.each do |direction, distance|
   ship_y = ship_position[1]
 
   case direction
-  when "N"
+  when 'N'
     waypoint_position = [waypoint_x, waypoint_y + distance]
-  when "S"
+  when 'S'
     waypoint_position = [waypoint_x, waypoint_y - distance]
-  when "E"
+  when 'E'
     waypoint_position = [waypoint_x + distance, waypoint_y]
-  when "W"
+  when 'W'
     waypoint_position = [waypoint_x - distance, waypoint_y]
-  when "L"
+  when 'L'
     waypoint_position = rotate_waypoint(waypoint_x, waypoint_y, distance)
-  when "R"
+  when 'R'
     waypoint_position = rotate_waypoint(waypoint_x, waypoint_y, -distance)
-  when "F"
+  when 'F'
     ship_position = [ship_x + (waypoint_x * distance), ship_y + (waypoint_y * distance)]
   end
 end

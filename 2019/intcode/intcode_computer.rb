@@ -59,8 +59,6 @@ class IntcodeComputer
 
     @output
   end
-  # rubocop:enable Metrics/AbcSize
-  # rubocop:enable Metrics/MethodLength
 
   private
 

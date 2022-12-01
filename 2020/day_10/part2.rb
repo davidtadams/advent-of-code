@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-ADAPTERS = (File.read("./simple_input.txt").split("\n").map(&:to_i) + [0]).sort
+ADAPTERS = (File.read('./simple_input.txt').split("\n").map(&:to_i) + [0]).sort
 
 def get_paths(adapter, paths)
   return 0 unless ADAPTERS.include?(adapter)

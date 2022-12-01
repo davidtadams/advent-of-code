@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input = File.read("./input.txt").split("\n").map(&:to_i)
+input = File.read('./input.txt').split("\n").map(&:to_i)
 
 invalid_number = 85_848_519
 current_index = 0

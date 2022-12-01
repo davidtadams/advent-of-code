@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GRID = File.read("./input.txt").split("\n").map(&:chars)
+GRID = File.read('./input.txt').split("\n").map(&:chars)
 
 def print_grid(grid)
   grid.each do |row|
@@ -12,7 +12,7 @@ end
 def calculate_seat(row, column, grid)
   seat = grid[row][column]
 
-  return seat if seat == "."
+  return seat if seat == '.'
 
   top_row = row - 1 >= 0 ? row - 1 : 1_000_000
   left_column = column - 1 >= 0 ? column - 1 : 1_000_000
@@ -36,16 +36,14 @@ def calculate_seat(row, column, grid)
     bottom_right
   ]
 
-  occupied_adjacent_seats = seats.count("#")
+  occupied_adjacent_seats = seats.count('#')
 
-  return "#" if seat == "L" && occupied_adjacent_seats.zero?
+  return '#' if seat == 'L' && occupied_adjacent_seats.zero?
 
-  return "L" if seat == "#" && occupied_adjacent_seats >= 4
+  return 'L' if seat == '#' && occupied_adjacent_seats >= 4
 
   seat
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
 
 def calculate_seats(grid)
   occupied_seats = 0
@@ -55,7 +53,7 @@ def calculate_seats(grid)
     row.each_with_index do |_column, column_index|
       new_seat = calculate_seat(row_index, column_index, grid)
       new_grid[row_index][column_index] = new_seat
-      occupied_seats += 1 if new_seat == "#"
+      occupied_seats += 1 if new_seat == '#'
     end
   end
 

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read("input.txt").split(",").map(&:to_i)
+input_data = File.read('input.txt').split(',').map(&:to_i)
 
 def run_opcodes(opcodes)
   current_position = 0
@@ -28,8 +28,8 @@ end
 def find_inputs(opcodes)
   desired_output = 19_690_720
 
-  (0..99).each do |noun|
-    (0..99).each do |verb|
+  100.times do |noun|
+    100.times do |verb|
       opcodes_copy = opcodes.clone
       opcodes_copy[1] = noun
       opcodes_copy[2] = verb

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read("input.txt").split.map { |item| item.split(")") }
+input_data = File.read('input.txt').split.map { |item| item.split(')') }
 
 def build_orbit_map(input)
   orbit_map = {}
@@ -35,8 +35,6 @@ def find_path_to_node(node, finish, orbit_map, previous = nil, path = [], path_l
 
   found_path
 end
-# rubocop:enable Metrics/ParameterLists
-
 orbit_map = build_orbit_map(input_data)
-path = find_path_to_node("SAN", "YOU", orbit_map)
+path = find_path_to_node('SAN', 'YOU', orbit_map)
 puts "ANSWER: #{path.length - 3}"

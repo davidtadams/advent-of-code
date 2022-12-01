@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "../intcode/intcode_computer"
+require_relative '../intcode/intcode_computer'
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
 
 intcode_computer = IntcodeComputer.new intcodes
 block_tiles = 0

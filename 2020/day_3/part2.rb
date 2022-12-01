@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-tree_rows = File.read("./input.txt").split("\n").map(&:chars)
+tree_rows = File.read('./input.txt').split("\n").map(&:chars)
 
 SLOPES = [
   {
@@ -41,7 +41,7 @@ answer = SLOPES.map do |slope|
       current_x += run
     end
 
-    tree_count += 1 if tree_rows[current_y][current_x] == "#"
+    tree_count += 1 if tree_rows[current_y][current_x] == '#'
 
     current_y += rise
   end

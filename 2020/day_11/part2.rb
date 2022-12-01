@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GRID = File.read("./input.txt").split("\n").map(&:chars)
+GRID = File.read('./input.txt').split("\n").map(&:chars)
 GRID_ROW_MAX = GRID.size - 1
 GRID_COLUMN_MAX = GRID[0].size - 1
 
@@ -23,10 +23,10 @@ def scan_diagonal(row, column, grid, delta)
     seat = grid.dig(new_row, new_column)
 
     case seat
-    when "#"
+    when '#'
       has_occupied_seat = true
       break
-    when "L"
+    when 'L'
       break
     end
 
@@ -40,13 +40,13 @@ end
 def calculate_seat(row, column, grid)
   seat = grid[row][column]
 
-  return seat if seat == "."
+  return seat if seat == '.'
 
   occupied_adjacent_seats = DELTAS.map { |delta| scan_diagonal(row, column, grid, delta) }.count(true)
 
-  return "#" if seat == "L" && occupied_adjacent_seats.zero?
+  return '#' if seat == 'L' && occupied_adjacent_seats.zero?
 
-  return "L" if seat == "#" && occupied_adjacent_seats >= 5
+  return 'L' if seat == '#' && occupied_adjacent_seats >= 5
 
   seat
 end
@@ -59,7 +59,7 @@ def calculate_seats(grid)
     row.each_with_index do |_column, column_index|
       new_seat = calculate_seat(row_index, column_index, grid)
       new_grid[row_index][column_index] = new_seat
-      occupied_seats += 1 if new_seat == "#"
+      occupied_seats += 1 if new_seat == '#'
     end
   end
 

@@ -1,10 +1,12 @@
-directions_chars = {"^" => [0, 1], "v" => [0, -1], ">" => [1, 0], "<" => [-1, 0]}
+# frozen_string_literal: true
+
+directions_chars = { '^' => [0, 1], 'v' => [0, -1], '>' => [1, 0], '<' => [-1, 0] }
 
 both_directions = ARGF.read.chars
-  .partition
-  .each_with_index { |_char, index| index.even? }
+                      .partition
+                      .each_with_index { |_char, index| index.even? }
 
-visited = {[0, 0] => true}
+visited = { [0, 0] => true }
 both_directions.each do |directions|
   location = [0, 0]
   directions.each do |direction|

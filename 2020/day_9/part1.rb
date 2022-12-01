@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input = File.read("./input.txt").split("\n").map(&:to_i)
+input = File.read('./input.txt').split("\n").map(&:to_i)
 
 preamble = 25
 current_index = preamble

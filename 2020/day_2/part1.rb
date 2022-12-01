@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-passwords = File.read("input.txt").split("\n").map do |password_line|
+passwords = File.read('input.txt').split("\n").map do |password_line|
   minmax, policy_letter, password = password_line
-    .tr(":", "")
-    .split
-  letter_min, letter_max = minmax.split("-")
+                                    .tr(':', '')
+                                    .split
+  letter_min, letter_max = minmax.split('-')
 
   {
     letter_min: letter_min.to_i,
     letter_max: letter_max.to_i,
-    policy_letter: policy_letter,
-    password: password
+    policy_letter:,
+    password:
   }
 end
 

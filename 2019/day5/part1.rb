@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
 
 def run_program(input, intcodes)
   pointer = 0
@@ -36,7 +36,4 @@ def run_program(input, intcodes)
     end
   end
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
-
 run_program(1, intcodes)

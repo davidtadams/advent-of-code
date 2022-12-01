@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-input = File.readlines("./input.txt", chomp: true)
+input = File.readlines('./input.txt', chomp: true)
 
 earliest_time = input[0].to_i
-bus_lines = input[1].split(",").map(&:to_i).sort
+bus_lines = input[1].split(',').map(&:to_i).sort
 bus_lines.delete(0)
 timestamp = earliest_time
 bus = nil

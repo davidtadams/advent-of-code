@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-input_data = File.read("input.txt").split.map { |s| s.split(",") }
+input_data = File.read('input.txt').split.map { |s| s.split(',') }
 
 class Grid
   def initialize(size, lines)
     @size = size
-    @grid = Array.new(size) { Array.new(size, ".") }
+    @grid = Array.new(size) { Array.new(size, '.') }
     @start_x = size / 2
     @start_y = size / 2
-    @grid[@start_y][@start_x] = "o"
+    @grid[@start_y][@start_x] = 'o'
     @intersections = []
     draw_lines(lines)
   end
@@ -51,13 +51,13 @@ class Grid
         length = instruction[1..]
 
         case direction
-        when "U"
+        when 'U'
           draw_up(length.to_i)
-        when "D"
+        when 'D'
           draw_down(length.to_i)
-        when "L"
+        when 'L'
           draw_left(length.to_i)
-        when "R"
+        when 'R'
           draw_right(length.to_i)
         end
       end
@@ -93,13 +93,13 @@ class Grid
   end
 
   def draw_point(is_end)
-    if @grid[@cur_y][@cur_x] != "."
-      @grid[@cur_y][@cur_x] = "X"
+    if @grid[@cur_y][@cur_x] != '.'
+      @grid[@cur_y][@cur_x] = 'X'
       @intersections.append([@cur_x, @cur_y])
     elsif is_end
-      @grid[@cur_y][@cur_x] = "+"
+      @grid[@cur_y][@cur_x] = '+'
     else
-      @grid[@cur_y][@cur_x] = "|"
+      @grid[@cur_y][@cur_x] = '|'
     end
   end
 end

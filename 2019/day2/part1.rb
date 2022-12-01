@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read("input.txt").split(",").map(&:to_i)
+input_data = File.read('input.txt').split(',').map(&:to_i)
 input_data[1] = 12
 input_data[2] = 2
 

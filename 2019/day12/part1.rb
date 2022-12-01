@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-starting_positions = File.read("input.txt").split("\n").map do |row|
-  row_sections = row.split(", ")
+starting_positions = File.read('input.txt').split("\n").map do |row|
+  row_sections = row.split(', ')
   x = row_sections[0][3..].to_i
   y = row_sections[1][2..].to_i
   z = row_sections[2][2..-2].to_i
@@ -39,7 +39,7 @@ end
 
 STEPS = 1000
 MOONS = [0, 1, 2, 3].freeze
-moon_data = starting_positions.each_with_index.each_with_object({}) do |(start_position, index), acc|
+moon_data = starting_positions.each_with_index.with_object({}) do |(start_position, index), acc|
   acc[index] = {}
   acc[index][:position] = start_position
   acc[index][:velocity] = [0, 0, 0]

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
 
 def run_program(input, intcodes)
   pointer = 0
@@ -42,18 +42,18 @@ def run_program(input, intcodes)
       end
     when 7
       intcodes[param3] = if param1 < param2
-        1
-      else
-        0
-      end
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     when 8
       intcodes[param3] = if param1 == param2
-        1
-      else
-        0
-      end
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     else
@@ -65,8 +65,4 @@ def run_program(input, intcodes)
     modes = (instruction / 100).digits
   end
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/PerceivedComplexity
-
 run_program(5, intcodes)

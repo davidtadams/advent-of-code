@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-min_range, max_range = File.read("input.txt").split("-")
+min_range, max_range = File.read('input.txt').split('-')
 
 def test_number(number)
   number = number.to_s
@@ -23,15 +23,13 @@ def test_number(number)
     not_front_or_back = index != 0 || index != 1 || index != number.size - 1 || index != number.size - 2
 
     if !are_only_two_the_same && not_front_or_back && number[index] == number[index + 1] &&
-        number[index] != number[index - 1] && number[index] != number[index + 2]
+       number[index] != number[index - 1] && number[index] != number[index + 2]
       are_only_two_the_same = true
     end
   end
 
   !invalid_number && are_only_two_the_same
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/PerceivedComplexity
 
 def test_range(min, max)
   total_valid_numbers = 0

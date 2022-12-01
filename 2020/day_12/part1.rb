@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 instructions = File
-  .readlines("./input.txt", chomp: true)
-  .map { |line| [line[0], line[1..].to_i] }
+               .readlines('./input.txt', chomp: true)
+               .map { |line| [line[0], line[1..].to_i] }
 
 def move_forward(x_pos, y_pos, direction, distance)
   case direction
@@ -15,7 +15,7 @@ def move_forward(x_pos, y_pos, direction, distance)
   when 270
     [x_pos - distance, y_pos]
   else
-    raise "ERROR"
+    raise 'ERROR'
   end
 end
 
@@ -35,19 +35,19 @@ instructions.each do |direction, distance|
   current_y = current_position[1]
 
   case direction
-  when "N"
+  when 'N'
     current_position = [current_x, current_y + distance]
-  when "S"
+  when 'S'
     current_position = [current_x, current_y - distance]
-  when "E"
+  when 'E'
     current_position = [current_x + distance, current_y]
-  when "W"
+  when 'W'
     current_position = [current_x - distance, current_y]
-  when "L"
+  when 'L'
     current_direction = change_direction(current_direction - distance)
-  when "R"
+  when 'R'
     current_direction = change_direction(current_direction + distance)
-  when "F"
+  when 'F'
     current_position = move_forward(current_x, current_y, current_direction, distance)
   end
 end

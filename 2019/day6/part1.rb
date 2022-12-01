@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-input_data = File.read("input.txt").split.map { |item| item.split(")") }
+input_data = File.read('input.txt').split.map { |item| item.split(')') }
 
 class Node
   attr_accessor :value, :children
@@ -43,5 +43,5 @@ def build_orbit_tree(node, orbit_map, orbit_counts = [], path = [], path_length 
 end
 
 orbit_map = build_orbit_map(input_data)
-_orbit_tree, orbit_counts = build_orbit_tree("COM", orbit_map)
+_orbit_tree, orbit_counts = build_orbit_tree('COM', orbit_map)
 puts "Answer: #{orbit_counts}"

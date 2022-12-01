@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-intcodes = File.read("input.txt").split(",").map(&:to_i)
+intcodes = File.read('input.txt').split(',').map(&:to_i)
 
 # using Heap's algorithm to find all perumutations of array [0, 1, 2, 3, 4]
 # https://en.wikipedia.org/wiki/Heap%27s_algorithm
@@ -53,18 +53,18 @@ def run_program(phase_setting, input_signal, intcodes)
       end
     when 7
       intcodes[param3] = if param1 < param2
-        1
-      else
-        0
-      end
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     when 8
       intcodes[param3] = if param1 == param2
-        1
-      else
-        0
-      end
+                           1
+                         else
+                           0
+                         end
 
       pointer += 4
     else
@@ -76,9 +76,6 @@ def run_program(phase_setting, input_signal, intcodes)
     modes = (instruction / 100).digits
   end
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/PerceivedComplexity
 
 def get_max_signal(intcodes)
   max_signal = 0
