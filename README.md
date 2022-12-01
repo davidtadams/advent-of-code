@@ -8,6 +8,7 @@ This contains the answers, proceed with caution if that's not what you are looki
 
 ### Past years
 
+- [2022](https://adventofcode.com/2022)
 - [2021](https://adventofcode.com/2021)
 - [2020](https://adventofcode.com/2020)
 - [2019](https://adventofcode.com/2019)
@@ -27,3 +28,10 @@ run the following to add the rubocop commit hook
 ```
 overcommit --install
 ```
+
+### Tips for myself
+
+1. When using ruby, you can use [ARGF](https://ruby-doc.org/3.1.3/ARGF.html) to pass the input file in as an argument
+    ```
+    $ ruby part1.rb input.txt
+    ```
