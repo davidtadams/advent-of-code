@@ -1,4 +1,6 @@
-require "set"
+# frozen_string_literal: true
+
+require 'set'
 
 def map_and_remove(number, digits, digits_to_number, number_to_digits, input)
   digits_to_number[digits] = number
@@ -93,11 +95,11 @@ def map_digits_to_numbers(input)
 end
 
 answer = ARGF.read.split("\n").reduce(0) do |acc, mapping|
-  input_string, output_string = mapping.split(" | ")
+  input_string, output_string = mapping.split(' | ')
   input = input_string.split.map { |digits| Set[*digits.chars] }
   output = output_string.split.map { |digits| Set[*digits.chars] }
   digits_to_numbers = map_digits_to_numbers(input)
-  acc + output.reduce("") { |acc, digits| acc + digits_to_numbers[digits].to_s }.to_i
+  acc + output.reduce('') { |acc, digits| acc + digits_to_numbers[digits].to_s }.to_i
 end
 
 puts "answer: #{answer}"

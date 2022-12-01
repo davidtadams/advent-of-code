@@ -1,4 +1,6 @@
-positions = ARGF.read.split(",").map(&:to_i).sort
+# frozen_string_literal: true
+
+positions = ARGF.read.split(',').map(&:to_i).sort
 
 def median(sorted_array)
   middle = (sorted_array.length - 1) / 2.0

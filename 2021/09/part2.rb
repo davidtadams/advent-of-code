@@ -1,4 +1,6 @@
-require_relative "./heightmap"
+# frozen_string_literal: true
+
+require_relative './heightmap'
 
 grid = []
 ARGF.each_line(chomp: true) { |line| grid.push(line.chars.map(&:to_i)) }

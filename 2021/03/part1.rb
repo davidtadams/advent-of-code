@@ -9,19 +9,19 @@ input.each do |bit_line|
   end
 end
 
-gamma_rate = ""
-epsilon_rate = ""
+gamma_rate = ''
+epsilon_rate = ''
 
 bits_by_column.each do |bit_column|
-  zeros = bit_column.count("0")
-  ones = bit_column.count("1")
+  zeros = bit_column.count('0')
+  ones = bit_column.count('1')
 
   if zeros > ones
-    gamma_rate += "1"
-    epsilon_rate += "0"
+    gamma_rate += '1'
+    epsilon_rate += '0'
   else
-    gamma_rate += "0"
-    epsilon_rate += "1"
+    gamma_rate += '0'
+    epsilon_rate += '1'
   end
 end
 

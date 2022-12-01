@@ -1,4 +1,6 @@
-positions = ARGF.read.split(",").map(&:to_i)
+# frozen_string_literal: true
+
+positions = ARGF.read.split(',').map(&:to_i)
 
 average = (positions.sum / positions.length.to_f).floor
 

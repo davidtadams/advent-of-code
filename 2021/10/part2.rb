@@ -1,6 +1,8 @@
-scores = {")" => 1, "]" => 2, "}" => 3, ">" => 4}
-open_chars = ["(", "[", "{", "<"]
-open_to_close = {"(" => ")", "[" => "]", "{" => "}", "<" => ">"}
+# frozen_string_literal: true
+
+scores = { ')' => 1, ']' => 2, '}' => 3, '>' => 4 }
+open_chars = ['(', '[', '{', '<']
+open_to_close = { '(' => ')', '[' => ']', '{' => '}', '<' => '>' }
 incomplete_lines = []
 
 ARGF.each_line(chomp: true) do |line|
@@ -25,7 +27,7 @@ ARGF.each_line(chomp: true) do |line|
 end
 
 scores = incomplete_lines.map do |line|
-  line.reduce(0) { |acc, char| acc * 5 + scores[char] }
+  line.reduce(0) { |acc, char| (acc * 5) + scores[char] }
 end.sort
 answer = scores[scores.size / 2]
 puts "answer: #{answer}"

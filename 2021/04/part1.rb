@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 numbers, _, *boards_input = ARGF.readlines(chomp: true)
-numbers = numbers.split(",")
+numbers = numbers.split(',')
 boards = []
 boards_input
-  .delete_if { |line| line == "" }
+  .delete_if { |line| line == '' }
   .each_slice(5) { |board| boards.push(board.map(&:split)) }
 
 drawn_numbers = numbers.shift(4)

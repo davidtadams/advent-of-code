@@ -7,11 +7,11 @@ depth_position = 0
 
 instructions.each do |(instruction, value)|
   case instruction
-  when "forward"
+  when 'forward'
     horizontal_position += value.to_i
-  when "down"
+  when 'down'
     depth_position += value.to_i
-  when "up"
+  when 'up'
     depth_position -= value.to_i
   end
 end

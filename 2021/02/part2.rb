@@ -8,12 +8,12 @@ aim = 0
 
 instructions.each do |(instruction, value)|
   case instruction
-  when "forward"
+  when 'forward'
     horizontal_position += value.to_i
     depth_position += aim * value.to_i
-  when "down"
+  when 'down'
     aim += value.to_i
-  when "up"
+  when 'up'
     aim -= value.to_i
   end
 end

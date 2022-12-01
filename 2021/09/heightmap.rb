@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Heightmap
   attr_reader :grid, :low_points, :basin_sizes
 
@@ -21,7 +23,7 @@ class Heightmap
     low_points = []
 
     @grid.each_with_index do |row, y_index|
-      row.each_with_index do |number, x_index|
+      row.each_with_index do |_number, x_index|
         low_points.push([x_index, y_index]) if is_low_point?(x_index, y_index)
       end
     end

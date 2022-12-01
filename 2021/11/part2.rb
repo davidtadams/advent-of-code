@@ -1,13 +1,15 @@
-require "set"
+# frozen_string_literal: true
 
-ADJACENT_CORDS = [[-1, 1], [0, 1], [1, 1], [-1, 0], [1, 0], [-1, -1], [0, -1], [1, -1]]
+require 'set'
+
+ADJACENT_CORDS = [[-1, 1], [0, 1], [1, 1], [-1, 0], [1, 0], [-1, -1], [0, -1], [1, -1]].freeze
 
 grid = []
 ARGF.each_line(chomp: true) { |line| grid.push(line.chars.map(&:to_i)) }
 
 def increment_all(grid, flash_stack)
   grid.each_with_index do |row, y_index|
-    row.each_with_index do |octopus, x_index|
+    row.each_with_index do |_octopus, x_index|
       grid[y_index][x_index] += 1
       if grid[y_index][x_index] > 9
         grid[y_index][x_index] = 0
@@ -19,6 +21,7 @@ end
 
 def flash(octopus, grid, flash_stack, flashed_set)
   return if flashed_set.include?(octopus)
+
   octopus_x = octopus[0]
   octopus_y = octopus[1]
   grid[octopus_y][octopus_x] = 0
@@ -29,7 +32,9 @@ def flash(octopus, grid, flash_stack, flashed_set)
     adjacent_octopus_y = octopus_y + y
     adjacent_octopus = [adjacent_octopus_x, adjacent_octopus_y]
 
-    next if adjacent_octopus_x < 0 || adjacent_octopus_x > 9 || adjacent_octopus_y < 0 || adjacent_octopus_y > 9
+    if adjacent_octopus_x.negative? || adjacent_octopus_x > 9 || adjacent_octopus_y.negative? || adjacent_octopus_y > 9
+      next
+    end
     next if flashed_set.include?(adjacent_octopus)
 
     grid[adjacent_octopus_y][adjacent_octopus_x] += 1
@@ -46,9 +51,9 @@ def check_if_all_flashed(grid)
   grid.each do |row|
     row.each do |octopus|
       all_zero = false if octopus != 0
-      break if !all_zero
+      break unless all_zero
     end
-    break if !all_zero
+    break unless all_zero
   end
   all_zero
 end

@@ -1,7 +1,9 @@
-scores = {")" => 3, "]" => 57, "}" => 1197, ">" => 25137}
-open_chars = ["(", "[", "{", "<"]
-open_to_close = {"(" => ")", "[" => "]", "{" => "}", "<" => ">"}
-illegal_chars = {")" => 0, "]" => 0, "}" => 0, ">" => 0}
+# frozen_string_literal: true
+
+scores = { ')' => 3, ']' => 57, '}' => 1197, '>' => 25_137 }
+open_chars = ['(', '[', '{', '<']
+open_to_close = { '(' => ')', '[' => ']', '{' => '}', '<' => '>' }
+illegal_chars = { ')' => 0, ']' => 0, '}' => 0, '>' => 0 }
 
 ARGF.each_line(chomp: true) do |line|
   open_chars_stack = []
