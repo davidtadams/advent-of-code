@@ -1,7 +1,10 @@
 PreCommit:
-  Standard:
+  RuboCop:
     enabled: true
-    required_executable: 'standardrb'
-    include: 
+    command: ['bundle', 'exec', 'rubocop']
+    on_warn: fail
+    requires_files: true
+    include:
       - '**/*.rb'
       - '**/Gemfile'
+    problem_on_unmodified_line: ignore
