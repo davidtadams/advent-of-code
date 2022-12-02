@@ -1,2 +1,6 @@
 AllCops:
   NewCops: enable
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
