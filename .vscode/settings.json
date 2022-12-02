@@ -1,0 +1,7 @@
+{
+  "ruby.rubocop.useBundler": true,
+  "ruby.rubocop.onSave": true,
+  "[ruby]": {
+    "editor.formatOnSave": true
+  },
+}
