@@ -4,3 +4,6 @@ AllCops:
 Style/TrailingCommaInHashLiteral:
   Enabled: true
   EnforcedStyleForMultiline: consistent_comma
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
