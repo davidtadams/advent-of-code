@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-answer = ARGF.each_line { |line| puts line }
+answer = ARGF.readlines(chomp: true)
 
 puts "answer: #{answer}"
