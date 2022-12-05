@@ -7,3 +7,6 @@ Style/TrailingCommaInHashLiteral:
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
