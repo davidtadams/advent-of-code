@@ -10,3 +10,6 @@ Layout/MultilineMethodCallIndentation:
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
+
+Style/Documentation:
+  Enabled: false
