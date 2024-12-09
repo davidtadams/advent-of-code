@@ -4,4 +4,7 @@
   "[ruby]": {
     "editor.formatOnSave": true
   },
+  "cSpell.words": [
+    "antinodes"
+  ],
 }
